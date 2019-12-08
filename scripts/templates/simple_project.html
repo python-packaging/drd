@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Links for {{data.info.name}}</title>
+  </head>
+  <body>
+    <h1>Links for {{data.info.name}}</h1>
+{% for release, downloads in data.releases.items() -%}
+  {% for download in downloads -%}
+    <a href="{{download.url}}#sha256={{download.digests.sha256}}" data-requires-python="{{download.requires_python or ''}}">{{download.filename}}</a><br/>
+{% endfor %}{% endfor %}
+    </body>
+</html>
+<!--SERIAL {{data.last_serial}}-->

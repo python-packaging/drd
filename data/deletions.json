@@ -1,0 +1,51 @@
+{
+  "observed": {
+    "2019-12-08T03:55:06Z": [
+      {
+        "cn": "getsys",
+        "last_serial": 5831581,
+        "name": "getSYS"
+      },
+      {
+        "cn": "tomlconfig",
+        "last_serial": 6229292,
+        "name": "TomlConfig"
+      },
+      {
+        "cn": "rikacsv",
+        "last_serial": 6214266,
+        "name": "RikaCSV"
+      },
+      {
+        "cn": "v-sqlalchemy",
+        "last_serial": 6172715,
+        "name": "V-SQLAlchemy"
+      },
+      {
+        "cn": "ovirt",
+        "last_serial": 2371901,
+        "name": "ovirt"
+      },
+      {
+        "cn": "vessel",
+        "last_serial": 6181878,
+        "name": "Vessel"
+      },
+      {
+        "cn": "emojipastabot",
+        "last_serial": 3753796,
+        "name": "emojipastabot"
+      },
+      {
+        "cn": "benchmarker-py",
+        "last_serial": 786796,
+        "name": "benchmarker.py"
+      },
+      {
+        "cn": "kcli",
+        "last_serial": 6191472,
+        "name": "kcli"
+      }
+    ]
+  }
+}
