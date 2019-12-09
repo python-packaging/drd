@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from datetime import datetime
 import json
 import os
@@ -7,7 +9,7 @@ import xmlrpc.client
 from pathlib import Path
 from multiprocessing import Pool
 
-import packaging.utils
+from packaging.utils import canonicalize_name
 import requests
 
 PYPI_API_BASE = "https://pypi.org/pypi"
@@ -18,7 +20,7 @@ SERIAL_LOCATION = CACHE_LOCATION / "serials"
 
 def main(force=False):
     # TODO make force do something useful if today's serials already exist.
-    date = datetime.utcnow().strftime("%Y%m%d")
+    date = datetime.utcnow().strftime("%Y%m%d_%H")
     SERIAL_LOCATION.mkdir(parents=True, exist_ok=True)
     existing_serials = sorted(SERIAL_LOCATION.glob("serials-*"))
 
@@ -55,15 +57,27 @@ def fetch_serials(json_path: Path) -> None:
     tmp = json_path.with_suffix(".tmp")
     tmp.write_text(json.dumps(p, sort_keys=True, indent=2))
     tmp.rename(json_path)
-    (CACHE_LOCATION / "serials.json").symlink_to(json_path)
+    #TODO
+    #(CACHE_LOCATION / "serials.json").symlink_to(json_path)
 
 
 def record_deletions(today: Path, yesterday: Path):
     yesterday_json = json.loads(yesterday.read_text())
     today_json = json.loads(today.read_text())
 
+    # The (non-canonical) name returned by list_packages_with_serial appears to
+    # be able to change, and the json still redirects.  I believe these to be
+    # the same package, but there's no id to confirm.
+    # `fab_support` had serial 3865207 on 2019-12-08
+    # `fab-support` had serial 6262934 on 2019-12-09
     # TODO symmetric_difference?
-    deletions = set(yesterday_json) - set(today_json)
+    today_json_cn = {
+        canonicalize_name(x) for x in today_json
+    }
+    deletions = {
+        x for x in yesterday_json if canonicalize_name(x) not in today_json_cn
+    }
+    #deletions = set(yesterday_json) - set(today_json)
     additions = set(today_json) - set(yesterday_json)
     for x in sorted(additions):
         print(f"+{x}")
@@ -83,7 +97,7 @@ def record_deletions(today: Path, yesterday: Path):
     lst = []
     today = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
     for d in deletions:
-        cn = packaging.utils.canonicalize_name(d)
+        cn = canonicalize_name(d)
         lst.append({"name": d, "cn": cn, "last_serial": yesterday_json[d]})
 
         package_json = (cache_dir(cn) / "json").read_text()
@@ -102,7 +116,7 @@ def update_cache(today: Path) -> None:
     print(f"There are {len(serials)} packages today.")
     to_fetch = []
     for k, v in serials.items():
-        cn = packaging.utils.canonicalize_name(k)
+        cn = canonicalize_name(k)
         package_dir = cache_dir(cn)
         main_json_path = package_dir / "json"
         should_fetch = True
@@ -131,7 +145,7 @@ def update_cache_selective(today: Path, yesterday: Path) -> None:
     # Ones we need to update are either changed or new
     for k, v in serials_today.items():
         if serials_yesterday.get(k) != v:
-            cn = packaging.utils.canonicalize_name(k)
+            cn = canonicalize_name(k)
             package_dir = cache_dir(cn)
             main_json_path = package_dir / "json"
             to_fetch.append((k, v, main_json_path))
@@ -156,13 +170,14 @@ def fetch_single(args) -> None:
         # disappear), but be wary about overwriting a useful cache
         # automatically.
         if where.exists():
-            # Make sure we're not overwriting something useful; I expect this
-            # code path to happen once, where we don't have it cached, and now
-            # we're caching an empty result.  If this happens after we had
-            # results, it means that someone deleted all of them and we don't
-            # want to remove them.
+            # If someone deletes all the releases, it 404's despite having a
+            # known serial (from xmlrpc) and showing up in the simple index.
+            # In this case we will overwrite something useful, and prefer to
+            # keep the old version.  If this is later deleted, last_serial will
+            # not match the last serial included in the deleted-metadata/ dir.
             tmp = json.loads(where.read_text())
-            assert 'releases' not in tmp
+            if 'releases' in tmp:
+                return # don't overwrite with less useful info
         where.write_text(json.dumps({"last_serial": serial}))
         return f"{name} 404"
     assert resp.status_code == 200, resp.code
@@ -173,7 +188,7 @@ def fetch_single(args) -> None:
 
 
 def cache_dir(pkg_name: str) -> Path:
-    cn = packaging.utils.canonicalize_name(pkg_name)
+    cn = canonicalize_name(pkg_name)
     package_dir = CACHE_LOCATION / "pypi" / cn[:2] / (cn[2:4] or "--") / cn
     package_dir.mkdir(parents=True, exist_ok=True)
     return package_dir
