@@ -1,4 +1,1582 @@
 {
+  "2019-11-06T13:59:37Z": [
+    {
+      "cn": "aivivn-tone-vnpt-it-ai",
+      "last_serial": null,
+      "name": "aivivn-tone-vnpt-it-ai"
+    },
+    {
+      "cn": "cpyvol",
+      "last_serial": 5207139,
+      "name": "CPyVOL"
+    },
+    {
+      "cn": "nanosurf",
+      "last_serial": 5964924,
+      "name": "nanosurf"
+    },
+    {
+      "cn": "pihat-widgets",
+      "last_serial": null,
+      "name": "pihat-widgets"
+    },
+    {
+      "cn": "aivivn-tone-vnptit",
+      "last_serial": null,
+      "name": "aivivn-tone-vnptit"
+    },
+    {
+      "cn": "modelflow",
+      "last_serial": 5573600,
+      "name": "modelflow"
+    },
+    {
+      "cn": "astro-hhk",
+      "last_serial": 4641406,
+      "name": "astro-hhk"
+    },
+    {
+      "cn": "aivivn-tone-vnpt-it-007",
+      "last_serial": null,
+      "name": "aivivn-tone-vnpt-it-007"
+    },
+    {
+      "cn": "fototagger",
+      "last_serial": 116133,
+      "name": "fototagger"
+    },
+    {
+      "cn": "wurstball-rss",
+      "last_serial": 1702633,
+      "name": "wurstball-rss"
+    },
+    {
+      "cn": "windowagg",
+      "last_serial": null,
+      "name": "windowagg"
+    },
+    {
+      "cn": "aivivn-tone-vnpt-it",
+      "last_serial": null,
+      "name": "aivivn-tone-vnpt-it"
+    },
+    {
+      "cn": "simplefileprocessor",
+      "last_serial": 3197581,
+      "name": "simplefileprocessor"
+    },
+    {
+      "cn": "sumatraproject",
+      "last_serial": 6119133,
+      "name": "sumatraproject"
+    },
+    {
+      "cn": "beadai",
+      "last_serial": 4304597,
+      "name": "beadai"
+    },
+    {
+      "cn": "pyhelm-dominick1993",
+      "last_serial": 5912811,
+      "name": "pyhelm-dominick1993"
+    },
+    {
+      "cn": "wodediyigebao",
+      "last_serial": 5861790,
+      "name": "wodediyigebao"
+    },
+    {
+      "cn": "fap",
+      "last_serial": 5219643,
+      "name": "fap"
+    },
+    {
+      "cn": "stackfuel-pip",
+      "last_serial": null,
+      "name": "stackfuel-pip"
+    },
+    {
+      "cn": "datec-isaacto",
+      "last_serial": 5567926,
+      "name": "datec-isaacto"
+    },
+    {
+      "cn": "trytond-party-pe",
+      "last_serial": 4383741,
+      "name": "trytond-party-pe"
+    },
+    {
+      "cn": "python-nucleus",
+      "last_serial": null,
+      "name": "python-nucleus"
+    },
+    {
+      "cn": "ov",
+      "last_serial": 5257748,
+      "name": "ov"
+    },
+    {
+      "cn": "pru3ba",
+      "last_serial": 5828879,
+      "name": "Pru3ba"
+    },
+    {
+      "cn": "hikari-core",
+      "last_serial": 5964777,
+      "name": "hikari.core"
+    },
+    {
+      "cn": "lgp-library",
+      "last_serial": null,
+      "name": "lgp-library"
+    },
+    {
+      "cn": "mpets-mobi",
+      "last_serial": null,
+      "name": "mpets.mobi"
+    },
+    {
+      "cn": "insect",
+      "last_serial": 2864072,
+      "name": "insect"
+    },
+    {
+      "cn": "demo-library",
+      "last_serial": null,
+      "name": "demo-library"
+    },
+    {
+      "cn": "thrud",
+      "last_serial": 800577,
+      "name": "thrud"
+    },
+    {
+      "cn": "liveengage-data-app",
+      "last_serial": 2713096,
+      "name": "liveengage-data-app"
+    },
+    {
+      "cn": "mawarta",
+      "last_serial": 5696765,
+      "name": "mawarta"
+    },
+    {
+      "cn": "browser-markdown-editor",
+      "last_serial": 3006590,
+      "name": "browser-markdown-editor"
+    },
+    {
+      "cn": "applepycutter",
+      "last_serial": 2871283,
+      "name": "applepycutter"
+    },
+    {
+      "cn": "node-io",
+      "last_serial": 6049157,
+      "name": "node-io"
+    },
+    {
+      "cn": "stonepy",
+      "last_serial": 4116243,
+      "name": "stonepy"
+    },
+    {
+      "cn": "drf-redsys",
+      "last_serial": null,
+      "name": "drf-redsys"
+    },
+    {
+      "cn": "bvoleti-p",
+      "last_serial": 5966179,
+      "name": "bvoleti-p"
+    },
+    {
+      "cn": "uvars",
+      "last_serial": 4143982,
+      "name": "uvars"
+    },
+    {
+      "cn": "aivivn-tone-vnpt-it-006",
+      "last_serial": null,
+      "name": "aivivn-tone-vnpt-it-006"
+    },
+    {
+      "cn": "dnnc",
+      "last_serial": null,
+      "name": "dnnc"
+    },
+    {
+      "cn": "hikari-commands",
+      "last_serial": 5862151,
+      "name": "hikari.commands"
+    },
+    {
+      "cn": "aivivn-tone-vnpt-it-002",
+      "last_serial": null,
+      "name": "aivivn-tone-vnpt-it-002"
+    },
+    {
+      "cn": "trytond-account-invoice-pe",
+      "last_serial": 4478772,
+      "name": "trytond-account-invoice-pe"
+    },
+    {
+      "cn": "bitpay-py2",
+      "last_serial": 5440382,
+      "name": "bitpay-py2"
+    },
+    {
+      "cn": "messrsgates",
+      "last_serial": 4992389,
+      "name": "messrsgates"
+    },
+    {
+      "cn": "layerflow",
+      "last_serial": 5576585,
+      "name": "layerflow"
+    },
+    {
+      "cn": "aivivn-tone-vnpt-it-005",
+      "last_serial": null,
+      "name": "aivivn-tone-vnpt-it-005"
+    },
+    {
+      "cn": "examplecoder291",
+      "last_serial": null,
+      "name": "examplecoder291"
+    },
+    {
+      "cn": "weaviate-pyclient",
+      "last_serial": 3594000,
+      "name": "weaviate_pyclient"
+    },
+    {
+      "cn": "trytond-account-pe",
+      "last_serial": 4347829,
+      "name": "trytond-account-pe"
+    },
+    {
+      "cn": "aivivn-tone-vnpt-it-003",
+      "last_serial": null,
+      "name": "aivivn-tone-vnpt-it-003"
+    },
+    {
+      "cn": "termit",
+      "last_serial": null,
+      "name": "termit"
+    },
+    {
+      "cn": "imagesquarer",
+      "last_serial": 5262873,
+      "name": "imageSquarer"
+    },
+    {
+      "cn": "openpoti",
+      "last_serial": 6010623,
+      "name": "openpoti"
+    },
+    {
+      "cn": "lather",
+      "last_serial": 5592290,
+      "name": "lather"
+    },
+    {
+      "cn": "cf-deployment-tracker",
+      "last_serial": 3392120,
+      "name": "cf-deployment-tracker"
+    },
+    {
+      "cn": "aivivn-tone-vnpt-it-004",
+      "last_serial": null,
+      "name": "aivivn-tone-vnpt-it-004"
+    },
+    {
+      "cn": "funny-literacy",
+      "last_serial": null,
+      "name": "funny_literacy"
+    },
+    {
+      "cn": "afs2-automl",
+      "last_serial": null,
+      "name": "afs2-automl"
+    }
+  ],
+  "2019-12-04T06:02:55Z": [
+    {
+      "cn": "pybcy",
+      "last_serial": 4396397,
+      "name": "PyBCY"
+    },
+    {
+      "cn": "multispectral",
+      "last_serial": 5107405,
+      "name": "multispectral"
+    },
+    {
+      "cn": "irrelevant",
+      "last_serial": 4899104,
+      "name": "IRrelevant"
+    },
+    {
+      "cn": "cubical",
+      "last_serial": 4031987,
+      "name": "cubical"
+    },
+    {
+      "cn": "responder-base-classes",
+      "last_serial": 5226412,
+      "name": "responder-base-classes"
+    },
+    {
+      "cn": "airbanana",
+      "last_serial": 5620725,
+      "name": "airbanana"
+    },
+    {
+      "cn": "zopyx-plone-smashdocs",
+      "last_serial": 4585847,
+      "name": "zopyx.plone.smashdocs"
+    },
+    {
+      "cn": "sage-days-100-coolpkg",
+      "last_serial": 5588948,
+      "name": "sage-days-100-coolpkg"
+    },
+    {
+      "cn": "basezyjpython",
+      "last_serial": 5613464,
+      "name": "BaseZyjPython"
+    },
+    {
+      "cn": "ae-systems",
+      "last_serial": 6108897,
+      "name": "ae-systems"
+    },
+    {
+      "cn": "excel-formula-calculator",
+      "last_serial": 5318567,
+      "name": "excel-formula-calculator"
+    },
+    {
+      "cn": "artellapipe-libs-maya",
+      "last_serial": 6033398,
+      "name": "artellapipe-libs-maya"
+    },
+    {
+      "cn": "pytubetemp",
+      "last_serial": 5565256,
+      "name": "pytubetemp"
+    },
+    {
+      "cn": "publicdatasets",
+      "last_serial": 5218665,
+      "name": "publicdatasets"
+    },
+    {
+      "cn": "zhangzhe-quote-bot",
+      "last_serial": 6027712,
+      "name": "zhangzhe-quote-bot"
+    },
+    {
+      "cn": "nmspy",
+      "last_serial": 6047511,
+      "name": "nmspy"
+    },
+    {
+      "cn": "enkryptor",
+      "last_serial": 5940319,
+      "name": "enkryptor"
+    },
+    {
+      "cn": "dataaccess",
+      "last_serial": 5415730,
+      "name": "DataAccess"
+    },
+    {
+      "cn": "tbl-py",
+      "last_serial": 6069153,
+      "name": "Tbl.py"
+    },
+    {
+      "cn": "jimpdf",
+      "last_serial": 4872600,
+      "name": "jimpdf"
+    },
+    {
+      "cn": "fig-desc-extraction-jp",
+      "last_serial": 4981684,
+      "name": "fig-desc-extraction-jp"
+    },
+    {
+      "cn": "pyopend6",
+      "last_serial": 3978663,
+      "name": "PyOpenD6"
+    },
+    {
+      "cn": "arzibot",
+      "last_serial": 5969186,
+      "name": "arzibot"
+    },
+    {
+      "cn": "pyapl",
+      "last_serial": 2615677,
+      "name": "PyAPL"
+    },
+    {
+      "cn": "sqlbak-manager",
+      "last_serial": 6081173,
+      "name": "sqlbak-manager"
+    },
+    {
+      "cn": "accelpy",
+      "last_serial": 5989769,
+      "name": "accelpy"
+    },
+    {
+      "cn": "bandwidthsdk",
+      "last_serial": 5908285,
+      "name": "bandwidthsdk"
+    },
+    {
+      "cn": "pan2",
+      "last_serial": 5571230,
+      "name": "pan2"
+    },
+    {
+      "cn": "zeroinger-utils",
+      "last_serial": 4850094,
+      "name": "zeroinger-utils"
+    },
+    {
+      "cn": "vk-bot-tools",
+      "last_serial": 6071449,
+      "name": "vk-bot-tools"
+    },
+    {
+      "cn": "redvelvet",
+      "last_serial": 4187083,
+      "name": "redvelvet"
+    },
+    {
+      "cn": "django-sso",
+      "last_serial": 4104906,
+      "name": "django-sso"
+    },
+    {
+      "cn": "bankscraperpy",
+      "last_serial": 3714180,
+      "name": "bankscraperpy"
+    },
+    {
+      "cn": "pdp-log",
+      "last_serial": 5741989,
+      "name": "pdp-log"
+    },
+    {
+      "cn": "speedrunner-optimizer",
+      "last_serial": 5904371,
+      "name": "speedrunner-optimizer"
+    },
+    {
+      "cn": "pyctrlcv",
+      "last_serial": 5616365,
+      "name": "pyctrlcv"
+    },
+    {
+      "cn": "py1337",
+      "last_serial": 5221596,
+      "name": "py1337"
+    },
+    {
+      "cn": "peakcell",
+      "last_serial": 6083298,
+      "name": "peakcell"
+    },
+    {
+      "cn": "tipam",
+      "last_serial": 4529632,
+      "name": "tipam"
+    },
+    {
+      "cn": "mofashi",
+      "last_serial": 6027716,
+      "name": "mofashi"
+    },
+    {
+      "cn": "asposeemailcloud",
+      "last_serial": 4336214,
+      "name": "asposeemailcloud"
+    },
+    {
+      "cn": "gecko-framework",
+      "last_serial": 5453413,
+      "name": "gecko-framework"
+    },
+    {
+      "cn": "micfunpred",
+      "last_serial": 5864658,
+      "name": "MicFunPred"
+    },
+    {
+      "cn": "cactidbadapter",
+      "last_serial": 1568744,
+      "name": "cactidbadapter"
+    },
+    {
+      "cn": "ludoj-recommender",
+      "last_serial": 5989789,
+      "name": "ludoj-recommender"
+    },
+    {
+      "cn": "ftfutilities",
+      "last_serial": null,
+      "name": "ftfutilities"
+    },
+    {
+      "cn": "bhushanpkg",
+      "last_serial": 5449879,
+      "name": "BhushanPkg"
+    },
+    {
+      "cn": "nuxeo-automation",
+      "last_serial": 795613,
+      "name": "nuxeo-automation"
+    },
+    {
+      "cn": "md4cf",
+      "last_serial": 6135599,
+      "name": "md4cf"
+    },
+    {
+      "cn": "flaskraabbccxxxuwei",
+      "last_serial": null,
+      "name": "flaskraabbccxxxuwei"
+    },
+    {
+      "cn": "psychokinetic",
+      "last_serial": 4748446,
+      "name": "psychokinetic"
+    },
+    {
+      "cn": "sccloudvis",
+      "last_serial": 4826682,
+      "name": "scCloudVis"
+    },
+    {
+      "cn": "kiloquad",
+      "last_serial": 3844221,
+      "name": "kiloquad"
+    },
+    {
+      "cn": "bonkie-diagnostics-businessrules",
+      "last_serial": 4997793,
+      "name": "bonkie-diagnostics-businessrules"
+    },
+    {
+      "cn": "feed-simulator",
+      "last_serial": 3747070,
+      "name": "feed_simulator"
+    },
+    {
+      "cn": "description-parser-jp",
+      "last_serial": 4981689,
+      "name": "description-parser-jp"
+    },
+    {
+      "cn": "qrandom-mr-ravin",
+      "last_serial": 4797151,
+      "name": "qrandom-mr-ravin"
+    },
+    {
+      "cn": "django-workable",
+      "last_serial": 2346293,
+      "name": "django-workable"
+    },
+    {
+      "cn": "cppcolormap",
+      "last_serial": 3235970,
+      "name": "cppcolormap"
+    },
+    {
+      "cn": "damenotre",
+      "last_serial": 5494254,
+      "name": "damenotre"
+    },
+    {
+      "cn": "dpo-python-helpers",
+      "last_serial": 6098097,
+      "name": "dpo-python-helpers"
+    },
+    {
+      "cn": "pylive-jp",
+      "last_serial": 5733665,
+      "name": "pylive-jp"
+    },
+    {
+      "cn": "materiality-superstatic",
+      "last_serial": 2004898,
+      "name": "materiality.superstatic"
+    },
+    {
+      "cn": "updatecheck",
+      "last_serial": 1431025,
+      "name": "updatecheck"
+    },
+    {
+      "cn": "ludoj-scraper",
+      "last_serial": 6080802,
+      "name": "ludoj-scraper"
+    },
+    {
+      "cn": "mlflowx",
+      "last_serial": 6090766,
+      "name": "mlflowx"
+    },
+    {
+      "cn": "ovl-light",
+      "last_serial": 4951708,
+      "name": "ovl-light"
+    },
+    {
+      "cn": "plr",
+      "last_serial": 6071117,
+      "name": "plr"
+    },
+    {
+      "cn": "animaths",
+      "last_serial": 3454988,
+      "name": "Animaths"
+    },
+    {
+      "cn": "gremlinpython-bugfix-3-2-6",
+      "last_serial": 4632845,
+      "name": "gremlinpython-bugfix-3.2.6"
+    },
+    {
+      "cn": "sortme",
+      "last_serial": 4850140,
+      "name": "sortme"
+    },
+    {
+      "cn": "hdlcc",
+      "last_serial": 5676187,
+      "name": "hdlcc"
+    },
+    {
+      "cn": "apyfal",
+      "last_serial": 5989798,
+      "name": "apyfal"
+    },
+    {
+      "cn": "savvyframework",
+      "last_serial": 5994136,
+      "name": "SavvyFramework"
+    },
+    {
+      "cn": "katalog",
+      "last_serial": 3844223,
+      "name": "katalog"
+    },
+    {
+      "cn": "markowik",
+      "last_serial": 794529,
+      "name": "markowik"
+    },
+    {
+      "cn": "liar",
+      "last_serial": 6062429,
+      "name": "liar"
+    },
+    {
+      "cn": "yoshii",
+      "last_serial": 3844212,
+      "name": "yoshii"
+    },
+    {
+      "cn": "asteroid",
+      "last_serial": 6040192,
+      "name": "asteroid"
+    },
+    {
+      "cn": "xmlui",
+      "last_serial": 3985452,
+      "name": "xmlui"
+    },
+    {
+      "cn": "lesstex",
+      "last_serial": 6149483,
+      "name": "lesstex"
+    },
+    {
+      "cn": "pip-setup",
+      "last_serial": 6127447,
+      "name": "pip_setup"
+    },
+    {
+      "cn": "adimgkit",
+      "last_serial": 5963074,
+      "name": "AdimgKit"
+    },
+    {
+      "cn": "mpi2vtk",
+      "last_serial": 5457211,
+      "name": "mpi2vtk"
+    },
+    {
+      "cn": "python-christofides",
+      "last_serial": 6013514,
+      "name": "python-christofides"
+    },
+    {
+      "cn": "hello-kilobaik",
+      "last_serial": 6043396,
+      "name": "hello-kilobaik"
+    },
+    {
+      "cn": "sqlbak",
+      "last_serial": 6105522,
+      "name": "sqlbak"
+    },
+    {
+      "cn": "crawlmi",
+      "last_serial": 2996780,
+      "name": "crawlmi"
+    },
+    {
+      "cn": "idneo-tv-power-supply",
+      "last_serial": 6154873,
+      "name": "IDNEO-TV-Power-Supply"
+    },
+    {
+      "cn": "r2c-bento",
+      "last_serial": 5950532,
+      "name": "r2c-bento"
+    },
+    {
+      "cn": "hdf5pp",
+      "last_serial": 4292726,
+      "name": "HDF5pp"
+    },
+    {
+      "cn": "vader",
+      "last_serial": 5531133,
+      "name": "vader"
+    },
+    {
+      "cn": "test-pkg-andy",
+      "last_serial": 5850365,
+      "name": "test-pkg-andy"
+    },
+    {
+      "cn": "ggd",
+      "last_serial": 2311760,
+      "name": "ggd"
+    },
+    {
+      "cn": "photonic",
+      "last_serial": 4789998,
+      "name": "photonic"
+    },
+    {
+      "cn": "bioconvert-django-api",
+      "last_serial": 3511166,
+      "name": "bioconvert-django-api"
+    },
+    {
+      "cn": "goosefem",
+      "last_serial": 3348799,
+      "name": "GooseFEM"
+    },
+    {
+      "cn": "silhouette",
+      "last_serial": 1447005,
+      "name": "silhouette"
+    },
+    {
+      "cn": "gibberlib",
+      "last_serial": 5319293,
+      "name": "gibberlib"
+    },
+    {
+      "cn": "nico-client",
+      "last_serial": 5455322,
+      "name": "nico-client"
+    },
+    {
+      "cn": "transparentia",
+      "last_serial": 4761069,
+      "name": "transparentia"
+    },
+    {
+      "cn": "vtrace-server",
+      "last_serial": 3856258,
+      "name": "vtrace-server"
+    },
+    {
+      "cn": "linuxconnectpython",
+      "last_serial": 5618492,
+      "name": "LinuxConnectPython"
+    },
+    {
+      "cn": "pystibmivb",
+      "last_serial": 4763987,
+      "name": "pystibmivb"
+    },
+    {
+      "cn": "threedi-openapi-client",
+      "last_serial": 6062850,
+      "name": "threedi-openapi-client"
+    },
+    {
+      "cn": "flextaxd-davve2",
+      "last_serial": 5906263,
+      "name": "flextaxd-davve2"
+    },
+    {
+      "cn": "alerce-xmatch",
+      "last_serial": 5695810,
+      "name": "alerce-xmatch"
+    },
+    {
+      "cn": "vbf-parser",
+      "last_serial": 6180227,
+      "name": "vbf-parser"
+    },
+    {
+      "cn": "appimage-craft",
+      "last_serial": 6060770,
+      "name": "appimage-craft"
+    },
+    {
+      "cn": "devstack",
+      "last_serial": 4789994,
+      "name": "devstack"
+    },
+    {
+      "cn": "collaborative-auction",
+      "last_serial": 4799864,
+      "name": "collaborative-auction"
+    },
+    {
+      "cn": "the-payne",
+      "last_serial": 5168979,
+      "name": "The-Payne"
+    },
+    {
+      "cn": "zybot",
+      "last_serial": 3634219,
+      "name": "Zybot"
+    },
+    {
+      "cn": "tap-postgres-koszti",
+      "last_serial": 5240178,
+      "name": "tap-postgres-koszti"
+    },
+    {
+      "cn": "vosh",
+      "last_serial": 2043590,
+      "name": "vosh"
+    },
+    {
+      "cn": "heracles",
+      "last_serial": 717793,
+      "name": "heracles"
+    },
+    {
+      "cn": "pyglet-pages",
+      "last_serial": 3276028,
+      "name": "pyglet_pages"
+    },
+    {
+      "cn": "easel",
+      "last_serial": 1447009,
+      "name": "easel"
+    },
+    {
+      "cn": "nerchinese",
+      "last_serial": null,
+      "name": "NERChinese"
+    },
+    {
+      "cn": "besc-ess-api",
+      "last_serial": 6061852,
+      "name": "besc-ess-api"
+    },
+    {
+      "cn": "markush-ner-fragment",
+      "last_serial": 4981683,
+      "name": "markush-ner-fragment"
+    },
+    {
+      "cn": "gibber",
+      "last_serial": 5319286,
+      "name": "gibber"
+    },
+    {
+      "cn": "bonkie-train-diagnostics",
+      "last_serial": 4997749,
+      "name": "bonkie-train-diagnostics"
+    },
+    {
+      "cn": "pynationalrail",
+      "last_serial": 797436,
+      "name": "pynationalrail"
+    },
+    {
+      "cn": "tachyonic-sphinx",
+      "last_serial": 3816852,
+      "name": "tachyonic-sphinx"
+    },
+    {
+      "cn": "testdemo-andy",
+      "last_serial": 5850464,
+      "name": "testDemo-andy"
+    },
+    {
+      "cn": "iotichttp",
+      "last_serial": 5124426,
+      "name": "IoticHttp"
+    },
+    {
+      "cn": "stockenv",
+      "last_serial": 6095713,
+      "name": "StockEnv"
+    },
+    {
+      "cn": "zoho-crm",
+      "last_serial": 3790641,
+      "name": "zoho_crm"
+    },
+    {
+      "cn": "linode-kucun",
+      "last_serial": 2207970,
+      "name": "linode-kucun"
+    },
+    {
+      "cn": "watts",
+      "last_serial": 2921599,
+      "name": "watts"
+    },
+    {
+      "cn": "django-frameset",
+      "last_serial": 3183463,
+      "name": "django-frameset"
+    },
+    {
+      "cn": "pytorch-edit-distance",
+      "last_serial": 6069261,
+      "name": "pytorch-edit-distance"
+    },
+    {
+      "cn": "tezos-tests",
+      "last_serial": 6101528,
+      "name": "tezos-tests"
+    },
+    {
+      "cn": "alexa-payloads",
+      "last_serial": 6150023,
+      "name": "Alexa-Payloads"
+    },
+    {
+      "cn": "mock-dear-application",
+      "last_serial": 4081597,
+      "name": "mock_dear_application"
+    },
+    {
+      "cn": "pipdated",
+      "last_serial": 2757264,
+      "name": "pipdated"
+    },
+    {
+      "cn": "panopticon",
+      "last_serial": 784879,
+      "name": "Panopticon"
+    },
+    {
+      "cn": "rls-sdk",
+      "last_serial": 3051981,
+      "name": "rls-sdk"
+    },
+    {
+      "cn": "magicarp-api",
+      "last_serial": 4436139,
+      "name": "magicarp-api"
+    },
+    {
+      "cn": "awesimsoss",
+      "last_serial": 5343889,
+      "name": "awesimsoss"
+    },
+    {
+      "cn": "twelisis",
+      "last_serial": 6192541,
+      "name": "twelisis"
+    },
+    {
+      "cn": "3049bab9",
+      "last_serial": 3715317,
+      "name": "3049bab9"
+    },
+    {
+      "cn": "chimas",
+      "last_serial": 2385868,
+      "name": "Chimas"
+    },
+    {
+      "cn": "samplot",
+      "last_serial": 5372669,
+      "name": "samplot"
+    },
+    {
+      "cn": "lesstex-syntax",
+      "last_serial": 5877831,
+      "name": "lesstex-syntax"
+    },
+    {
+      "cn": "jeilyfish",
+      "last_serial": 4583314,
+      "name": "jeIlyfish"
+    },
+    {
+      "cn": "netrino",
+      "last_serial": 3844219,
+      "name": "netrino"
+    },
+    {
+      "cn": "mygui",
+      "last_serial": 1431022,
+      "name": "mygui"
+    },
+    {
+      "cn": "genome-dashboard",
+      "last_serial": 5421399,
+      "name": "genome-dashboard"
+    },
+    {
+      "cn": "translate-cli",
+      "last_serial": 6000453,
+      "name": "translate-cli"
+    },
+    {
+      "cn": "vladyabot",
+      "last_serial": 3979483,
+      "name": "VladyaBot"
+    },
+    {
+      "cn": "cinda",
+      "last_serial": 5357356,
+      "name": "cinda"
+    },
+    {
+      "cn": "tiffin",
+      "last_serial": 1593925,
+      "name": "tiffin"
+    },
+    {
+      "cn": "tap-mysql-koszti",
+      "last_serial": 4838941,
+      "name": "tap-mysql-koszti"
+    },
+    {
+      "cn": "lcbools",
+      "last_serial": 5462772,
+      "name": "lcbools"
+    },
+    {
+      "cn": "claim-parser-en",
+      "last_serial": 4981688,
+      "name": "claim-parser-en"
+    },
+    {
+      "cn": "can",
+      "last_serial": 112312,
+      "name": "can"
+    },
+    {
+      "cn": "howl",
+      "last_serial": 6211775,
+      "name": "howl"
+    },
+    {
+      "cn": "signalpy",
+      "last_serial": 3617718,
+      "name": "signalpy"
+    },
+    {
+      "cn": "ideal-engine",
+      "last_serial": 3928081,
+      "name": "ideal-engine"
+    },
+    {
+      "cn": "robowunderpy",
+      "last_serial": 4465989,
+      "name": "robowunderpy"
+    },
+    {
+      "cn": "pygram",
+      "last_serial": 2587971,
+      "name": "pygram"
+    },
+    {
+      "cn": "emailzyjpython",
+      "last_serial": 5613492,
+      "name": "EmailZyjPython"
+    },
+    {
+      "cn": "simplite",
+      "last_serial": 4391506,
+      "name": "simplite"
+    },
+    {
+      "cn": "cppmat",
+      "last_serial": 4292284,
+      "name": "cppmat"
+    },
+    {
+      "cn": "materiality-commons",
+      "last_serial": 3251645,
+      "name": "materiality.commons"
+    },
+    {
+      "cn": "tango-icons",
+      "last_serial": 5337287,
+      "name": "tango-icons"
+    },
+    {
+      "cn": "za-proto",
+      "last_serial": 6122106,
+      "name": "za-proto"
+    },
+    {
+      "cn": "deeno",
+      "last_serial": 1282673,
+      "name": "deeno"
+    },
+    {
+      "cn": "sql-server",
+      "last_serial": 5563883,
+      "name": "sql-server"
+    },
+    {
+      "cn": "pyipcalc",
+      "last_serial": 4236651,
+      "name": "pyipcalc"
+    },
+    {
+      "cn": "luxon",
+      "last_serial": 4790001,
+      "name": "luxon"
+    },
+    {
+      "cn": "greetings-script",
+      "last_serial": 2803640,
+      "name": "greetings-script"
+    },
+    {
+      "cn": "infinitystone",
+      "last_serial": 4748466,
+      "name": "infinitystone"
+    },
+    {
+      "cn": "odoo-migrate",
+      "last_serial": 5967376,
+      "name": "odoo-migrate"
+    },
+    {
+      "cn": "mantle-firestore",
+      "last_serial": 5932355,
+      "name": "mantle-firestore"
+    },
+    {
+      "cn": "ys-module",
+      "last_serial": 6192040,
+      "name": "ys-module"
+    },
+    {
+      "cn": "bioconvert-ui",
+      "last_serial": 3516799,
+      "name": "bioconvert-ui"
+    },
+    {
+      "cn": "gevel",
+      "last_serial": 4734577,
+      "name": "gevel"
+    },
+    {
+      "cn": "nestermy",
+      "last_serial": 5410237,
+      "name": "NesterMY"
+    },
+    {
+      "cn": "dpo-bitbucket-utils",
+      "last_serial": 6092417,
+      "name": "dpo-bitbucket-utils"
+    },
+    {
+      "cn": "tradius",
+      "last_serial": 4749523,
+      "name": "tradius"
+    },
+    {
+      "cn": "django-allauth-microsoft",
+      "last_serial": 3362059,
+      "name": "django-allauth-microsoft"
+    },
+    {
+      "cn": "sawk",
+      "last_serial": 4475097,
+      "name": "sawk"
+    },
+    {
+      "cn": "pyclaragenomics",
+      "last_serial": 6208103,
+      "name": "pyclaragenomics"
+    },
+    {
+      "cn": "pedagree",
+      "last_serial": 2050099,
+      "name": "pedagree"
+    },
+    {
+      "cn": "python-workable",
+      "last_serial": 3234071,
+      "name": "python-workable"
+    },
+    {
+      "cn": "nginsecretsharing",
+      "last_serial": 4733049,
+      "name": "nginsecretsharing"
+    },
+    {
+      "cn": "ukpersonalfinance",
+      "last_serial": 5532076,
+      "name": "ukpersonalfinance"
+    },
+    {
+      "cn": "kapow-unofficial",
+      "last_serial": 6047110,
+      "name": "kapow-unofficial"
+    },
+    {
+      "cn": "test-pkg-davafons",
+      "last_serial": 5799385,
+      "name": "test-pkg-davafons"
+    },
+    {
+      "cn": "goosetensor",
+      "last_serial": 3236218,
+      "name": "GooseTensor"
+    },
+    {
+      "cn": "sopiva",
+      "last_serial": 2031875,
+      "name": "sopiva"
+    },
+    {
+      "cn": "dl85",
+      "last_serial": 6060783,
+      "name": "dl85"
+    },
+    {
+      "cn": "kwonfig",
+      "last_serial": 5470298,
+      "name": "kwonfig"
+    },
+    {
+      "cn": "sparseklearn",
+      "last_serial": 6139159,
+      "name": "sparseklearn"
+    },
+    {
+      "cn": "telepathic",
+      "last_serial": 3844209,
+      "name": "telepathic"
+    },
+    {
+      "cn": "pysnow-change-epfl",
+      "last_serial": 5939184,
+      "name": "pysnow-change-epfl"
+    },
+    {
+      "cn": "bined",
+      "last_serial": 4760721,
+      "name": "bined"
+    },
+    {
+      "cn": "zopyx-smashdocs",
+      "last_serial": 6008242,
+      "name": "zopyx.smashdocs"
+    }
+  ],
+  "2019-12-06T22:47:13Z": [
+    {
+      "cn": "cis-ocrd",
+      "last_serial": 6034741,
+      "name": "cis-ocrd"
+    },
+    {
+      "cn": "hvl",
+      "last_serial": 6241187,
+      "name": "hvl"
+    },
+    {
+      "cn": "ba-data-paths",
+      "last_serial": 5973258,
+      "name": "ba-data-paths"
+    },
+    {
+      "cn": "forkapivk",
+      "last_serial": 6225054,
+      "name": "forkapivk"
+    },
+    {
+      "cn": "psic",
+      "last_serial": 6050271,
+      "name": "psic"
+    },
+    {
+      "cn": "ammar-probability",
+      "last_serial": 6220591,
+      "name": "ammar-probability"
+    },
+    {
+      "cn": "ipython3",
+      "last_serial": 5975459,
+      "name": "ipython3"
+    },
+    {
+      "cn": "ba-tools",
+      "last_serial": 5999884,
+      "name": "ba-tools"
+    },
+    {
+      "cn": "django-sillysignin",
+      "last_serial": 790618,
+      "name": "django-sillysignin"
+    },
+    {
+      "cn": "pysharkbite",
+      "last_serial": 6229048,
+      "name": "pysharkbite"
+    },
+    {
+      "cn": "sqlpanda",
+      "last_serial": 5249683,
+      "name": "SQLPanda"
+    },
+    {
+      "cn": "parris",
+      "last_serial": 4799757,
+      "name": "parris"
+    },
+    {
+      "cn": "client-python",
+      "last_serial": 6243643,
+      "name": "client-python"
+    },
+    {
+      "cn": "backlogapiprocessing",
+      "last_serial": 6217664,
+      "name": "backlogapiprocessing"
+    },
+    {
+      "cn": "viset",
+      "last_serial": 883078,
+      "name": "viset"
+    },
+    {
+      "cn": "geoai-retail",
+      "last_serial": 5974043,
+      "name": "geoai-retail"
+    },
+    {
+      "cn": "remove",
+      "last_serial": 6000721,
+      "name": "remove"
+    },
+    {
+      "cn": "backlogapi-processing",
+      "last_serial": 6206302,
+      "name": "backlogapi-processing"
+    },
+    {
+      "cn": "becl-dlk-aws-archetype",
+      "last_serial": 6214819,
+      "name": "becl-dlk-aws-archetype"
+    },
+    {
+      "cn": "libfhqcli",
+      "last_serial": 6223646,
+      "name": "libfhqcli"
+    },
+    {
+      "cn": "crowd-count",
+      "last_serial": 6159441,
+      "name": "crowd-count"
+    },
+    {
+      "cn": "g11ntestrunner",
+      "last_serial": 6227781,
+      "name": "G11nTestRunner"
+    },
+    {
+      "cn": "partshelf",
+      "last_serial": 6206939,
+      "name": "partshelf"
+    },
+    {
+      "cn": "lfzhaotest",
+      "last_serial": 6239934,
+      "name": "lfzhaotest"
+    },
+    {
+      "cn": "belc-dlk-aws-archetype",
+      "last_serial": 6214840,
+      "name": "belc-dlk-aws-archetype"
+    },
+    {
+      "cn": "sandiego",
+      "last_serial": 1534195,
+      "name": "sandiego"
+    },
+    {
+      "cn": "theframework",
+      "last_serial": 6230294,
+      "name": "theframework"
+    },
+    {
+      "cn": "ipython2",
+      "last_serial": 6061512,
+      "name": "ipython2"
+    },
+    {
+      "cn": "glaresys",
+      "last_serial": 6243083,
+      "name": "glaresys"
+    },
+    {
+      "cn": "tree-ds-phchcc",
+      "last_serial": 6219857,
+      "name": "tree-ds-phchcc"
+    }
+  ],
+  "2019-12-09T00:05:40Z": [
+    {
+      "cn": "shortnews",
+      "last_serial": 6246428,
+      "name": "shortnews"
+    },
+    {
+      "cn": "ovirt",
+      "last_serial": 2371901,
+      "name": "ovirt"
+    },
+    {
+      "cn": "firstpackage-kkochare",
+      "last_serial": 6252653,
+      "name": "FirstPackage-kkochare"
+    },
+    {
+      "cn": "xes-lib-test",
+      "last_serial": 6232764,
+      "name": "xes_lib_test"
+    },
+    {
+      "cn": "zhanglan",
+      "last_serial": 4990575,
+      "name": "zhanglan"
+    },
+    {
+      "cn": "bx-zmq",
+      "last_serial": 4591131,
+      "name": "bx-zmq"
+    },
+    {
+      "cn": "ipark-whitelist",
+      "last_serial": 793410,
+      "name": "ipark.whitelist"
+    },
+    {
+      "cn": "bx-rabbitmq",
+      "last_serial": 4564538,
+      "name": "bx-rabbitmq"
+    },
+    {
+      "cn": "might-mrsn-bcorey",
+      "last_serial": 6243766,
+      "name": "might-mrsn-bcorey"
+    },
+    {
+      "cn": "v-sqlalchemy",
+      "last_serial": 6172715,
+      "name": "V-SQLAlchemy"
+    },
+    {
+      "cn": "bxmodels",
+      "last_serial": 5801113,
+      "name": "BxModels"
+    },
+    {
+      "cn": "rikacsv",
+      "last_serial": 6214266,
+      "name": "RikaCSV"
+    },
+    {
+      "cn": "indexify",
+      "last_serial": 6246584,
+      "name": "indexify"
+    },
+    {
+      "cn": "sql-panda-test",
+      "last_serial": 5253803,
+      "name": "sql-panda-test"
+    },
+    {
+      "cn": "tipfy-ext-httpexceptions",
+      "last_serial": 800728,
+      "name": "tipfy.ext.httpexceptions"
+    },
+    {
+      "cn": "kcli",
+      "last_serial": 6191472,
+      "name": "kcli"
+    },
+    {
+      "cn": "simtext",
+      "last_serial": 6162364,
+      "name": "simtext"
+    },
+    {
+      "cn": "ezboot1",
+      "last_serial": 1015161,
+      "name": "ezboot1"
+    },
+    {
+      "cn": "bx-utility",
+      "last_serial": 4481244,
+      "name": "bx-utility"
+    },
+    {
+      "cn": "nsragow-pkg-example",
+      "last_serial": 5252442,
+      "name": "nsragow-pkg-example"
+    },
+    {
+      "cn": "jlvandenhout-test",
+      "last_serial": 6238630,
+      "name": "jlvandenhout-test"
+    },
+    {
+      "cn": "emojipastabot",
+      "last_serial": 3753796,
+      "name": "emojipastabot"
+    },
+    {
+      "cn": "bx-sql",
+      "last_serial": 4485997,
+      "name": "bx-sql"
+    }
+  ],
   "observed": {
     "2019-12-08T03:55:06Z": [
       {

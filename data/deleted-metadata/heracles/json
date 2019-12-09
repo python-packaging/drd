@@ -1,0 +1,334 @@
+{
+    "info": {
+        "author": "Jorge Monforte",
+        "author_email": "jorge.monforte@gmail.com",
+        "bugtrack_url": null,
+        "classifiers": [],
+        "description": "UNKNOWN",
+        "description_content_type": null,
+        "docs_url": null,
+        "download_url": "UNKNOWN",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "UNKNOWN",
+        "keywords": null,
+        "license": "UNKNOWN",
+        "maintainer": null,
+        "maintainer_email": null,
+        "name": "heracles",
+        "package_url": "https://pypi.org/project/heracles/",
+        "platform": "UNKNOWN",
+        "project_url": "https://pypi.org/project/heracles/",
+        "project_urls": {
+            "Download": "UNKNOWN",
+            "Homepage": "UNKNOWN"
+        },
+        "release_url": "https://pypi.org/project/heracles/0.0.6/",
+        "requires_dist": null,
+        "requires_python": null,
+        "summary": "A configuration file parser",
+        "version": "0.0.6"
+    },
+    "last_serial": 717793,
+    "releases": {
+        "0.0.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "eeabb29a94cba7921c66127c0224baa3",
+                    "sha256": "4272c42172005f99b25a0fee94eebe44b8bf1fdbbc775f26bd8bd4e4ab7ef96a"
+                },
+                "downloads": -1,
+                "filename": "heracles-0.0.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "eeabb29a94cba7921c66127c0224baa3",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1370107,
+                "upload_time": "2013-05-20T12:08:43",
+                "upload_time_iso_8601": "2013-05-20T12:08:43.004967Z",
+                "url": "https://files.pythonhosted.org/packages/db/24/8cb93e909243063aebb5a8efc91ab26e4606130a7acea1a964da8a2184cf/heracles-0.0.1.tar.gz"
+            }
+        ],
+        "0.0.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "87c0584471ad2623f2b1055349f4750c",
+                    "sha256": "dba206c295e887e19d8eee42d0aa8c77286f45d45825bdbd13b3510a4d272c13"
+                },
+                "downloads": -1,
+                "filename": "heracles-0.0.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "87c0584471ad2623f2b1055349f4750c",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1370172,
+                "upload_time": "2013-05-20T18:05:52",
+                "upload_time_iso_8601": "2013-05-20T18:05:52.222170Z",
+                "url": "https://files.pythonhosted.org/packages/6f/e9/71f455636b83b3754a623377bbfe1e57cdadd58153bc4bc4c7d5a46db836/heracles-0.0.2.tar.gz"
+            }
+        ],
+        "0.0.2-1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "a4290ead3e93960d05ef292d30d3402b",
+                    "sha256": "245b8f71214ca68c9041f710b351dadfe793f31f5136b9835909119231b3417a"
+                },
+                "downloads": -1,
+                "filename": "heracles-0.0.2-1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "a4290ead3e93960d05ef292d30d3402b",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1370169,
+                "upload_time": "2013-05-20T18:08:19",
+                "upload_time_iso_8601": "2013-05-20T18:08:19.949344Z",
+                "url": "https://files.pythonhosted.org/packages/fd/13/06b53ee7ba1c814eed5babcb5524a83a2d3e7dc708f2a19b5420106e5770/heracles-0.0.2-1.tar.gz"
+            }
+        ],
+        "0.0.2-2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "330803ffdbe301d208e1c7e1524d3882",
+                    "sha256": "804ed11410c4b03b7d2cecb187e0b1da06c0138df323d34f7adda13e94f69c44"
+                },
+                "downloads": -1,
+                "filename": "heracles-0.0.2-2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "330803ffdbe301d208e1c7e1524d3882",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1370234,
+                "upload_time": "2013-05-20T18:22:23",
+                "upload_time_iso_8601": "2013-05-20T18:22:23.127709Z",
+                "url": "https://files.pythonhosted.org/packages/19/83/d2cba3a71de30b0ad437f41176ead03311ed170ef659695c42329d5ed749/heracles-0.0.2-2.tar.gz"
+            }
+        ],
+        "0.0.3": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "76ed822622ae8a3d7a1b21751e2fcf9f",
+                    "sha256": "403837321764b8687fa96b4e15f8f383e1e51fa7e21144b93891ebcc7000831b"
+                },
+                "downloads": -1,
+                "filename": "heracles-0.0.3.tar.gz",
+                "has_sig": false,
+                "md5_digest": "76ed822622ae8a3d7a1b21751e2fcf9f",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1370465,
+                "upload_time": "2013-05-21T10:17:35",
+                "upload_time_iso_8601": "2013-05-21T10:17:35.697834Z",
+                "url": "https://files.pythonhosted.org/packages/eb/04/1b76799b99c9168eafa35005e006e5c16351c3d8a9c9bd6bc8dbc7f4c356/heracles-0.0.3.tar.gz"
+            }
+        ],
+        "0.0.4": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "2384e392b7c6a48d10ca51ccee510cd2",
+                    "sha256": "f48dd4ef355f2633285dbaf918dbd3eea4d3a833a10681d4bb459fc2c936e173"
+                },
+                "downloads": -1,
+                "filename": "heracles-0.0.4.tar.gz",
+                "has_sig": false,
+                "md5_digest": "2384e392b7c6a48d10ca51ccee510cd2",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1370252,
+                "upload_time": "2013-05-26T10:37:51",
+                "upload_time_iso_8601": "2013-05-26T10:37:51.515918Z",
+                "url": "https://files.pythonhosted.org/packages/4e/57/e8d946b5914183c47f3499250da40e477eb04ee4aaf3167e24310ef532b4/heracles-0.0.4.tar.gz"
+            }
+        ],
+        "0.0.4-1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "86c95f50bba31680be5757af7f11e12d",
+                    "sha256": "9aaff4b1f967663137e32856635a9b5c06150b3499d52fe2080f5a98c12811e5"
+                },
+                "downloads": -1,
+                "filename": "heracles-0.0.4-1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "86c95f50bba31680be5757af7f11e12d",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1370406,
+                "upload_time": "2013-05-26T10:43:26",
+                "upload_time_iso_8601": "2013-05-26T10:43:26.284574Z",
+                "url": "https://files.pythonhosted.org/packages/0f/3f/5274f1a8eebc57e1bb890b06bd41ba1d86743e3c73505ddc0bb86caf87e7/heracles-0.0.4-1.tar.gz"
+            }
+        ],
+        "0.0.4-2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "eb9cc934b939ce4c9ddd705109e88ef3",
+                    "sha256": "587d50c4af03a085354b694180e909adf69ae4205e4aa03890a0c4326e4ec21e"
+                },
+                "downloads": -1,
+                "filename": "heracles-0.0.4-2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "eb9cc934b939ce4c9ddd705109e88ef3",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1370425,
+                "upload_time": "2013-05-26T10:52:05",
+                "upload_time_iso_8601": "2013-05-26T10:52:05.509047Z",
+                "url": "https://files.pythonhosted.org/packages/6e/97/2ec74e862a9145edd2e0c70662485195d33b758bf4b980259fb26b1be867/heracles-0.0.4-2.tar.gz"
+            }
+        ],
+        "0.0.5": [
+            {
+                "comment_text": "built for Linux-2.6.32-5-amd64-x86_64-with-glibc2.3.2",
+                "digests": {
+                    "md5": "dadc1540832274c2b27f1b3604965bfc",
+                    "sha256": "57f276d7154a5d0cbf1379138f6530d345c5e229c9b4313cc476f1c6a249bbf8"
+                },
+                "downloads": -1,
+                "filename": "heracles-0.0.5.linux-x86_64.tar.gz",
+                "has_sig": false,
+                "md5_digest": "dadc1540832274c2b27f1b3604965bfc",
+                "packagetype": "bdist_dumb",
+                "python_version": "any",
+                "requires_python": null,
+                "size": 1942366,
+                "upload_time": "2013-05-31T06:22:43",
+                "upload_time_iso_8601": "2013-05-31T06:22:43.298504Z",
+                "url": "https://files.pythonhosted.org/packages/ee/54/8b4b3996e36adbf69373253206e2c2e9e4468f9d44685773745ba048139a/heracles-0.0.5.linux-x86_64.tar.gz"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "9a23329479774cb003b570e39bb6128e",
+                    "sha256": "b9002c8de141d359827bcd48d9a4e229630ee7fb3451a5fa71ea3dc70e2a865f"
+                },
+                "downloads": -1,
+                "filename": "heracles-0.0.5.tar.gz",
+                "has_sig": false,
+                "md5_digest": "9a23329479774cb003b570e39bb6128e",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1375837,
+                "upload_time": "2013-05-31T06:22:18",
+                "upload_time_iso_8601": "2013-05-31T06:22:18.043800Z",
+                "url": "https://files.pythonhosted.org/packages/f5/20/7a2b4e6347831eeb88204bf9a74875c151c956cc568fcf16e3af7e23ae35/heracles-0.0.5.tar.gz"
+            }
+        ],
+        "0.0.5-1": [
+            {
+                "comment_text": "built for Linux-2.6.32-5-amd64-x86_64-with-glibc2.3.2",
+                "digests": {
+                    "md5": "2c0c655ad6b41bdbed3fb3c4e85fc032",
+                    "sha256": "09c5855bf538ba7f620eacc6620d6e93c526a9946bde83938c5f2483d10498aa"
+                },
+                "downloads": -1,
+                "filename": "heracles-0.0.5-1.linux-x86_64.tar.gz",
+                "has_sig": false,
+                "md5_digest": "2c0c655ad6b41bdbed3fb3c4e85fc032",
+                "packagetype": "bdist_dumb",
+                "python_version": "any",
+                "requires_python": null,
+                "size": 1942381,
+                "upload_time": "2013-05-31T06:46:59",
+                "upload_time_iso_8601": "2013-05-31T06:46:59.536897Z",
+                "url": "https://files.pythonhosted.org/packages/63/1c/d254e491b73ec6ca012fca66e657f62e21e35af121fba0f8a8c66572b451/heracles-0.0.5-1.linux-x86_64.tar.gz"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "c5b4f278fa3569299999b9f34510251a",
+                    "sha256": "06802d852faa835744bf9ca7efe9c5cc25b04d9af3e73225d338e5f028bfe76f"
+                },
+                "downloads": -1,
+                "filename": "heracles-0.0.5-1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "c5b4f278fa3569299999b9f34510251a",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1375866,
+                "upload_time": "2013-05-31T06:46:44",
+                "upload_time_iso_8601": "2013-05-31T06:46:44.610078Z",
+                "url": "https://files.pythonhosted.org/packages/63/ce/32324828cfd6d12b77593590de3ad2f7a7ee287145563a70a42b022669a2/heracles-0.0.5-1.tar.gz"
+            }
+        ],
+        "0.0.5-2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "2d0ebbaa992b7ec8207b4a602ce76874",
+                    "sha256": "84bfa134b03d084e3d74ec49c61a1fc94c8b6ca4f39d7508696ae70556fae221"
+                },
+                "downloads": -1,
+                "filename": "heracles-0.0.5-2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "2d0ebbaa992b7ec8207b4a602ce76874",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1376179,
+                "upload_time": "2013-06-01T16:41:38",
+                "upload_time_iso_8601": "2013-06-01T16:41:38.549683Z",
+                "url": "https://files.pythonhosted.org/packages/91/82/a886caaf306cd1d873285ce203abf8add028fb0d42bd25cdf31fad475ecd/heracles-0.0.5-2.tar.gz"
+            }
+        ],
+        "0.0.6": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "667bf18cb03cf5b232b46e6d1972d487",
+                    "sha256": "3598975b462c67c159d722306c7a32a21f4ff7c49fd420562bda26f607511f10"
+                },
+                "downloads": -1,
+                "filename": "heracles-0.0.6.tar.gz",
+                "has_sig": false,
+                "md5_digest": "667bf18cb03cf5b232b46e6d1972d487",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1376808,
+                "upload_time": "2013-06-03T08:36:55",
+                "upload_time_iso_8601": "2013-06-03T08:36:55.021097Z",
+                "url": "https://files.pythonhosted.org/packages/c2/94/f34f5498def3e36101a042226ef862a1f8843fc57fec078439dfc4add310/heracles-0.0.6.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "667bf18cb03cf5b232b46e6d1972d487",
+                "sha256": "3598975b462c67c159d722306c7a32a21f4ff7c49fd420562bda26f607511f10"
+            },
+            "downloads": -1,
+            "filename": "heracles-0.0.6.tar.gz",
+            "has_sig": false,
+            "md5_digest": "667bf18cb03cf5b232b46e6d1972d487",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 1376808,
+            "upload_time": "2013-06-03T08:36:55",
+            "upload_time_iso_8601": "2013-06-03T08:36:55.021097Z",
+            "url": "https://files.pythonhosted.org/packages/c2/94/f34f5498def3e36101a042226ef862a1f8843fc57fec078439dfc4add310/heracles-0.0.6.tar.gz"
+        }
+    ]
+}

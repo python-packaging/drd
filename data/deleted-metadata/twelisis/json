@@ -1,0 +1,81 @@
+{
+    "info": {
+        "author": "Ashik Poovanna",
+        "author_email": "ashobot@gmail.com",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Programming Language :: Python :: 2.7",
+            "Topic :: Text Processing :: Linguistic"
+        ],
+        "description": "twelisis\n--------\n\nINSTALLATION-\n\nEasiest way-\npip install twelisis\n\nPre-requisite->\nYou have to create a twitter account and also create a twitter app\nand store all the authorization details in a separate text file.\nHelp link-http://tweepy.readthedocs.io/en/v3.5.0/auth_tutorial.html#auth-tutorial\n\n\nAIM-\nThis package aims at the abstraction of extaction of tweets from twitter(using tweepy) so as to focus more on the analysis part.\nAnalysis part(work under progress) \n\nYou can directly use this,simply do:\n(Its better to save passwords in a different file.)\n\n>>>import twelisis as t\n\n>>>t.extract_tweets_for_tag(tag_name,password_file_name)\n\n>>>t.extract_sentiment(output_file_name)",
+        "description_content_type": null,
+        "docs_url": null,
+        "download_url": "https://github.com/yagamiash/twelisis/blob/master/dist/twelisis-0.1.tar.gz",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://github.com/yagamiash/twelisis.git",
+        "keywords": null,
+        "license": "UNKNOWN",
+        "maintainer": null,
+        "maintainer_email": null,
+        "name": "twelisis",
+        "package_url": "https://pypi.org/project/twelisis/",
+        "platform": "UNKNOWN",
+        "project_url": "https://pypi.org/project/twelisis/",
+        "project_urls": {
+            "Download": "https://github.com/yagamiash/twelisis/blob/master/dist/twelisis-0.1.tar.gz",
+            "Homepage": "https://github.com/yagamiash/twelisis.git"
+        },
+        "release_url": "https://pypi.org/project/twelisis/0.1.5/",
+        "requires_dist": null,
+        "requires_python": null,
+        "summary": "Extracting Tweets from twitter and analysing them",
+        "version": "0.1.5"
+    },
+    "last_serial": 6192541,
+    "releases": {
+        "0.1.5": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "bba3e505e06770eba3ccc8a8f33c2bb6",
+                    "sha256": "c2f742f437c60bee61c822049fa99f6df898dde28f4fbc808f015d35f02dc224"
+                },
+                "downloads": -1,
+                "filename": "twelisis-0.1.5.tar.gz",
+                "has_sig": false,
+                "md5_digest": "bba3e505e06770eba3ccc8a8f33c2bb6",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2562,
+                "upload_time": "2017-02-27T14:32:21",
+                "upload_time_iso_8601": "2017-02-27T14:32:21.998573Z",
+                "url": "https://files.pythonhosted.org/packages/65/ba/6890fa732e3479d28ed16f4d481428b769a4f0c86e254bd5dce78ba5a7eb/twelisis-0.1.5.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "bba3e505e06770eba3ccc8a8f33c2bb6",
+                "sha256": "c2f742f437c60bee61c822049fa99f6df898dde28f4fbc808f015d35f02dc224"
+            },
+            "downloads": -1,
+            "filename": "twelisis-0.1.5.tar.gz",
+            "has_sig": false,
+            "md5_digest": "bba3e505e06770eba3ccc8a8f33c2bb6",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 2562,
+            "upload_time": "2017-02-27T14:32:21",
+            "upload_time_iso_8601": "2017-02-27T14:32:21.998573Z",
+            "url": "https://files.pythonhosted.org/packages/65/ba/6890fa732e3479d28ed16f4d481428b769a4f0c86e254bd5dce78ba5a7eb/twelisis-0.1.5.tar.gz"
+        }
+    ]
+}

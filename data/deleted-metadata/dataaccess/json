@@ -1,0 +1,77 @@
+{
+    "info": {
+        "author": "akashmahajan",
+        "author_email": "yourdream6164@gmail.com",
+        "bugtrack_url": null,
+        "classifiers": [],
+        "description": "",
+        "description_content_type": "",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://pypi.python.org",
+        "keywords": "",
+        "license": "",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "DataAccess",
+        "package_url": "https://pypi.org/project/DataAccess/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/DataAccess/",
+        "project_urls": {
+            "Homepage": "https://pypi.python.org"
+        },
+        "release_url": "https://pypi.org/project/DataAccess/1.0.0/",
+        "requires_dist": null,
+        "requires_python": "",
+        "summary": "This can be used to print data from file if data is in a particular format",
+        "version": "1.0.0"
+    },
+    "last_serial": 5415730,
+    "releases": {
+        "1.0.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "226dc01abf64449e807da4d886cd2aeb",
+                    "sha256": "f897707f2989e499e1d5b284e014fd01f655305892f644fd18315c55d98955e1"
+                },
+                "downloads": -1,
+                "filename": "DataAccess-1.0.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "226dc01abf64449e807da4d886cd2aeb",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 495,
+                "upload_time": "2019-06-18T14:42:24",
+                "upload_time_iso_8601": "2019-06-18T14:42:24.417898Z",
+                "url": "https://files.pythonhosted.org/packages/64/c6/178f01437acc913b0b9557f1c39932f6fc2d60f9ef37a73f47a4cd3cccfa/DataAccess-1.0.0.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "226dc01abf64449e807da4d886cd2aeb",
+                "sha256": "f897707f2989e499e1d5b284e014fd01f655305892f644fd18315c55d98955e1"
+            },
+            "downloads": -1,
+            "filename": "DataAccess-1.0.0.tar.gz",
+            "has_sig": false,
+            "md5_digest": "226dc01abf64449e807da4d886cd2aeb",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 495,
+            "upload_time": "2019-06-18T14:42:24",
+            "upload_time_iso_8601": "2019-06-18T14:42:24.417898Z",
+            "url": "https://files.pythonhosted.org/packages/64/c6/178f01437acc913b0b9557f1c39932f6fc2d60f9ef37a73f47a4cd3cccfa/DataAccess-1.0.0.tar.gz"
+        }
+    ]
+}

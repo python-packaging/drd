@@ -1,0 +1,78 @@
+{
+    "info": {
+        "author": "Sergey Ivanychev",
+        "author_email": "sergeyivanychev@gmail.com",
+        "bugtrack_url": null,
+        "classifiers": [],
+        "description": "UNKNOWN",
+        "description_content_type": null,
+        "docs_url": null,
+        "download_url": "https://github.com/ivanychev/pygram/tarball/0.0.1a",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://github.com/ivanychev/pygram",
+        "keywords": "insta,instagram",
+        "license": "UNKNOWN",
+        "maintainer": null,
+        "maintainer_email": null,
+        "name": "pygram",
+        "package_url": "https://pypi.org/project/pygram/",
+        "platform": "UNKNOWN",
+        "project_url": "https://pypi.org/project/pygram/",
+        "project_urls": {
+            "Download": "https://github.com/ivanychev/pygram/tarball/0.0.1a",
+            "Homepage": "https://github.com/ivanychev/pygram"
+        },
+        "release_url": "https://pypi.org/project/pygram/0.0.1a/",
+        "requires_dist": null,
+        "requires_python": null,
+        "summary": "An instagram + python magic",
+        "version": "0.0.1a"
+    },
+    "last_serial": 2587971,
+    "releases": {
+        "0.0.1a": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "2525caee464a1890889b433b9ad70621",
+                    "sha256": "b52f557af1bddbf8ad17924d5f78849be823fa6088cc7ce6f254b5be05c2ec0c"
+                },
+                "downloads": -1,
+                "filename": "pygram-0.0.1a.tar.gz",
+                "has_sig": false,
+                "md5_digest": "2525caee464a1890889b433b9ad70621",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 679,
+                "upload_time": "2017-01-20T16:29:21",
+                "upload_time_iso_8601": "2017-01-20T16:29:21.159072Z",
+                "url": "https://files.pythonhosted.org/packages/f7/88/b85708828875b6c0199792909bc398bacd3ea5ef5b8bb35fc68761eeefee/pygram-0.0.1a.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "2525caee464a1890889b433b9ad70621",
+                "sha256": "b52f557af1bddbf8ad17924d5f78849be823fa6088cc7ce6f254b5be05c2ec0c"
+            },
+            "downloads": -1,
+            "filename": "pygram-0.0.1a.tar.gz",
+            "has_sig": false,
+            "md5_digest": "2525caee464a1890889b433b9ad70621",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 679,
+            "upload_time": "2017-01-20T16:29:21",
+            "upload_time_iso_8601": "2017-01-20T16:29:21.159072Z",
+            "url": "https://files.pythonhosted.org/packages/f7/88/b85708828875b6c0199792909bc398bacd3ea5ef5b8bb35fc68761eeefee/pygram-0.0.1a.tar.gz"
+        }
+    ]
+}

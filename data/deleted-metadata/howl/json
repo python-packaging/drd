@@ -1,0 +1,242 @@
+{
+    "info": {
+        "author": "Anomaly Software",
+        "author_email": "support@anomaly.net.au",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Development Status :: 3 - Alpha",
+            "Environment :: Console",
+            "Intended Audience :: Developers",
+            "License :: OSI Approved",
+            "License :: OSI Approved :: Apache Software License",
+            "Natural Language :: English",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python :: 3",
+            "Programming Language :: Python :: 3.5",
+            "Programming Language :: Python :: 3.6",
+            "Programming Language :: Python :: Implementation :: CPython",
+            "Programming Language :: Python :: Implementation :: PyPy",
+            "Topic :: Software Development :: Libraries :: Python Modules"
+        ],
+        "description": "howl\n======\n\nQueue processor for AWS SQS.\n\n.. image:: https://img.shields.io/pypi/dm/howl.svg\n    :target: https://pypi.python.org/pypi/howl\n    :alt: Downloads\n\n.. image:: https://badge.fury.io/py/howl.svg\n    :target: https://pypi.python.org/pypi/howl\n    :alt: Latest Version\n\n.. image:: https://travis-ci.org/anomaly/howl.svg?branch=master&maxAge=2592000\n   :target: https://travis-ci.org/anomaly/howl\n   :alt: build status\n\nFeatures\n--------\n\nRunning as a service using systemd\n----------------------------------\n\n.. code:: bash\n\n    sudo cp howl/conf/howl.service /lib/systemd/system/\n    sudo systemctl enable howl.service\n",
+        "description_content_type": null,
+        "docs_url": null,
+        "download_url": "https://github.com/anomaly/howl/archive/0.2.3.tar.gz",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://github.com/anomaly/howl.git",
+        "keywords": "",
+        "license": "Apache 2.0",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "howl",
+        "package_url": "https://pypi.org/project/howl/",
+        "platform": "any",
+        "project_url": "https://pypi.org/project/howl/",
+        "project_urls": {
+            "Download": "https://github.com/anomaly/howl/archive/0.2.3.tar.gz",
+            "Homepage": "https://github.com/anomaly/howl.git"
+        },
+        "release_url": "https://pypi.org/project/howl/0.2.3/",
+        "requires_dist": null,
+        "requires_python": "",
+        "summary": "Queue processor for AWS SQS",
+        "version": "0.2.3"
+    },
+    "last_serial": 6211775,
+    "releases": {
+        "0.2.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "07a4f28c2ad9323f6bb1808a0b2de5c8",
+                    "sha256": "c01ccb82dd39d19ee7f925fdb9a541f61fce2657f880c6ed0f4407d7e94be040"
+                },
+                "downloads": -1,
+                "filename": "howl-0.2.0-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "07a4f28c2ad9323f6bb1808a0b2de5c8",
+                "packagetype": "bdist_wheel",
+                "python_version": "3.6",
+                "requires_python": null,
+                "size": 9384,
+                "upload_time": "2017-08-28T23:21:32",
+                "upload_time_iso_8601": "2017-08-28T23:21:32.282631Z",
+                "url": "https://files.pythonhosted.org/packages/36/f5/25236a892b2e3a56e06a5edb38c192e0161e11086459bc11190b0ef6a9f4/howl-0.2.0-py2.py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "05b4bda36b69fb4d0cc2db3e29343752",
+                    "sha256": "64c938578f2b48093d8330c7b485174d319f8133a097c23a0388075019b947bd"
+                },
+                "downloads": -1,
+                "filename": "howl-0.2.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "05b4bda36b69fb4d0cc2db3e29343752",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 6415,
+                "upload_time": "2017-08-28T23:21:29",
+                "upload_time_iso_8601": "2017-08-28T23:21:29.344495Z",
+                "url": "https://files.pythonhosted.org/packages/68/d5/3fd24dec2b416251a1ae880c8b50ab583a3f3ef1d2f4086af59aa64c3355/howl-0.2.0.tar.gz"
+            }
+        ],
+        "0.2.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "05d571a953dce38562150f572ce7bf5e",
+                    "sha256": "06cab45267cc823799db53412309a23468f89d2454d9886cea22752fa9db16e0"
+                },
+                "downloads": -1,
+                "filename": "howl-0.2.1-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "05d571a953dce38562150f572ce7bf5e",
+                "packagetype": "bdist_wheel",
+                "python_version": "3.6",
+                "requires_python": null,
+                "size": 9349,
+                "upload_time": "2017-08-28T23:57:16",
+                "upload_time_iso_8601": "2017-08-28T23:57:16.955956Z",
+                "url": "https://files.pythonhosted.org/packages/f3/93/00131b26bd18b375aada25f4e7827e516eb0448a29c710ec68134738533e/howl-0.2.1-py2.py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "19fc49d0d56c3fe81d51347003a1f1c3",
+                    "sha256": "aa8c96757720ead51fb1c3857a1fb5accc75725690057440fc0532e9911e9071"
+                },
+                "downloads": -1,
+                "filename": "howl-0.2.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "19fc49d0d56c3fe81d51347003a1f1c3",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 6374,
+                "upload_time": "2017-08-28T23:57:13",
+                "upload_time_iso_8601": "2017-08-28T23:57:13.931133Z",
+                "url": "https://files.pythonhosted.org/packages/6f/41/df8e202798f6353b3fc96658b117232054418167a4fbdc9345a4e10dfa80/howl-0.2.1.tar.gz"
+            }
+        ],
+        "0.2.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "a672fca1683ed25b80102b520aaac242",
+                    "sha256": "58763cf5cb3faecd9eaa3c4fba5e699321e0c54dbba9f975f9c56213e4865cfe"
+                },
+                "downloads": -1,
+                "filename": "howl-0.2.2-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "a672fca1683ed25b80102b520aaac242",
+                "packagetype": "bdist_wheel",
+                "python_version": "3.6",
+                "requires_python": null,
+                "size": 9352,
+                "upload_time": "2017-11-20T23:01:34",
+                "upload_time_iso_8601": "2017-11-20T23:01:34.541836Z",
+                "url": "https://files.pythonhosted.org/packages/0a/d7/6be15068389c6bbc96ecea53e611a0cd1173c3e92498d7ed7f1882ae568c/howl-0.2.2-py2.py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "99926156c5ac08ba672505b0885a9e7f",
+                    "sha256": "8764a7eb8a5a0ca8a8d0a637c6b7230a0b9af8eef3d59e54d1afe8d8c9974cb4"
+                },
+                "downloads": -1,
+                "filename": "howl-0.2.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "99926156c5ac08ba672505b0885a9e7f",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 6402,
+                "upload_time": "2017-11-20T23:01:32",
+                "upload_time_iso_8601": "2017-11-20T23:01:32.358993Z",
+                "url": "https://files.pythonhosted.org/packages/2a/0b/645b72df4021a93f4c160dd962a5d4b171cf868864c694d99526a988cf3e/howl-0.2.2.tar.gz"
+            }
+        ],
+        "0.2.3": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "5d2b6cd1dafd67ac2f5d6124d2be7db5",
+                    "sha256": "6a27d6dc32272c009cc25ba1d0157ec1ae0f45e278bdffcb8bcef2c0ed66121e"
+                },
+                "downloads": -1,
+                "filename": "howl-0.2.3-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "5d2b6cd1dafd67ac2f5d6124d2be7db5",
+                "packagetype": "bdist_wheel",
+                "python_version": "3.6",
+                "requires_python": null,
+                "size": 9350,
+                "upload_time": "2017-11-20T23:43:12",
+                "upload_time_iso_8601": "2017-11-20T23:43:12.578934Z",
+                "url": "https://files.pythonhosted.org/packages/b2/82/b0b27e10d576bbf1a3a0f10930f1bfc454f87fe6e69838189abc3c787366/howl-0.2.3-py2.py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "3316278f10ccd03b2fe0fa0e0a5ffe45",
+                    "sha256": "2c86ef617019cb38a3582d0cc721493da440d9c46f8638ffb1e2f4b4a196555d"
+                },
+                "downloads": -1,
+                "filename": "howl-0.2.3.tar.gz",
+                "has_sig": false,
+                "md5_digest": "3316278f10ccd03b2fe0fa0e0a5ffe45",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 6395,
+                "upload_time": "2017-11-20T23:43:09",
+                "upload_time_iso_8601": "2017-11-20T23:43:09.516635Z",
+                "url": "https://files.pythonhosted.org/packages/b2/0b/b3cbf4e3f90c4709181aad4af261e933bb1a978ef8f3ab4211072ed99b33/howl-0.2.3.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "5d2b6cd1dafd67ac2f5d6124d2be7db5",
+                "sha256": "6a27d6dc32272c009cc25ba1d0157ec1ae0f45e278bdffcb8bcef2c0ed66121e"
+            },
+            "downloads": -1,
+            "filename": "howl-0.2.3-py2.py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "5d2b6cd1dafd67ac2f5d6124d2be7db5",
+            "packagetype": "bdist_wheel",
+            "python_version": "3.6",
+            "requires_python": null,
+            "size": 9350,
+            "upload_time": "2017-11-20T23:43:12",
+            "upload_time_iso_8601": "2017-11-20T23:43:12.578934Z",
+            "url": "https://files.pythonhosted.org/packages/b2/82/b0b27e10d576bbf1a3a0f10930f1bfc454f87fe6e69838189abc3c787366/howl-0.2.3-py2.py3-none-any.whl"
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "3316278f10ccd03b2fe0fa0e0a5ffe45",
+                "sha256": "2c86ef617019cb38a3582d0cc721493da440d9c46f8638ffb1e2f4b4a196555d"
+            },
+            "downloads": -1,
+            "filename": "howl-0.2.3.tar.gz",
+            "has_sig": false,
+            "md5_digest": "3316278f10ccd03b2fe0fa0e0a5ffe45",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 6395,
+            "upload_time": "2017-11-20T23:43:09",
+            "upload_time_iso_8601": "2017-11-20T23:43:09.516635Z",
+            "url": "https://files.pythonhosted.org/packages/b2/0b/b3cbf4e3f90c4709181aad4af261e933bb1a978ef8f3ab4211072ed99b33/howl-0.2.3.tar.gz"
+        }
+    ]
+}

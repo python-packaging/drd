@@ -1,0 +1,255 @@
+{
+    "info": {
+        "author": "Oliver Borchert",
+        "author_email": "borchero@in.tum.de",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Development Status :: 4 - Beta",
+            "Programming Language :: Python :: 3.7",
+            "Topic :: Software Development :: Libraries"
+        ],
+        "description": "# BxModels\n\nBxModels provides a repository for well-known machine learning models\nimplemented in PyTorch. With the help of PyTorch, these models can benefit from\nstrong GPU acceleration.\n\nBxModels is built on top of BxTorch, a library which enables developers to\nhandle PyTorch models even more easily and providing multiple means of speeding\nup training.\n\n## Installation\n\nBxModels is available on PyPi, so simply run the following command:\n\n```bash\npip install bxmodels\n```\n\n\n",
+        "description_content_type": "text/markdown",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://github.com/borchero/bxmodels",
+        "keywords": "",
+        "license": "License :: OSI Approved :: MIT License",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "BxModels",
+        "package_url": "https://pypi.org/project/BxModels/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/BxModels/",
+        "project_urls": {
+            "Homepage": "https://github.com/borchero/bxmodels"
+        },
+        "release_url": "https://pypi.org/project/BxModels/0.2.1/",
+        "requires_dist": [
+            "torch (<1.3.0,>=1.2.0)",
+            "numpy (<2.0.0,>=1.16.3)",
+            "bxtorch (<0.6.0,>=0.5.0)"
+        ],
+        "requires_python": ">=3.7",
+        "summary": "Popular Machine Learning Models in PyTorch with Strong GPU Acceleration.",
+        "version": "0.2.1"
+    },
+    "last_serial": 5801113,
+    "releases": {
+        "0.1.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "7b895b486dd26f7dc5131b0eac6a5160",
+                    "sha256": "d0eaf612ced32a1d81d60a383230ba789a05c93cfefb8bd52f0051117f89cbca"
+                },
+                "downloads": -1,
+                "filename": "BxModels-0.1.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "7b895b486dd26f7dc5131b0eac6a5160",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.7",
+                "size": 5404,
+                "upload_time": "2019-06-16T23:23:21",
+                "upload_time_iso_8601": "2019-06-16T23:23:21.355730Z",
+                "url": "https://files.pythonhosted.org/packages/c4/88/168ca554ecf8c0c5a24b349582b553f9a1b1f6571ec7d3cdf0627ce0246b/BxModels-0.1.0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "1d9714f9e0b269ba90b8a1d05c00d763",
+                    "sha256": "eddc28322d835ad3ffa4644271a5e22b1a4853ddfcc28753bf07d4b57ae38771"
+                },
+                "downloads": -1,
+                "filename": "BxModels-0.1.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "1d9714f9e0b269ba90b8a1d05c00d763",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.7",
+                "size": 3603,
+                "upload_time": "2019-06-16T23:23:23",
+                "upload_time_iso_8601": "2019-06-16T23:23:23.675613Z",
+                "url": "https://files.pythonhosted.org/packages/b6/77/4596e8bfc0dbccb068fbc3c9a19cc50dff006ea37f66bc5f4d36e92b5d1d/BxModels-0.1.0.tar.gz"
+            }
+        ],
+        "0.1.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "c00165385fb1dd6ab257455cf5ec402f",
+                    "sha256": "096fa2271291c7b651054449f6eb8a185514369b2691a46d179216ec35ac6d2d"
+                },
+                "downloads": -1,
+                "filename": "BxModels-0.1.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "c00165385fb1dd6ab257455cf5ec402f",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.7",
+                "size": 6653,
+                "upload_time": "2019-07-07T23:13:21",
+                "upload_time_iso_8601": "2019-07-07T23:13:21.705213Z",
+                "url": "https://files.pythonhosted.org/packages/26/6a/7d347a2ee1c38ec9bd42d50c0a9856c46f1e9c5267040ba4742812b9aebf/BxModels-0.1.1-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "f76bfa225bc03d1eaebd7984dfbeb46a",
+                    "sha256": "f0c22805c883ad8377eb055eff42673cfde2f55b0c37789f912f8c61b9eb3beb"
+                },
+                "downloads": -1,
+                "filename": "BxModels-0.1.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "f76bfa225bc03d1eaebd7984dfbeb46a",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.7",
+                "size": 4155,
+                "upload_time": "2019-07-07T23:13:23",
+                "upload_time_iso_8601": "2019-07-07T23:13:23.074290Z",
+                "url": "https://files.pythonhosted.org/packages/e7/4c/67dd2211bfb5dc33a93efdb2c53616a3cb4c58f90c776a078e94aa76999c/BxModels-0.1.1.tar.gz"
+            }
+        ],
+        "0.1.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "ed2fa09382601544d1c56b11cd9380a0",
+                    "sha256": "99ac5423c6de6570b77b98ee73755e1d6a8944767c98084af0254b198d3cab9d"
+                },
+                "downloads": -1,
+                "filename": "BxModels-0.1.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "ed2fa09382601544d1c56b11cd9380a0",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.7",
+                "size": 6658,
+                "upload_time": "2019-07-08T00:30:26",
+                "upload_time_iso_8601": "2019-07-08T00:30:26.718303Z",
+                "url": "https://files.pythonhosted.org/packages/05/1c/d2ac9dded8b24f8e9ce4a48c212efdc7d28c11ab7217cc059c421ab8c0c9/BxModels-0.1.2-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "b9988c2d291449b413ac4eb408d37673",
+                    "sha256": "4060013c8dc9017f098035e0f0d5d65467208d362188a55189bc74a76633cad2"
+                },
+                "downloads": -1,
+                "filename": "BxModels-0.1.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "b9988c2d291449b413ac4eb408d37673",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.7",
+                "size": 4157,
+                "upload_time": "2019-07-08T00:30:28",
+                "upload_time_iso_8601": "2019-07-08T00:30:28.189144Z",
+                "url": "https://files.pythonhosted.org/packages/d1/9e/ad40f545825d1c63e34d2701562424edea6b90079eb189a99883bd36a2ac/BxModels-0.1.2.tar.gz"
+            }
+        ],
+        "0.2.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "fc548ebb95bbce661a2dfd5dc6b308f4",
+                    "sha256": "2e4f533826e85393cb7b7222566d49aa61c502788e3f4b3556ff3d3d6ebffadf"
+                },
+                "downloads": -1,
+                "filename": "BxModels-0.2.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "fc548ebb95bbce661a2dfd5dc6b308f4",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.7",
+                "size": 14772,
+                "upload_time": "2019-09-09T00:14:38",
+                "upload_time_iso_8601": "2019-09-09T00:14:38.464821Z",
+                "url": "https://files.pythonhosted.org/packages/8a/e7/f40cb15f16fc548408fb9a7d15ccfae96adf158b3f7f7b3e1cd0fb8d14c7/BxModels-0.2.0-py3-none-any.whl"
+            }
+        ],
+        "0.2.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "8d12d9d64c1cd3f36c1230291fd1cd3d",
+                    "sha256": "f33d16d27c1b20549d7919c8c0b0e6116b22bf8c7298f496ce3eb7289fcde775"
+                },
+                "downloads": -1,
+                "filename": "BxModels-0.2.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "8d12d9d64c1cd3f36c1230291fd1cd3d",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.7",
+                "size": 14770,
+                "upload_time": "2019-09-09T00:15:23",
+                "upload_time_iso_8601": "2019-09-09T00:15:23.668421Z",
+                "url": "https://files.pythonhosted.org/packages/ce/e3/8df1ed1a6c0518db853fb680b1689ab9986e8e5a38d839befe2a8b2d7540/BxModels-0.2.1-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "5f08e499e96d46a925c92d2623f438fe",
+                    "sha256": "a901707d2e27dcedf6d408808119196413cea3ae92412f1ccc3da20cd9ce2c9c"
+                },
+                "downloads": -1,
+                "filename": "BxModels-0.2.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "5f08e499e96d46a925c92d2623f438fe",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.7",
+                "size": 11027,
+                "upload_time": "2019-09-09T00:15:25",
+                "upload_time_iso_8601": "2019-09-09T00:15:25.273501Z",
+                "url": "https://files.pythonhosted.org/packages/c1/bc/d4779f29f5068b21301c4ce3def0ffcf76436fa65ce74b5e529104f2a9dd/BxModels-0.2.1.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "8d12d9d64c1cd3f36c1230291fd1cd3d",
+                "sha256": "f33d16d27c1b20549d7919c8c0b0e6116b22bf8c7298f496ce3eb7289fcde775"
+            },
+            "downloads": -1,
+            "filename": "BxModels-0.2.1-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "8d12d9d64c1cd3f36c1230291fd1cd3d",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": ">=3.7",
+            "size": 14770,
+            "upload_time": "2019-09-09T00:15:23",
+            "upload_time_iso_8601": "2019-09-09T00:15:23.668421Z",
+            "url": "https://files.pythonhosted.org/packages/ce/e3/8df1ed1a6c0518db853fb680b1689ab9986e8e5a38d839befe2a8b2d7540/BxModels-0.2.1-py3-none-any.whl"
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "5f08e499e96d46a925c92d2623f438fe",
+                "sha256": "a901707d2e27dcedf6d408808119196413cea3ae92412f1ccc3da20cd9ce2c9c"
+            },
+            "downloads": -1,
+            "filename": "BxModels-0.2.1.tar.gz",
+            "has_sig": false,
+            "md5_digest": "5f08e499e96d46a925c92d2623f438fe",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": ">=3.7",
+            "size": 11027,
+            "upload_time": "2019-09-09T00:15:25",
+            "upload_time_iso_8601": "2019-09-09T00:15:25.273501Z",
+            "url": "https://files.pythonhosted.org/packages/c1/bc/d4779f29f5068b21301c4ce3def0ffcf76436fa65ce74b5e529104f2a9dd/BxModels-0.2.1.tar.gz"
+        }
+    ]
+}

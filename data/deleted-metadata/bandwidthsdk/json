@@ -1,0 +1,120 @@
+{
+    "info": {
+        "author": "APIMatic SDK Generator",
+        "author_email": "support@apimatic.io",
+        "bugtrack_url": null,
+        "classifiers": [],
+        "description": "",
+        "description_content_type": "",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://apimatic.io",
+        "keywords": "",
+        "license": "",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "bandwidthsdk",
+        "package_url": "https://pypi.org/project/bandwidthsdk/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/bandwidthsdk/",
+        "project_urls": {
+            "Homepage": "https://apimatic.io"
+        },
+        "release_url": "https://pypi.org/project/bandwidthsdk/1.0.0/",
+        "requires_dist": [
+            "requests (<3.0,>=2.9.1)",
+            "jsonpickle (<1.0,>=0.7.1)",
+            "cachecontrol (<1.0,>=0.11.7)",
+            "python-dateutil (<3.0,>=2.5.3)",
+            "enum34 (>=1.1.6)",
+            "lxml (>=4.3.4)"
+        ],
+        "requires_python": "",
+        "summary": "Bandwidth's set of APIs",
+        "version": "1.0.0"
+    },
+    "last_serial": 5908285,
+    "releases": {
+        "1.0.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "030fbc54ac1ccbcd817409f2c1c59fdc",
+                    "sha256": "75cfdd848a38fd526829f3bbcf54676c5c825878533ccc1c01f113f9c3c095a7"
+                },
+                "downloads": -1,
+                "filename": "bandwidthsdk-1.0.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "030fbc54ac1ccbcd817409f2c1c59fdc",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 58810,
+                "upload_time": "2019-09-30T18:13:58",
+                "upload_time_iso_8601": "2019-09-30T18:13:58.187797Z",
+                "url": "https://files.pythonhosted.org/packages/75/88/2d06afacd8b0377fa4940a0a76ab88ef8dd104d29424458d57c118cf4b51/bandwidthsdk-1.0.0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "c7466ead1a1723782bdd8d22fb3f31a8",
+                    "sha256": "108acedba309327dcffdc74a5c930006444812f80d25dfa02b8f025c244a007b"
+                },
+                "downloads": -1,
+                "filename": "bandwidthsdk-1.0.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "c7466ead1a1723782bdd8d22fb3f31a8",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 25332,
+                "upload_time": "2019-09-30T18:14:00",
+                "upload_time_iso_8601": "2019-09-30T18:14:00.346807Z",
+                "url": "https://files.pythonhosted.org/packages/b0/12/66634558f714213fa7dc2468e62be6a5c70b64461e50604744ebb7d10040/bandwidthsdk-1.0.0.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "030fbc54ac1ccbcd817409f2c1c59fdc",
+                "sha256": "75cfdd848a38fd526829f3bbcf54676c5c825878533ccc1c01f113f9c3c095a7"
+            },
+            "downloads": -1,
+            "filename": "bandwidthsdk-1.0.0-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "030fbc54ac1ccbcd817409f2c1c59fdc",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": null,
+            "size": 58810,
+            "upload_time": "2019-09-30T18:13:58",
+            "upload_time_iso_8601": "2019-09-30T18:13:58.187797Z",
+            "url": "https://files.pythonhosted.org/packages/75/88/2d06afacd8b0377fa4940a0a76ab88ef8dd104d29424458d57c118cf4b51/bandwidthsdk-1.0.0-py3-none-any.whl"
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "c7466ead1a1723782bdd8d22fb3f31a8",
+                "sha256": "108acedba309327dcffdc74a5c930006444812f80d25dfa02b8f025c244a007b"
+            },
+            "downloads": -1,
+            "filename": "bandwidthsdk-1.0.0.tar.gz",
+            "has_sig": false,
+            "md5_digest": "c7466ead1a1723782bdd8d22fb3f31a8",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 25332,
+            "upload_time": "2019-09-30T18:14:00",
+            "upload_time_iso_8601": "2019-09-30T18:14:00.346807Z",
+            "url": "https://files.pythonhosted.org/packages/b0/12/66634558f714213fa7dc2468e62be6a5c70b64461e50604744ebb7d10040/bandwidthsdk-1.0.0.tar.gz"
+        }
+    ]
+}

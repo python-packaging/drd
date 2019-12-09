@@ -1,0 +1,578 @@
+{
+    "info": {
+        "author": "Yannick Kirschen",
+        "author_email": "yannick.kirschen@gmail.com",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Intended Audience :: Developers",
+            "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+            "Natural Language :: English",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python :: 3.7",
+            "Programming Language :: Python :: 3 :: Only",
+            "Topic :: Utilities"
+        ],
+        "description": "# Vader\n\n## :information_source: Overview\n\nInstallation: `pip install vader`\n\n*Vader* is a collection of useful classes and functions, written in and for the Python programming language.\nIt is available to everyone under the [GNU General Public License v3.0](https://github.com/yannickkirschen/Vader/blob/master/LICENSE).\n\nIf you need help, please refer to the [wiki](https://github.com/yannickkirschen/Vader/wiki).\n\n## :car: Contributing\n\nThere are many ways in which you can participate in the project, for example:\n\n* Submit [bugs and feature requests](https://github.com/yannickkirschen/Vader/issues) to help me improve Vader\n* Review [source code changes](https://github.com/yannickkirschen/Vader/pulls)\n\n### :warning: Coding guidelines\n\nI am following [PEP 8](https://www.python.org/dev/peps/pep-0008/) in all of my projects and I would ask you to do the same :smile:.\n\nPlease respect my [Code of Conduct](https://gist.github.com/yannickkirschen/c11fbd6e14c9d41f721f6a65fc275e5f) :v:.\n\nPlease also consider my notes about [branching](https://gist.github.com/yannickkirschen/d83bfc44d566b76f3afc12cc68421e82).\n\n## :page_facing_up: License\n\nCopyright (c) Yannick Kirschen, All rights reserved.\nLicensed under the [GNU GPL3](https://github.com/yannickkirschen/Vader/blob/master/LICENSE).\nHappy forking :fork_and_knife:\n\n\n",
+        "description_content_type": "text/markdown",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "",
+        "keywords": "",
+        "license": "",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "vader",
+        "package_url": "https://pypi.org/project/vader/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/vader/",
+        "project_urls": null,
+        "release_url": "https://pypi.org/project/vader/1.4.0/",
+        "requires_dist": [
+            "flask",
+            "markdown"
+        ],
+        "requires_python": "",
+        "summary": "Utilities for python.",
+        "version": "1.4.0"
+    },
+    "last_serial": 5531133,
+    "releases": {
+        "1.0.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "bd9c021f1fb18beb80db58e531034abc",
+                    "sha256": "6ec114f3ac7d944a0f77f6481fcb07363d91940ef6fdb65b33c6368b0e81098b"
+                },
+                "downloads": -1,
+                "filename": "vader-1.0.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "bd9c021f1fb18beb80db58e531034abc",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 8275,
+                "upload_time": "2019-06-27T19:06:59",
+                "upload_time_iso_8601": "2019-06-27T19:06:59.534638Z",
+                "url": "https://files.pythonhosted.org/packages/24/f0/c8ca5157ec48f843a84a6e6f917196edf241b0dd6fbf438ebc21576f279e/vader-1.0.0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "af1cec871c90ba3d8ce8d719c503bac9",
+                    "sha256": "170ffd693eac7600799ad734f63db418719574dd4d116e9c59d7f2ba492bd91a"
+                },
+                "downloads": -1,
+                "filename": "vader-1.0.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "af1cec871c90ba3d8ce8d719c503bac9",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 5701,
+                "upload_time": "2019-06-27T19:07:01",
+                "upload_time_iso_8601": "2019-06-27T19:07:01.505663Z",
+                "url": "https://files.pythonhosted.org/packages/20/4e/7a0f33025ca39aafbff1adfff76370afa565b056c5d3c92bb90cf368e3c7/vader-1.0.0.tar.gz"
+            }
+        ],
+        "1.1.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "965e4e79c12bc317ef4b5f11c573ae17",
+                    "sha256": "ec54c9a9ecafc9a06dad0d8a12f01687732f25298c262d993d0a28370ac75e5f"
+                },
+                "downloads": -1,
+                "filename": "vader-1.1.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "965e4e79c12bc317ef4b5f11c573ae17",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 9106,
+                "upload_time": "2019-06-27T20:08:28",
+                "upload_time_iso_8601": "2019-06-27T20:08:28.492116Z",
+                "url": "https://files.pythonhosted.org/packages/f2/f1/9669e622ba251464e7d742793b28c37149d8d68aeab9640c4b0c38a2f3bb/vader-1.1.0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "b0ffca88ee1a811fe9689f9447f3564e",
+                    "sha256": "aaa0bd74050bbd7eb479894b31601d13e33a80a2c089e7103620049ad437febf"
+                },
+                "downloads": -1,
+                "filename": "vader-1.1.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "b0ffca88ee1a811fe9689f9447f3564e",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 6663,
+                "upload_time": "2019-06-27T20:08:29",
+                "upload_time_iso_8601": "2019-06-27T20:08:29.963143Z",
+                "url": "https://files.pythonhosted.org/packages/08/31/168984444904abea4eb5ccddf98994b9c87e864324f574016f9f3e39d496/vader-1.1.0.tar.gz"
+            }
+        ],
+        "1.1.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "6bd46a5c70589018117ca7b7315376ce",
+                    "sha256": "8a13f3ce244f6f119fbd8abc925c1edbc66a3e9b42420eebd83124bd35bf63ff"
+                },
+                "downloads": -1,
+                "filename": "vader-1.1.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "6bd46a5c70589018117ca7b7315376ce",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 928208,
+                "upload_time": "2019-06-28T19:22:11",
+                "upload_time_iso_8601": "2019-06-28T19:22:11.927723Z",
+                "url": "https://files.pythonhosted.org/packages/a1/35/3f9085c3432dc42f87b639845372d65f9d471e513008cef54b39393aa9b8/vader-1.1.1-py3-none-any.whl"
+            }
+        ],
+        "1.1.1b0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "4d8463a57a4fd532ef8ddeac043d8620",
+                    "sha256": "cf454bbbde0a5fc9f97810f256baa67556f6d1398a95b8cda0de66480e45133d"
+                },
+                "downloads": -1,
+                "filename": "vader-1.1.1b0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "4d8463a57a4fd532ef8ddeac043d8620",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 9126,
+                "upload_time": "2019-06-28T19:17:54",
+                "upload_time_iso_8601": "2019-06-28T19:17:54.968873Z",
+                "url": "https://files.pythonhosted.org/packages/d0/24/02c188e22eff95722da88cd20a466b82998c25141fd2d625751fcbf412cf/vader-1.1.1b0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "e703a03a58f846f2f8cc16898d1b207b",
+                    "sha256": "8dcd267f34781b1ca31e2d50c82262dd2179a80949c76fe82f47ed1603b0c9c1"
+                },
+                "downloads": -1,
+                "filename": "vader-1.1.1b0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "e703a03a58f846f2f8cc16898d1b207b",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 6710,
+                "upload_time": "2019-06-28T19:17:56",
+                "upload_time_iso_8601": "2019-06-28T19:17:56.578077Z",
+                "url": "https://files.pythonhosted.org/packages/4d/42/905a9934f70828cc5096cb339b1fec76080d360650c01b4c8ed39c52df80/vader-1.1.1b0.tar.gz"
+            }
+        ],
+        "1.2.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "2b5560921742c93818678d8fcf4c2501",
+                    "sha256": "207ef5d4787edb2b6b2c96b3e43730d60b85e662be38c1f6591ca68ae25a7c38"
+                },
+                "downloads": -1,
+                "filename": "vader-1.2.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "2b5560921742c93818678d8fcf4c2501",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 927497,
+                "upload_time": "2019-06-30T15:23:52",
+                "upload_time_iso_8601": "2019-06-30T15:23:52.337448Z",
+                "url": "https://files.pythonhosted.org/packages/b9/36/6615c833d4a56fb98a031640028270db920c5b97fabe4d638781142b80f4/vader-1.2.0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "4af3e2605cb47fc787eb7e0fc4f57b0d",
+                    "sha256": "453849dfdd7d6a8c50093855916dbc9f7236c02225edda4f4a511f708115c30c"
+                },
+                "downloads": -1,
+                "filename": "vader-1.2.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "4af3e2605cb47fc787eb7e0fc4f57b0d",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 677399,
+                "upload_time": "2019-06-30T15:23:55",
+                "upload_time_iso_8601": "2019-06-30T15:23:55.135002Z",
+                "url": "https://files.pythonhosted.org/packages/45/9b/c6bc234ba15a199353359b4fd9476819231136f347fba1e7dc0d968b276f/vader-1.2.0.tar.gz"
+            }
+        ],
+        "1.2.0b0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "7f2e9cf68b5c513b53496f2885183833",
+                    "sha256": "657bf45605b83f72d6a3aa03f38af490c21300dbe1638a3b5d64378bb381e3d4"
+                },
+                "downloads": -1,
+                "filename": "vader-1.2.0b0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "7f2e9cf68b5c513b53496f2885183833",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 927484,
+                "upload_time": "2019-06-30T15:14:11",
+                "upload_time_iso_8601": "2019-06-30T15:14:11.630535Z",
+                "url": "https://files.pythonhosted.org/packages/3d/2f/2292f7b38ef84b8ba488c7005dc520c0221d9a953fd5dd78b3bee16ef773/vader-1.2.0b0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "97003ad1c9c7591802026ae4e6eee7b3",
+                    "sha256": "5b74cba5585098b061b5bcb2c9144ed11632ac4fffc5471b984d0e4ba67fbb11"
+                },
+                "downloads": -1,
+                "filename": "vader-1.2.0b0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "97003ad1c9c7591802026ae4e6eee7b3",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 677460,
+                "upload_time": "2019-06-30T15:14:19",
+                "upload_time_iso_8601": "2019-06-30T15:14:19.796077Z",
+                "url": "https://files.pythonhosted.org/packages/7b/f3/e89c56417267d8d286c3176c79c95dfcb96204aefd3845fbbb47809ea09a/vader-1.2.0b0.tar.gz"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "33c7945f9d051aa700f2da04ac72eef5",
+                    "sha256": "79dd285400705e9e22875def5cf6cb7f8515c10acedd5fb9f5c9f00f35a5e6b0"
+                },
+                "downloads": -1,
+                "filename": "vader-1.2.0b1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "33c7945f9d051aa700f2da04ac72eef5",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 927519,
+                "upload_time": "2019-06-30T15:19:13",
+                "upload_time_iso_8601": "2019-06-30T15:19:13.744546Z",
+                "url": "https://files.pythonhosted.org/packages/4f/48/9334884e0dc1cb99cb3b28ac537d825f1f0f7dcc91c799fa3778b46250f1/vader-1.2.0b1-py3-none-any.whl"
+            }
+        ],
+        "1.2.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "51aec3cb43a5b656d4a54a4f2f1c9740",
+                    "sha256": "e72f3c7a25fd5a78b34571fe1d41de4f412285931833cb0517f21e09cc805d00"
+                },
+                "downloads": -1,
+                "filename": "vader-1.2.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "51aec3cb43a5b656d4a54a4f2f1c9740",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 927486,
+                "upload_time": "2019-06-30T15:39:58",
+                "upload_time_iso_8601": "2019-06-30T15:39:58.532387Z",
+                "url": "https://files.pythonhosted.org/packages/8e/5a/202338dbd61ca5ffcbf1ccbc4d7542f4c03bc9b3ca2af23f49707a43913c/vader-1.2.1-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "574f98613ab4a8f699a79995e7f9ea5d",
+                    "sha256": "01578f1ea8bcb34748f8e0b8e84cf422ee8b441e397baa692f820b628c2a48e0"
+                },
+                "downloads": -1,
+                "filename": "vader-1.2.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "574f98613ab4a8f699a79995e7f9ea5d",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 677396,
+                "upload_time": "2019-06-30T15:40:01",
+                "upload_time_iso_8601": "2019-06-30T15:40:01.417022Z",
+                "url": "https://files.pythonhosted.org/packages/3e/8e/7f46aba5a929a0f14f05732269a5b956d6884d5f84dd92c829d499c405cd/vader-1.2.1.tar.gz"
+            }
+        ],
+        "1.2.1b0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "752927ad93ba46f392c4ed7efd6b49f5",
+                    "sha256": "28a40b19e66e2bc9e23a205c20ba8782209a23bd86263e28389c5a7a57b320ad"
+                },
+                "downloads": -1,
+                "filename": "vader-1.2.1b0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "752927ad93ba46f392c4ed7efd6b49f5",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 927519,
+                "upload_time": "2019-06-30T15:20:17",
+                "upload_time_iso_8601": "2019-06-30T15:20:17.614488Z",
+                "url": "https://files.pythonhosted.org/packages/ea/59/220f71bb6bfc3bd541d5ed6e71bd18a4d43a79e8641aeec2d23f252268ce/vader-1.2.1b0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "632b20d66c42d3f596114dbcfbf6d131",
+                    "sha256": "77c1ea92e482bcd6ce870b3a45dee9abf6224850a469a73c36b03e5e62fdc99d"
+                },
+                "downloads": -1,
+                "filename": "vader-1.2.1b0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "632b20d66c42d3f596114dbcfbf6d131",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 677491,
+                "upload_time": "2019-06-30T15:20:20",
+                "upload_time_iso_8601": "2019-06-30T15:20:20.567359Z",
+                "url": "https://files.pythonhosted.org/packages/7d/e5/6a1fecebc10e35b26d5364709b3bb76633171658eac1bb8558e9cc5d5de8/vader-1.2.1b0.tar.gz"
+            }
+        ],
+        "1.2.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "5be671e539eef9b19c134ea38d76a684",
+                    "sha256": "741d643df63a0421584f176e2d2bb2b254bba166f69b31d847fe4f9632546c0b"
+                },
+                "downloads": -1,
+                "filename": "vader-1.2.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "5be671e539eef9b19c134ea38d76a684",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 927498,
+                "upload_time": "2019-07-12T15:58:46",
+                "upload_time_iso_8601": "2019-07-12T15:58:46.937031Z",
+                "url": "https://files.pythonhosted.org/packages/cb/8e/57b990f0893eeaac676a7f168ba07113901e19b5a9ee612448fb9b67505b/vader-1.2.2-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "79d455597f44325c5e5235de6175b55d",
+                    "sha256": "3735c79be2125d690a599a4e4190ca71e1a44d37dfc9e3e2171a57bbd7b28068"
+                },
+                "downloads": -1,
+                "filename": "vader-1.2.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "79d455597f44325c5e5235de6175b55d",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 677404,
+                "upload_time": "2019-07-12T15:58:49",
+                "upload_time_iso_8601": "2019-07-12T15:58:49.630785Z",
+                "url": "https://files.pythonhosted.org/packages/f0/42/b7f13522141160ceda2a677fa4e823fc05e268b44ea5a926887f517b60a7/vader-1.2.2.tar.gz"
+            }
+        ],
+        "1.3.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "7170d04adc6fc2c4c205d45a283cf244",
+                    "sha256": "394ad115127390cd2de30b0a88623338138c4d167ce816b2253a73ceed95434a"
+                },
+                "downloads": -1,
+                "filename": "vader-1.3.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "7170d04adc6fc2c4c205d45a283cf244",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 945317,
+                "upload_time": "2019-07-13T07:15:51",
+                "upload_time_iso_8601": "2019-07-13T07:15:51.609678Z",
+                "url": "https://files.pythonhosted.org/packages/08/88/4d1033ced75e7430324aa7abb26b272bce6c4e9ad94914a4236a46b6aad6/vader-1.3.0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "8ddbdbd909c65af9c91b099d8e4b55c0",
+                    "sha256": "93cf80f14cc39390dfb957e3720ab02eeff62057470001f449e4626df7e92474"
+                },
+                "downloads": -1,
+                "filename": "vader-1.3.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "8ddbdbd909c65af9c91b099d8e4b55c0",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 694099,
+                "upload_time": "2019-07-13T07:15:55",
+                "upload_time_iso_8601": "2019-07-13T07:15:55.029884Z",
+                "url": "https://files.pythonhosted.org/packages/e6/33/6d85dadced6615d0eaff4b5f2d957db39aa32ea2d83711c7ab785447993f/vader-1.3.0.tar.gz"
+            }
+        ],
+        "1.3.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "6f0bdf0048169c08b73667f21aef218b",
+                    "sha256": "102e877d688e7104a0d73b470fb3d1a250bcee9e586224c1ac5c02bc185e4eef"
+                },
+                "downloads": -1,
+                "filename": "vader-1.3.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "6f0bdf0048169c08b73667f21aef218b",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 945318,
+                "upload_time": "2019-07-13T08:59:27",
+                "upload_time_iso_8601": "2019-07-13T08:59:27.241695Z",
+                "url": "https://files.pythonhosted.org/packages/78/87/314873ea119fe35cfde07e0d8ef78a86b0b19f093c9fc7e232294c9ecfa6/vader-1.3.1-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "9efebd965e394285026b8a594836d3fc",
+                    "sha256": "cdcf7dcce1449f4b01528840da39ecac3e10b707b75de4be93ead0c7b7dd1389"
+                },
+                "downloads": -1,
+                "filename": "vader-1.3.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "9efebd965e394285026b8a594836d3fc",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 694079,
+                "upload_time": "2019-07-13T08:59:30",
+                "upload_time_iso_8601": "2019-07-13T08:59:30.337516Z",
+                "url": "https://files.pythonhosted.org/packages/c8/44/cd896599f0b65a90fd56d1d44709ed0e1eea1a874ed4321f209a9eaa30bc/vader-1.3.1.tar.gz"
+            }
+        ],
+        "1.3.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "b9fae33905926640fc1af8d4d870ac3b",
+                    "sha256": "ca37c3de786461b78924d71fea24d3ff4bba0a2deba757d421235e85ea298d8a"
+                },
+                "downloads": -1,
+                "filename": "vader-1.3.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "b9fae33905926640fc1af8d4d870ac3b",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 945296,
+                "upload_time": "2019-07-13T09:19:24",
+                "upload_time_iso_8601": "2019-07-13T09:19:24.252978Z",
+                "url": "https://files.pythonhosted.org/packages/87/d8/0cf9e7d0f255b840db7453055237780a62584237fd4d749f813190b6c123/vader-1.3.2-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "d0f993b4b94c7e61b771b12d9ff002ad",
+                    "sha256": "49057fce46afc34a849b8fd2cc9131bbcbe1fe20a7b777f00957ce6859e956dc"
+                },
+                "downloads": -1,
+                "filename": "vader-1.3.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "d0f993b4b94c7e61b771b12d9ff002ad",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 694079,
+                "upload_time": "2019-07-13T09:19:28",
+                "upload_time_iso_8601": "2019-07-13T09:19:28.131025Z",
+                "url": "https://files.pythonhosted.org/packages/04/e7/cad7416387b66fba5f5ed386c42b61861f6cd53fbec33d0490cd75d001a9/vader-1.3.2.tar.gz"
+            }
+        ],
+        "1.4.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "64fff27a6e26d920107d6fe30f07fa7b",
+                    "sha256": "62eff469ba216c9483f4d436c4769036b66e5036b45b31471146315e1fdb72ab"
+                },
+                "downloads": -1,
+                "filename": "vader-1.4.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "64fff27a6e26d920107d6fe30f07fa7b",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 945383,
+                "upload_time": "2019-07-14T14:29:31",
+                "upload_time_iso_8601": "2019-07-14T14:29:31.795525Z",
+                "url": "https://files.pythonhosted.org/packages/b6/d0/3b95873ac3888e2769aab713c337e59d0fae9349f383aa07ad68377d3e07/vader-1.4.0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "341c434ac9c3e0d0e5fa72a2122207fd",
+                    "sha256": "7e93c4a8169a71f52799bcf8b1d07c82e8175578dd7968dc09a79e6fb7290b77"
+                },
+                "downloads": -1,
+                "filename": "vader-1.4.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "341c434ac9c3e0d0e5fa72a2122207fd",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 694255,
+                "upload_time": "2019-07-14T14:29:34",
+                "upload_time_iso_8601": "2019-07-14T14:29:34.892427Z",
+                "url": "https://files.pythonhosted.org/packages/9d/df/faae3218aa0323af7155a739377b9b71a7d9e86a913ba42418e1e3dd0e80/vader-1.4.0.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "64fff27a6e26d920107d6fe30f07fa7b",
+                "sha256": "62eff469ba216c9483f4d436c4769036b66e5036b45b31471146315e1fdb72ab"
+            },
+            "downloads": -1,
+            "filename": "vader-1.4.0-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "64fff27a6e26d920107d6fe30f07fa7b",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": null,
+            "size": 945383,
+            "upload_time": "2019-07-14T14:29:31",
+            "upload_time_iso_8601": "2019-07-14T14:29:31.795525Z",
+            "url": "https://files.pythonhosted.org/packages/b6/d0/3b95873ac3888e2769aab713c337e59d0fae9349f383aa07ad68377d3e07/vader-1.4.0-py3-none-any.whl"
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "341c434ac9c3e0d0e5fa72a2122207fd",
+                "sha256": "7e93c4a8169a71f52799bcf8b1d07c82e8175578dd7968dc09a79e6fb7290b77"
+            },
+            "downloads": -1,
+            "filename": "vader-1.4.0.tar.gz",
+            "has_sig": false,
+            "md5_digest": "341c434ac9c3e0d0e5fa72a2122207fd",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 694255,
+            "upload_time": "2019-07-14T14:29:34",
+            "upload_time_iso_8601": "2019-07-14T14:29:34.892427Z",
+            "url": "https://files.pythonhosted.org/packages/9d/df/faae3218aa0323af7155a739377b9b71a7d9e86a913ba42418e1e3dd0e80/vader-1.4.0.tar.gz"
+        }
+    ]
+}

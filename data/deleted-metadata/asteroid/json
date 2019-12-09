@@ -1,0 +1,97 @@
+{
+    "info": {
+        "author": "Jack Black",
+        "author_email": "jblackfinancial@gmail.com",
+        "bugtrack_url": null,
+        "classifiers": [],
+        "description": "asteroid",
+        "description_content_type": "",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://github.com/BillMills/python-package-example#1",
+        "keywords": "",
+        "license": "MIT",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "asteroid",
+        "package_url": "https://pypi.org/project/asteroid/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/asteroid/",
+        "project_urls": {
+            "Homepage": "https://github.com/BillMills/python-package-example#1"
+        },
+        "release_url": "https://pypi.org/project/asteroid/0.2/",
+        "requires_dist": null,
+        "requires_python": "",
+        "summary": "An example python package, for chroemdriver",
+        "version": "0.2"
+    },
+    "last_serial": 6040192,
+    "releases": {
+        "0.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "a89a4e892eb0a512ebb6f0f47f06cd2a",
+                    "sha256": "319445d3e6cf2806a5e54fa34164735daf806e7a645124d6dbe15aee6bce9c98"
+                },
+                "downloads": -1,
+                "filename": "asteroid-0.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "a89a4e892eb0a512ebb6f0f47f06cd2a",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 1614,
+                "upload_time": "2019-10-27T14:34:55",
+                "upload_time_iso_8601": "2019-10-27T14:34:55.711616Z",
+                "url": "https://files.pythonhosted.org/packages/69/aa/f5068b780ad57ea8528060e11a8b118accb2a63286e63dd9e89d447a5d35/asteroid-0.1.tar.gz"
+            }
+        ],
+        "0.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "b6190ddd73143a9e52233465a5fcd36e",
+                    "sha256": "455ba6b4ca035c263eac37b8b02929d30604eb8f418d4c369d8ba856be43d104"
+                },
+                "downloads": -1,
+                "filename": "asteroid-0.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "b6190ddd73143a9e52233465a5fcd36e",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2713,
+                "upload_time": "2019-10-28T09:07:34",
+                "upload_time_iso_8601": "2019-10-28T09:07:34.190491Z",
+                "url": "https://files.pythonhosted.org/packages/a7/cb/70015a104fd7babe0583ddf813084f4bed882bfcf463f702b3d771db18b3/asteroid-0.2.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "b6190ddd73143a9e52233465a5fcd36e",
+                "sha256": "455ba6b4ca035c263eac37b8b02929d30604eb8f418d4c369d8ba856be43d104"
+            },
+            "downloads": -1,
+            "filename": "asteroid-0.2.tar.gz",
+            "has_sig": false,
+            "md5_digest": "b6190ddd73143a9e52233465a5fcd36e",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 2713,
+            "upload_time": "2019-10-28T09:07:34",
+            "upload_time_iso_8601": "2019-10-28T09:07:34.190491Z",
+            "url": "https://files.pythonhosted.org/packages/a7/cb/70015a104fd7babe0583ddf813084f4bed882bfcf463f702b3d771db18b3/asteroid-0.2.tar.gz"
+        }
+    ]
+}

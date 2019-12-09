@@ -1,0 +1,164 @@
+{
+    "info": {
+        "author": "Tim Bushell",
+        "author_email": "tcbushell@gmail.com",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Development Status :: 3 - Alpha",
+            "Environment :: Console",
+            "Intended Audience :: Developers",
+            "License :: OSI Approved :: MIT License",
+            "Natural Language :: English",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python",
+            "Programming Language :: Python :: 3",
+            "Topic :: Software Development :: Testing :: Mocking"
+        ],
+        "description": "![](https://elioway.gitlab.io/elioangels/liar/elio-liar-logo.png)\n\n> Fake it until you make it **the elioWay**\n\n# liar ![alpha](https://elioway.gitlab.io/img/alpha.png \"alpha\")\n\nA source of random but realistic looking data the elioWay.\n\nThe main tool is `IAmALiar`, which is initialised for a certain number of records, then passed definitions of a data model - the instructions for randomly building data into columns.\n\n- [liar Documentation](https://elioway.gitlab.io/elioangels/liar)\n\n## Installing\n\n```shell\npip install liar\n```\n\n- [Installing liar](https://elioway.gitlab.io/elioangels/liar/installing.html)\n\n## Seeing is Believing\n\n```shell\ngit clone https://gitlab.com/elioangels/liar/\nvirtualenv --python=python3 venv-liar\nsource venv-liar/bin/activate\n# or\nsource venv-liar/bin/activate.fish\npip install -r requirements/local.txt\npython examples/harry_potter.py\n```\n\n## Nutshell\n\n### `python examples/harry_potter.py`\n\n### `py.test -x`\n\n- [liar Quickstart](https://elioway.gitlab.io/elioangels/liar/quickstart.html)\n- [liar Credits](https://elioway.gitlab.io/elioangels/liar/credits.html)\n- [liar Issues](https://elioway.gitlab.io/elioangels/liar/issues.html)\n\n![](https://elioway.gitlab.io/elioangels/liar/apple-touch-icon.png)\n\n## License\n\n[MIT](LICENSE) [Tim Bushell](mailto:tcbushell@gmail.com)\n\n\n",
+        "description_content_type": "text/markdown",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://elioway.gitlab.io/elioangels/liar",
+        "keywords": "",
+        "license": "",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "liar",
+        "package_url": "https://pypi.org/project/liar/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/liar/",
+        "project_urls": {
+            "Homepage": "https://elioway.gitlab.io/elioangels/liar"
+        },
+        "release_url": "https://pypi.org/project/liar/1.1/",
+        "requires_dist": [
+            "python-dateutil",
+            "python-slugify"
+        ],
+        "requires_python": "",
+        "summary": "A source of random but realistic looking data the elioWay.",
+        "version": "1.1"
+    },
+    "last_serial": 6062429,
+    "releases": {
+        "1.0.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "fc73cb53b92ddc9658a738639eb911a0",
+                    "sha256": "5799b7038a263c2d576df90927df1b93bc3cdd4b361c63ff241feb9e8d140331"
+                },
+                "downloads": -1,
+                "filename": "liar-1.0.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "fc73cb53b92ddc9658a738639eb911a0",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 404703,
+                "upload_time": "2019-10-21T10:14:13",
+                "upload_time_iso_8601": "2019-10-21T10:14:13.986799Z",
+                "url": "https://files.pythonhosted.org/packages/26/98/62c1889a0603f35e45326014ae4ecb532e7d3983e5115e6bf79f3d52c1c9/liar-1.0.0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "e5a1392b94a13406795d97cad49ea35b",
+                    "sha256": "ca0d224e70ac2430cc52ad4063ffc6e4b85f87c31ce5f0ee90d00fd2ff9ab1c1"
+                },
+                "downloads": -1,
+                "filename": "liar-1.0.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "e5a1392b94a13406795d97cad49ea35b",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 9758318,
+                "upload_time": "2019-10-21T10:15:45",
+                "upload_time_iso_8601": "2019-10-21T10:15:45.446868Z",
+                "url": "https://files.pythonhosted.org/packages/1a/5b/16b25aab998daab35938a7917da89e29847e90eb8ed3597a79677644f819/liar-1.0.0.tar.gz"
+            }
+        ],
+        "1.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "f32aa5dc0beeb442de912cbd271da278",
+                    "sha256": "d24bcb97d72bdbe6d02c2616c29570cc28403a1f342c7208038bd0ee9083ca79"
+                },
+                "downloads": -1,
+                "filename": "liar-1.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "f32aa5dc0beeb442de912cbd271da278",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 10105023,
+                "upload_time": "2019-11-01T09:41:38",
+                "upload_time_iso_8601": "2019-11-01T09:41:38.309061Z",
+                "url": "https://files.pythonhosted.org/packages/cb/dc/de38e447f7f5de72cb76de56ffc4ff0fdcc3787cb467ce1bddf4be59ef4e/liar-1.1-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "1ad39b3eb9ab4b046ae835fc28e6fc27",
+                    "sha256": "5c266ee798af17e83a7749afb043ebaae2a92464f383925e8e8220f1ca9c30f4"
+                },
+                "downloads": -1,
+                "filename": "liar-1.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "1ad39b3eb9ab4b046ae835fc28e6fc27",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 9862159,
+                "upload_time": "2019-11-01T09:43:12",
+                "upload_time_iso_8601": "2019-11-01T09:43:12.605118Z",
+                "url": "https://files.pythonhosted.org/packages/a5/a0/5aff8427c02bcfc76a31000f49267b2eafcb98c32be14beab2d8bc4da946/liar-1.1.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "f32aa5dc0beeb442de912cbd271da278",
+                "sha256": "d24bcb97d72bdbe6d02c2616c29570cc28403a1f342c7208038bd0ee9083ca79"
+            },
+            "downloads": -1,
+            "filename": "liar-1.1-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "f32aa5dc0beeb442de912cbd271da278",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": null,
+            "size": 10105023,
+            "upload_time": "2019-11-01T09:41:38",
+            "upload_time_iso_8601": "2019-11-01T09:41:38.309061Z",
+            "url": "https://files.pythonhosted.org/packages/cb/dc/de38e447f7f5de72cb76de56ffc4ff0fdcc3787cb467ce1bddf4be59ef4e/liar-1.1-py3-none-any.whl"
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "1ad39b3eb9ab4b046ae835fc28e6fc27",
+                "sha256": "5c266ee798af17e83a7749afb043ebaae2a92464f383925e8e8220f1ca9c30f4"
+            },
+            "downloads": -1,
+            "filename": "liar-1.1.tar.gz",
+            "has_sig": false,
+            "md5_digest": "1ad39b3eb9ab4b046ae835fc28e6fc27",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 9862159,
+            "upload_time": "2019-11-01T09:43:12",
+            "upload_time_iso_8601": "2019-11-01T09:43:12.605118Z",
+            "url": "https://files.pythonhosted.org/packages/a5/a0/5aff8427c02bcfc76a31000f49267b2eafcb98c32be14beab2d8bc4da946/liar-1.1.tar.gz"
+        }
+    ]
+}

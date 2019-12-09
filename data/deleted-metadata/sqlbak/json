@@ -1,0 +1,375 @@
+{
+    "info": {
+        "author": "Pranas.NET",
+        "author_email": "dev@sqlbackupandftp.com",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Development Status :: 3 - Alpha",
+            "Intended Audience :: Developers",
+            "License :: OSI Approved :: MIT License",
+            "Programming Language :: Python :: 3",
+            "Topic :: Software Development :: Build Tools"
+        ],
+        "description": "",
+        "description_content_type": "",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://sqlbak.com",
+        "keywords": "manage databases",
+        "license": "",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "sqlbak",
+        "package_url": "https://pypi.org/project/sqlbak/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/sqlbak/",
+        "project_urls": {
+            "Homepage": "https://sqlbak.com",
+            "Say Thanks!": "https://sqlbak.com"
+        },
+        "release_url": "https://pypi.org/project/sqlbak/1.3.5/",
+        "requires_dist": [
+            "azure-storage",
+            "backblazeb2",
+            "boto3",
+            "dropbox (>=8.8.1)",
+            "google-api-python-client",
+            "oauth2client",
+            "packaging",
+            "paramiko",
+            "pycryptodome",
+            "requests",
+            "sqlalchemy (>=1.2.7)",
+            "sshtunnel (>=0.1.3)"
+        ],
+        "requires_python": ">=2.6",
+        "summary": "An application to manage databases",
+        "version": "1.3.5"
+    },
+    "last_serial": 6105522,
+    "releases": {
+        "1.0.0.dev1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "da0b6fd1bf1e2d8e299de34768005c3e",
+                    "sha256": "127385fe3a750bbab96287c13450548329712b66a3683c2566c1ee2b1f207133"
+                },
+                "downloads": -1,
+                "filename": "sqlbak-1.0.0.dev1-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "da0b6fd1bf1e2d8e299de34768005c3e",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": ">=2.6",
+                "size": 8704270,
+                "upload_time": "2019-11-04T09:22:18",
+                "upload_time_iso_8601": "2019-11-04T09:22:18.120289Z",
+                "url": "https://files.pythonhosted.org/packages/80/6a/db20e4b8660d384ca4a997d53036cfcaab1ae4e10925fb75689b0ae98c8b/sqlbak-1.0.0.dev1-py2.py3-none-any.whl"
+            }
+        ],
+        "1.0.0a1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "356fc6738ba8ee5197be63086634aab6",
+                    "sha256": "140de4065bd626b8c73a0250995692044b9710163f59483829c22dc4e0f671cd"
+                },
+                "downloads": -1,
+                "filename": "sqlbak-1.0.0a1-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "356fc6738ba8ee5197be63086634aab6",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": ">=2.6",
+                "size": 8704227,
+                "upload_time": "2019-11-04T09:49:59",
+                "upload_time_iso_8601": "2019-11-04T09:49:59.769933Z",
+                "url": "https://files.pythonhosted.org/packages/d8/2f/0789d05b431929172ce758d7ce8eea3d0682dac3255766a1c64e4dd81b23/sqlbak-1.0.0a1-py2.py3-none-any.whl"
+            }
+        ],
+        "1.3.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "239b3ec89757f7291f4c49a2b30d54a8",
+                    "sha256": "1914aeeeea21b32b7187db32b23198609d052817aaebcc36fc442bf65934f811"
+                },
+                "downloads": -1,
+                "filename": "sqlbak-1.3.0-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "239b3ec89757f7291f4c49a2b30d54a8",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": ">=2.6",
+                "size": 8703449,
+                "upload_time": "2019-11-04T11:45:31",
+                "upload_time_iso_8601": "2019-11-04T11:45:31.738716Z",
+                "url": "https://files.pythonhosted.org/packages/0b/48/3e3f7b41ef808eacd76a580e04bb68b87e7eff4853c6e20edce0341aeefd/sqlbak-1.3.0-py2.py3-none-any.whl"
+            }
+        ],
+        "1.3.0.dev1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "f3943dcd685de17023ffc482fdfc4f16",
+                    "sha256": "aba14b2b3f7a1512b875cb44d54388608931d3261c6864fa3fd207e29cadb74b"
+                },
+                "downloads": -1,
+                "filename": "sqlbak-1.3.0.dev1-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "f3943dcd685de17023ffc482fdfc4f16",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": ">=2.6",
+                "size": 8703544,
+                "upload_time": "2019-11-04T11:26:23",
+                "upload_time_iso_8601": "2019-11-04T11:26:23.872408Z",
+                "url": "https://files.pythonhosted.org/packages/c8/85/be9dcdd926c1efe4b676dfdd9366b4730a8c6562e3d32a7f466861d2aa99/sqlbak-1.3.0.dev1-py2.py3-none-any.whl"
+            }
+        ],
+        "1.3.0.dev2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "800ee63f6971675b145acd2fbabe2e67",
+                    "sha256": "d799a0b207f8f4e004156098facb9f1d98b62ac178c641a190f4df80917e52ba"
+                },
+                "downloads": -1,
+                "filename": "sqlbak-1.3.0.dev2-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "800ee63f6971675b145acd2fbabe2e67",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": ">=2.6",
+                "size": 8743984,
+                "upload_time": "2019-11-05T12:45:30",
+                "upload_time_iso_8601": "2019-11-05T12:45:30.829042Z",
+                "url": "https://files.pythonhosted.org/packages/81/f7/09cd7bb6b98a2b8adb125f15e4897dcde64de688dad07a2f75f7329dd75a/sqlbak-1.3.0.dev2-py2.py3-none-any.whl"
+            }
+        ],
+        "1.3.0.dev3": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "8e1f913f758e07eb1ddc7e770ae89973",
+                    "sha256": "e6592bb985def627e333553ca9667e57fb8bf15cc20ef83dff1c2842f7475993"
+                },
+                "downloads": -1,
+                "filename": "sqlbak-1.3.0.dev3-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "8e1f913f758e07eb1ddc7e770ae89973",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": ">=2.6",
+                "size": 8733360,
+                "upload_time": "2019-11-05T15:44:52",
+                "upload_time_iso_8601": "2019-11-05T15:44:52.034653Z",
+                "url": "https://files.pythonhosted.org/packages/53/8f/de59b5ae9de5c6cb114e259925090c79cf503ac1a310828d017cac3c01a2/sqlbak-1.3.0.dev3-py2.py3-none-any.whl"
+            }
+        ],
+        "1.3.0.dev4": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "39fc46b88ed2092ee3cd9de7c932d8e2",
+                    "sha256": "45891d0574dc5792816705777e46fb961dcf245e45ebd50d353272a88a4aa701"
+                },
+                "downloads": -1,
+                "filename": "sqlbak-1.3.0.dev4-py3.6.egg",
+                "has_sig": false,
+                "md5_digest": "39fc46b88ed2092ee3cd9de7c932d8e2",
+                "packagetype": "bdist_egg",
+                "python_version": "3.6",
+                "requires_python": ">=2.6",
+                "size": 153203,
+                "upload_time": "2019-11-08T16:01:57",
+                "upload_time_iso_8601": "2019-11-08T16:01:57.802137Z",
+                "url": "https://files.pythonhosted.org/packages/d6/4e/350d4654617c4d113e678c78e162381a61e09346482496ea497459a2ccd2/sqlbak-1.3.0.dev4-py3.6.egg"
+            }
+        ],
+        "1.3.0a1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "a37b6c42757861f5ba98fc2c4e3a78c3",
+                    "sha256": "0489ad56c88859d5590029e8f0987313ef507a5d14eaf5f10bac4113ac4404ed"
+                },
+                "downloads": -1,
+                "filename": "sqlbak-1.3.0a1-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "a37b6c42757861f5ba98fc2c4e3a78c3",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": ">=2.6",
+                "size": 8703778,
+                "upload_time": "2019-11-04T11:36:54",
+                "upload_time_iso_8601": "2019-11-04T11:36:54.677840Z",
+                "url": "https://files.pythonhosted.org/packages/ed/6f/c284f33bf8660d549712fa76c19b9274268566f1b0313b256d3343555c4a/sqlbak-1.3.0a1-py2.py3-none-any.whl"
+            }
+        ],
+        "1.3.0a2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "ca83baf27f8ca167f92430bda0cb660e",
+                    "sha256": "2296db5ce7d74e3f14c926a864b6edd546984ede41bca5af7e9a0f2831b55389"
+                },
+                "downloads": -1,
+                "filename": "sqlbak-1.3.0a2-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "ca83baf27f8ca167f92430bda0cb660e",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": ">=2.6",
+                "size": 8744095,
+                "upload_time": "2019-11-05T12:54:11",
+                "upload_time_iso_8601": "2019-11-05T12:54:11.692142Z",
+                "url": "https://files.pythonhosted.org/packages/b5/02/db5f75118a4009b494d9c72c792720b360d4d9641141da47764ec3c33786/sqlbak-1.3.0a2-py2.py3-none-any.whl"
+            }
+        ],
+        "1.3.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "ca67c4458e5eae135ca1cf477f286cf7",
+                    "sha256": "86e3a216f4d92ed2f09c986ed473bf9734d79f91bcbb8ca481cd8b59fe075872"
+                },
+                "downloads": -1,
+                "filename": "sqlbak-1.3.1-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "ca67c4458e5eae135ca1cf477f286cf7",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": ">=2.6",
+                "size": 8743512,
+                "upload_time": "2019-11-05T13:25:21",
+                "upload_time_iso_8601": "2019-11-05T13:25:21.601954Z",
+                "url": "https://files.pythonhosted.org/packages/34/b8/649a99223fe5812b33cc56d55cb3385273345d24f1d7324538d5cbec9092/sqlbak-1.3.1-py2.py3-none-any.whl"
+            }
+        ],
+        "1.3.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "8eed23f3d454bb8792b58083bd641b69",
+                    "sha256": "1671575ee657670fd9251bd4ab836e8cdfe803ecfc04a66d0278e0dcbf2da433"
+                },
+                "downloads": -1,
+                "filename": "sqlbak-1.3.2-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "8eed23f3d454bb8792b58083bd641b69",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": ">=2.6",
+                "size": 8733958,
+                "upload_time": "2019-11-05T15:14:22",
+                "upload_time_iso_8601": "2019-11-05T15:14:22.348338Z",
+                "url": "https://files.pythonhosted.org/packages/00/89/d344fe8aff7a9296479a06930fd2178b68c88ad7cc9081f7a9d538cdd5b0/sqlbak-1.3.2-py2.py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "eee7b652555f72ed37f6f4047cae43ab",
+                    "sha256": "a0264e77edb366699ce8c92e73eefa7d3a211fa8c43be981ad33acf61c047cf8"
+                },
+                "downloads": -1,
+                "filename": "sqlbak-1.3.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "eee7b652555f72ed37f6f4047cae43ab",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=2.6",
+                "size": 2220202,
+                "upload_time": "2019-11-05T15:14:25",
+                "upload_time_iso_8601": "2019-11-05T15:14:25.670782Z",
+                "url": "https://files.pythonhosted.org/packages/6f/bf/c7b0ceadde1b5d3bfbcd65db7d4b8fcd013acad9f83809d931ce544e9885/sqlbak-1.3.2.tar.gz"
+            }
+        ],
+        "1.3.3": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "0d057b73aecc19cbeaa7f7c62e24eaab",
+                    "sha256": "34f5cae4e9e23f13dcd296f8eee032e057bae4313262c9283f523d7ed50a3996"
+                },
+                "downloads": -1,
+                "filename": "sqlbak-1.3.3-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "0d057b73aecc19cbeaa7f7c62e24eaab",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": ">=2.6",
+                "size": 8733502,
+                "upload_time": "2019-11-05T17:05:49",
+                "upload_time_iso_8601": "2019-11-05T17:05:49.775510Z",
+                "url": "https://files.pythonhosted.org/packages/f9/6a/170cf23b205405b9252d225b5e0ff0362d7a3cea4eeb372db339e7f6674d/sqlbak-1.3.3-py2.py3-none-any.whl"
+            }
+        ],
+        "1.3.4": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "ef5555c018f654c6ddf30ebff18e07ff",
+                    "sha256": "a2915311b5991748e0bf49d2922a25de49581a379e507dcd3d3f8d3413789c2f"
+                },
+                "downloads": -1,
+                "filename": "sqlbak-1.3.4-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "ef5555c018f654c6ddf30ebff18e07ff",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": ">=2.6",
+                "size": 8776458,
+                "upload_time": "2019-11-08T08:56:53",
+                "upload_time_iso_8601": "2019-11-08T08:56:53.663072Z",
+                "url": "https://files.pythonhosted.org/packages/f2/30/c06d046090fcd2584ad6343d29b4363a0785cdc9d2803793ede6e24829c1/sqlbak-1.3.4-py2.py3-none-any.whl"
+            }
+        ],
+        "1.3.5": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "2f9b35c9a9431b93294510849b4a7ebd",
+                    "sha256": "deea2fea8e7645119cf55360dbdc3389feaa219b0bbdc5cdeef76563a3d26681"
+                },
+                "downloads": -1,
+                "filename": "sqlbak-1.3.5-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "2f9b35c9a9431b93294510849b4a7ebd",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": ">=2.6",
+                "size": 8852897,
+                "upload_time": "2019-11-09T12:38:10",
+                "upload_time_iso_8601": "2019-11-09T12:38:10.769060Z",
+                "url": "https://files.pythonhosted.org/packages/a1/d3/e88fa366631cc3e2073c1391d362a94410ff4a6b5cfff663d9b9869247b2/sqlbak-1.3.5-py2.py3-none-any.whl"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "2f9b35c9a9431b93294510849b4a7ebd",
+                "sha256": "deea2fea8e7645119cf55360dbdc3389feaa219b0bbdc5cdeef76563a3d26681"
+            },
+            "downloads": -1,
+            "filename": "sqlbak-1.3.5-py2.py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "2f9b35c9a9431b93294510849b4a7ebd",
+            "packagetype": "bdist_wheel",
+            "python_version": "py2.py3",
+            "requires_python": ">=2.6",
+            "size": 8852897,
+            "upload_time": "2019-11-09T12:38:10",
+            "upload_time_iso_8601": "2019-11-09T12:38:10.769060Z",
+            "url": "https://files.pythonhosted.org/packages/a1/d3/e88fa366631cc3e2073c1391d362a94410ff4a6b5cfff663d9b9869247b2/sqlbak-1.3.5-py2.py3-none-any.whl"
+        }
+    ]
+}

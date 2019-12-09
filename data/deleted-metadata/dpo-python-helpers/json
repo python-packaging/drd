@@ -1,0 +1,237 @@
+{
+    "info": {
+        "author": "Jim Brannlund",
+        "author_email": "jim.brannlund@dporganizer.com",
+        "bugtrack_url": null,
+        "classifiers": [],
+        "description": "",
+        "description_content_type": "",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://bitbucket.org/dporganizer/dpo-python-helpers/src/develop/",
+        "keywords": "",
+        "license": "",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "dpo-python-helpers",
+        "package_url": "https://pypi.org/project/dpo-python-helpers/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/dpo-python-helpers/",
+        "project_urls": {
+            "Homepage": "https://bitbucket.org/dporganizer/dpo-python-helpers/src/develop/"
+        },
+        "release_url": "https://pypi.org/project/dpo-python-helpers/5.1.0/",
+        "requires_dist": null,
+        "requires_python": "",
+        "summary": "Python helpers for DPO-CLI",
+        "version": "5.1.0"
+    },
+    "last_serial": 6098097,
+    "releases": {
+        "4.1.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "14d053101f752341880469b477e1b45a",
+                    "sha256": "a091220d6866677e36c7dd57ba49e508da9b51c25fb5f8f1e0663f2e4b573d49"
+                },
+                "downloads": -1,
+                "filename": "dpo-python-helpers-4.1.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "14d053101f752341880469b477e1b45a",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 23640,
+                "upload_time": "2019-02-25T11:36:58",
+                "upload_time_iso_8601": "2019-02-25T11:36:58.063211Z",
+                "url": "https://files.pythonhosted.org/packages/33/6a/ad26817252dbf00e2800dc764b3f89e85b233789e9fe899754fe6e95abd9/dpo-python-helpers-4.1.0.tar.gz"
+            }
+        ],
+        "4.2.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "12a22cf16fbd6cb5c08e596c780c7ae5",
+                    "sha256": "b76fa299f4f965979e2b6ea686c8bd22ba7437af6f8f254e8191e4ab127edb07"
+                },
+                "downloads": -1,
+                "filename": "dpo-python-helpers-4.2.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "12a22cf16fbd6cb5c08e596c780c7ae5",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 23806,
+                "upload_time": "2019-03-12T13:16:41",
+                "upload_time_iso_8601": "2019-03-12T13:16:41.697805Z",
+                "url": "https://files.pythonhosted.org/packages/54/90/ef181d214c98849fdeab7873cd567a8460ba15e6a8771d1880a373d55fb7/dpo-python-helpers-4.2.0.tar.gz"
+            }
+        ],
+        "4.2.0a2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "11a50ba56df7e945aea2636bacfabfdd",
+                    "sha256": "8b02ae69793a1e2895fd169e4d82ca9ed14a349f37976cbffb9e8cf59b12dada"
+                },
+                "downloads": -1,
+                "filename": "dpo-python-helpers-4.2.0a2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "11a50ba56df7e945aea2636bacfabfdd",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 23862,
+                "upload_time": "2019-03-12T13:30:27",
+                "upload_time_iso_8601": "2019-03-12T13:30:27.891802Z",
+                "url": "https://files.pythonhosted.org/packages/8b/f2/4c67df53d49a0ad7ebb96874f14c24da462114d5b645c27fef731260bd3c/dpo-python-helpers-4.2.0a2.tar.gz"
+            }
+        ],
+        "4.2.0a3": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "2a9b5db3422d14a56f30a628527f2960",
+                    "sha256": "411a208b7716ce8f65880d171357a8487fdbee7b615a91a19af5c24d7d1534d5"
+                },
+                "downloads": -1,
+                "filename": "dpo-python-helpers-4.2.0a3.tar.gz",
+                "has_sig": false,
+                "md5_digest": "2a9b5db3422d14a56f30a628527f2960",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 23832,
+                "upload_time": "2019-03-12T14:09:38",
+                "upload_time_iso_8601": "2019-03-12T14:09:38.979424Z",
+                "url": "https://files.pythonhosted.org/packages/98/c4/e4c6b7227b1de3f0510d415afadd61d18525a0a8b57d3deaba9741438aae/dpo-python-helpers-4.2.0a3.tar.gz"
+            }
+        ],
+        "4.3.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "b4705ac7a12736b885faef16182d6035",
+                    "sha256": "a5fd75957639892940d5d5e8ba0fc84654ab024aea38aaaf82967c8ca715c120"
+                },
+                "downloads": -1,
+                "filename": "dpo-python-helpers-4.3.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "b4705ac7a12736b885faef16182d6035",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 24074,
+                "upload_time": "2019-03-14T08:07:03",
+                "upload_time_iso_8601": "2019-03-14T08:07:03.017837Z",
+                "url": "https://files.pythonhosted.org/packages/de/64/a395046fa34fcc98775fa5a893c7814f5bcaf17d96668afd58a3bcef3f7d/dpo-python-helpers-4.3.0.tar.gz"
+            }
+        ],
+        "4.3.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "cb547a195b11404799cd914cab969e91",
+                    "sha256": "3496edaa44a692b9eff793b45046cb6848747b8f77868da76e695f3635dd2d06"
+                },
+                "downloads": -1,
+                "filename": "dpo-python-helpers-4.3.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "cb547a195b11404799cd914cab969e91",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 24178,
+                "upload_time": "2019-03-15T13:24:08",
+                "upload_time_iso_8601": "2019-03-15T13:24:08.577684Z",
+                "url": "https://files.pythonhosted.org/packages/42/79/60530c5005b57a6847746ecfc297931cd77139c173c4504f57e8eb713dc8/dpo-python-helpers-4.3.1.tar.gz"
+            }
+        ],
+        "5.0.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "62fd345ecc8c3cd6bfd9368ff83b0368",
+                    "sha256": "bd0afe3274f112006938fab001bf312ccc044f3b38e5b84decca047c8e4a9464"
+                },
+                "downloads": -1,
+                "filename": "dpo-python-helpers-5.0.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "62fd345ecc8c3cd6bfd9368ff83b0368",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 26120,
+                "upload_time": "2019-04-02T08:35:45",
+                "upload_time_iso_8601": "2019-04-02T08:35:45.660775Z",
+                "url": "https://files.pythonhosted.org/packages/4d/92/c19df39805fccacea64bba43682cab72403d3c31971795c56bd5d4c77276/dpo-python-helpers-5.0.0.tar.gz"
+            }
+        ],
+        "5.0.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "14e4b64906d2c0d737ecbbf8db7833a9",
+                    "sha256": "dbdae97d508a59bd999ee0aa4827e4cb9b948903efaf3a9d19fba710790bf655"
+                },
+                "downloads": -1,
+                "filename": "dpo-python-helpers-5.0.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "14e4b64906d2c0d737ecbbf8db7833a9",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 26507,
+                "upload_time": "2019-09-18T12:56:19",
+                "upload_time_iso_8601": "2019-09-18T12:56:19.390044Z",
+                "url": "https://files.pythonhosted.org/packages/ea/5d/53c7bab9692f305d22b85b44d8eac3ac2e43cffdf027033bb3ae5b6feca9/dpo-python-helpers-5.0.1.tar.gz"
+            }
+        ],
+        "5.1.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "5e5d4dee3154c5323fcb0e47aaa1f878",
+                    "sha256": "44a76a2a0117e6061809c6682b99846f1bd1dcd252f641c43a053fc60b1b1e59"
+                },
+                "downloads": -1,
+                "filename": "dpo-python-helpers-5.1.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "5e5d4dee3154c5323fcb0e47aaa1f878",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 26544,
+                "upload_time": "2019-10-24T05:12:33",
+                "upload_time_iso_8601": "2019-10-24T05:12:33.667088Z",
+                "url": "https://files.pythonhosted.org/packages/66/41/a853240c39cc775fb67e9e279b49da1641342bc48024d237d138ffcab4d4/dpo-python-helpers-5.1.0.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "5e5d4dee3154c5323fcb0e47aaa1f878",
+                "sha256": "44a76a2a0117e6061809c6682b99846f1bd1dcd252f641c43a053fc60b1b1e59"
+            },
+            "downloads": -1,
+            "filename": "dpo-python-helpers-5.1.0.tar.gz",
+            "has_sig": false,
+            "md5_digest": "5e5d4dee3154c5323fcb0e47aaa1f878",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 26544,
+            "upload_time": "2019-10-24T05:12:33",
+            "upload_time_iso_8601": "2019-10-24T05:12:33.667088Z",
+            "url": "https://files.pythonhosted.org/packages/66/41/a853240c39cc775fb67e9e279b49da1641342bc48024d237d138ffcab4d4/dpo-python-helpers-5.1.0.tar.gz"
+        }
+    ]
+}

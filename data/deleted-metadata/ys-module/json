@@ -1,0 +1,117 @@
+{
+    "info": {
+        "author": "7913",
+        "author_email": "84328409@qq.com",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Programming Language :: Python :: 3"
+        ],
+        "description": "",
+        "description_content_type": "text/markdown",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "",
+        "keywords": "",
+        "license": "",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "ys-module",
+        "package_url": "https://pypi.org/project/ys-module/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/ys-module/",
+        "project_urls": null,
+        "release_url": "https://pypi.org/project/ys-module/0.1.2/",
+        "requires_dist": null,
+        "requires_python": "",
+        "summary": "\u4e91\u4e0ahost,python\u7248",
+        "version": "0.1.2"
+    },
+    "last_serial": 6192040,
+    "releases": {
+        "0.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "0520e28d6bc625ec4c9c389f10cdd498",
+                    "sha256": "d58433050bf2ac47dbab16ba636ce2a39164ea99af9af175b37c9932e2481a75"
+                },
+                "downloads": -1,
+                "filename": "ys_module-0.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "0520e28d6bc625ec4c9c389f10cdd498",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 22189,
+                "upload_time": "2019-11-25T03:21:46",
+                "upload_time_iso_8601": "2019-11-25T03:21:46.725068Z",
+                "url": "https://files.pythonhosted.org/packages/ca/85/9a52aa53672d7df3040dd39696754461806a606ddbc8e950a4c37e8b1e95/ys_module-0.1.tar.gz"
+            }
+        ],
+        "0.1.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "c2aee8bf56e1456a306bbf3bba568f2f",
+                    "sha256": "458d6dca3bcaec7bcd001b7ebb00ea7bd04d51329435bddad9c57c47030298e3"
+                },
+                "downloads": -1,
+                "filename": "ys_module-0.1.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "c2aee8bf56e1456a306bbf3bba568f2f",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 22159,
+                "upload_time": "2019-11-25T03:25:13",
+                "upload_time_iso_8601": "2019-11-25T03:25:13.378953Z",
+                "url": "https://files.pythonhosted.org/packages/0a/91/4856fe6a501e38597d8e1822632819e4d88b26689b76196400ecd0e7f820/ys_module-0.1.1.tar.gz"
+            }
+        ],
+        "0.1.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "7fcf2af4436c9b382c4b60431e97cc9c",
+                    "sha256": "c09307225d3fa655c2f8ae5adb802397c221794e93170f07bf04773784765553"
+                },
+                "downloads": -1,
+                "filename": "ys_module-0.1.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "7fcf2af4436c9b382c4b60431e97cc9c",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 16549,
+                "upload_time": "2019-11-25T03:32:54",
+                "upload_time_iso_8601": "2019-11-25T03:32:54.081379Z",
+                "url": "https://files.pythonhosted.org/packages/e2/fa/97b85e1731585b7cf2115ec21c4fe49e02e60025805dfc381fd1988ac4c8/ys_module-0.1.2.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "7fcf2af4436c9b382c4b60431e97cc9c",
+                "sha256": "c09307225d3fa655c2f8ae5adb802397c221794e93170f07bf04773784765553"
+            },
+            "downloads": -1,
+            "filename": "ys_module-0.1.2.tar.gz",
+            "has_sig": false,
+            "md5_digest": "7fcf2af4436c9b382c4b60431e97cc9c",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 16549,
+            "upload_time": "2019-11-25T03:32:54",
+            "upload_time_iso_8601": "2019-11-25T03:32:54.081379Z",
+            "url": "https://files.pythonhosted.org/packages/e2/fa/97b85e1731585b7cf2115ec21c4fe49e02e60025805dfc381fd1988ac4c8/ys_module-0.1.2.tar.gz"
+        }
+    ]
+}

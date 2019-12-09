@@ -1,0 +1,115 @@
+{
+    "info": {
+        "author": "zpyoung",
+        "author_email": "",
+        "bugtrack_url": null,
+        "classifiers": [],
+        "description": "",
+        "description_content_type": "",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "",
+        "keywords": "",
+        "license": "",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "zoho_crm",
+        "package_url": "https://pypi.org/project/zoho_crm/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/zoho_crm/",
+        "project_urls": null,
+        "release_url": "https://pypi.org/project/zoho_crm/0.5/",
+        "requires_dist": null,
+        "requires_python": "",
+        "summary": "Wrapper fir the Zoho CRM API v2",
+        "version": "0.5"
+    },
+    "last_serial": 3790641,
+    "releases": {
+        "0.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "39d40033fc57a6641ba8d0303955dacb",
+                    "sha256": "2d7734d078013e2d06afa1d01ef78ace36099130c0891189061f6a508586fed9"
+                },
+                "downloads": -1,
+                "filename": "zoho_crm-0.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "39d40033fc57a6641ba8d0303955dacb",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 656,
+                "upload_time": "2018-04-19T23:09:34",
+                "upload_time_iso_8601": "2018-04-19T23:09:34.654509Z",
+                "url": "https://files.pythonhosted.org/packages/4d/95/6442ba0f70f9c0d55a7ea3624e988c54f14e43c528add12ef7cb57c113b5/zoho_crm-0.1.tar.gz"
+            }
+        ],
+        "0.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "040920231051515f1423258f4664774a",
+                    "sha256": "5b99ab27fea4583da3ef14a8bed24e21b46c830d0b4529f85ae4103f147e6c5a"
+                },
+                "downloads": -1,
+                "filename": "zoho_crm-0.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "040920231051515f1423258f4664774a",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 654,
+                "upload_time": "2018-04-23T02:10:01",
+                "upload_time_iso_8601": "2018-04-23T02:10:01.334190Z",
+                "url": "https://files.pythonhosted.org/packages/2d/57/3db1f5bdcf5e0aea7ee5b34cfae648cdb971f86ee2e28493bc809da4bea7/zoho_crm-0.2.tar.gz"
+            }
+        ],
+        "0.5": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "370aa3dab427ef3a49474cb64a75b97a",
+                    "sha256": "a2097b5d86c24b9a7d57f649f0752d208b4ce536870ba09f4a4d7e6ab7639ee4"
+                },
+                "downloads": -1,
+                "filename": "zoho_crm-0.5.tar.gz",
+                "has_sig": false,
+                "md5_digest": "370aa3dab427ef3a49474cb64a75b97a",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 662,
+                "upload_time": "2018-04-23T02:42:37",
+                "upload_time_iso_8601": "2018-04-23T02:42:37.474485Z",
+                "url": "https://files.pythonhosted.org/packages/8e/73/a1464dd121fec9579c724de6b9b3243ea733fb85d441b928ff467ec1328f/zoho_crm-0.5.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "370aa3dab427ef3a49474cb64a75b97a",
+                "sha256": "a2097b5d86c24b9a7d57f649f0752d208b4ce536870ba09f4a4d7e6ab7639ee4"
+            },
+            "downloads": -1,
+            "filename": "zoho_crm-0.5.tar.gz",
+            "has_sig": false,
+            "md5_digest": "370aa3dab427ef3a49474cb64a75b97a",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 662,
+            "upload_time": "2018-04-23T02:42:37",
+            "upload_time_iso_8601": "2018-04-23T02:42:37.474485Z",
+            "url": "https://files.pythonhosted.org/packages/8e/73/a1464dd121fec9579c724de6b9b3243ea733fb85d441b928ff467ec1328f/zoho_crm-0.5.tar.gz"
+        }
+    ]
+}

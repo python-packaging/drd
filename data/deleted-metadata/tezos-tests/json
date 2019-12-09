@@ -1,0 +1,216 @@
+{
+    "info": {
+        "author": "Nomadic Labs",
+        "author_email": "info@nomadic-labs.com",
+        "bugtrack_url": null,
+        "classifiers": [
+            "License :: OSI Approved :: MIT License",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python :: 3"
+        ],
+        "description": "# Tezos tests\n\nPython scripts and tests for a tezos node.\nTEZOS_HOME must be set to the root of your tezos repo.\n\n\n",
+        "description_content_type": "text/markdown",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://gitlab.com/nomadic-labs/tezos",
+        "keywords": "",
+        "license": "",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "tezos-tests",
+        "package_url": "https://pypi.org/project/tezos-tests/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/tezos-tests/",
+        "project_urls": {
+            "Homepage": "https://gitlab.com/nomadic-labs/tezos"
+        },
+        "release_url": "https://pypi.org/project/tezos-tests/0.0.3/",
+        "requires_dist": [
+            "astroid (==2.2.5)",
+            "atomicwrites (==1.3.0)",
+            "attrs (==19.1.0)",
+            "isort (==4.3.17)",
+            "lazy-object-proxy (==1.3.1)",
+            "mccabe (==0.6.1)",
+            "more-itertools (==7.0.0)",
+            "mypy (==0.700)",
+            "mypy-extensions (==0.4.1)",
+            "pluggy (==0.9.0)",
+            "py (==1.8.0)",
+            "pycodestyle (==2.5.0)",
+            "pylint (==2.3.1)",
+            "pytest (==4.4.0)",
+            "pytest-timeout (==1.3.3)",
+            "requests (==2.20.1)",
+            "six (==1.12.0)",
+            "typed-ast (==1.3.1)",
+            "wrapt (==1.11.1)",
+            "base58check (==1.0.2)",
+            "pyblake2 (==1.1.2)",
+            "ed25519 (==1.4)"
+        ],
+        "requires_python": ">=3.6",
+        "summary": "Tezos tests",
+        "version": "0.0.3"
+    },
+    "last_serial": 6101528,
+    "releases": {
+        "0.0.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "6d2dbd66df4cce44e021e3c60f21884c",
+                    "sha256": "ec69a267220e2ea20a2060218bc029ad1f8de4f75cd339c2a742223892f4dc15"
+                },
+                "downloads": -1,
+                "filename": "tezos_tests-0.0.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "6d2dbd66df4cce44e021e3c60f21884c",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.6",
+                "size": 53663,
+                "upload_time": "2019-10-15T09:16:59",
+                "upload_time_iso_8601": "2019-10-15T09:16:59.730780Z",
+                "url": "https://files.pythonhosted.org/packages/da/09/05f404d3e4e62fcbd0ebddb1449cdff69f7511ef8ed75e7e59fa5bd7b5af/tezos_tests-0.0.1-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "35d0988326affba4fdcf21e643fdd3ac",
+                    "sha256": "ae347e1abd98639b4d8fcb21a666f0b944e50f183e975afe97fe9a2d6c32f91f"
+                },
+                "downloads": -1,
+                "filename": "tezos-tests-0.0.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "35d0988326affba4fdcf21e643fdd3ac",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.6",
+                "size": 37186,
+                "upload_time": "2019-10-15T09:17:03",
+                "upload_time_iso_8601": "2019-10-15T09:17:03.818776Z",
+                "url": "https://files.pythonhosted.org/packages/09/a3/2bc409968ef247cc8de68ba9e0794fa424d39cf53acddcf315510c119c53/tezos-tests-0.0.1.tar.gz"
+            }
+        ],
+        "0.0.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "06ce2f68a53018e07bda7a5f14c45b80",
+                    "sha256": "cd25c818932019bb6c74eaacf36904bd48b4de3d70b4464ccdda288eb8bb46bd"
+                },
+                "downloads": -1,
+                "filename": "tezos_tests-0.0.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "06ce2f68a53018e07bda7a5f14c45b80",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.6",
+                "size": 54654,
+                "upload_time": "2019-10-15T09:46:39",
+                "upload_time_iso_8601": "2019-10-15T09:46:39.503149Z",
+                "url": "https://files.pythonhosted.org/packages/93/ed/2df36b45eb09f891cbc018f428896014796dd70906fb9a6b6354a63b855f/tezos_tests-0.0.2-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "13b509747bc1f802c6ebf1f327e544a6",
+                    "sha256": "dab678087f1ea0de27e3b23e927efb72d4a364b3a8fb1b0681f7c9354304ecc6"
+                },
+                "downloads": -1,
+                "filename": "tezos-tests-0.0.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "13b509747bc1f802c6ebf1f327e544a6",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.6",
+                "size": 37199,
+                "upload_time": "2019-10-15T09:46:46",
+                "upload_time_iso_8601": "2019-10-15T09:46:46.229849Z",
+                "url": "https://files.pythonhosted.org/packages/56/c0/4e6d480a9afd6e5c4d09df4b255ad22f7d7408d9e922d752b613930a28fc/tezos-tests-0.0.2.tar.gz"
+            }
+        ],
+        "0.0.3": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "f39d6bf7ead74284c9c1b947ea259201",
+                    "sha256": "e82f83af648bfaf7a473b836b1e917b4f2c9d969f60cde9680e75b3b24fd6724"
+                },
+                "downloads": -1,
+                "filename": "tezos_tests-0.0.3-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "f39d6bf7ead74284c9c1b947ea259201",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.6",
+                "size": 54680,
+                "upload_time": "2019-10-15T14:19:36",
+                "upload_time_iso_8601": "2019-10-15T14:19:36.794848Z",
+                "url": "https://files.pythonhosted.org/packages/65/7d/24bd94ecb918ba50e841c2ee97835dfa8fa06b1bae9b362fc7d7970ca353/tezos_tests-0.0.3-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "886af9dbd7f024e361057fe7dad2c08a",
+                    "sha256": "d0625ec3ad939fbf100e8d786499fc88712fc18bdfdcf31980d3420085d80718"
+                },
+                "downloads": -1,
+                "filename": "tezos-tests-0.0.3.tar.gz",
+                "has_sig": false,
+                "md5_digest": "886af9dbd7f024e361057fe7dad2c08a",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.6",
+                "size": 37257,
+                "upload_time": "2019-10-15T14:19:46",
+                "upload_time_iso_8601": "2019-10-15T14:19:46.948558Z",
+                "url": "https://files.pythonhosted.org/packages/f4/f9/8bab3a7e84cbf8dd65fc6e735053f2bffe3c89aeeb1225d6e63d144b866d/tezos-tests-0.0.3.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "f39d6bf7ead74284c9c1b947ea259201",
+                "sha256": "e82f83af648bfaf7a473b836b1e917b4f2c9d969f60cde9680e75b3b24fd6724"
+            },
+            "downloads": -1,
+            "filename": "tezos_tests-0.0.3-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "f39d6bf7ead74284c9c1b947ea259201",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": ">=3.6",
+            "size": 54680,
+            "upload_time": "2019-10-15T14:19:36",
+            "upload_time_iso_8601": "2019-10-15T14:19:36.794848Z",
+            "url": "https://files.pythonhosted.org/packages/65/7d/24bd94ecb918ba50e841c2ee97835dfa8fa06b1bae9b362fc7d7970ca353/tezos_tests-0.0.3-py3-none-any.whl"
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "886af9dbd7f024e361057fe7dad2c08a",
+                "sha256": "d0625ec3ad939fbf100e8d786499fc88712fc18bdfdcf31980d3420085d80718"
+            },
+            "downloads": -1,
+            "filename": "tezos-tests-0.0.3.tar.gz",
+            "has_sig": false,
+            "md5_digest": "886af9dbd7f024e361057fe7dad2c08a",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": ">=3.6",
+            "size": 37257,
+            "upload_time": "2019-10-15T14:19:46",
+            "upload_time_iso_8601": "2019-10-15T14:19:46.948558Z",
+            "url": "https://files.pythonhosted.org/packages/f4/f9/8bab3a7e84cbf8dd65fc6e735053f2bffe3c89aeeb1225d6e63d144b866d/tezos-tests-0.0.3.tar.gz"
+        }
+    ]
+}

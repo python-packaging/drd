@@ -1,0 +1,46 @@
+{
+    "info": {
+        "author": "Anomaly Software",
+        "author_email": "support@anomaly.net.au",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Environment :: Console",
+            "Intended Audience :: Developers",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python",
+            "Programming Language :: Python :: 2.7"
+        ],
+        "description": "### Silhouette 1.0\n\nSilhouette is a configuration schema manager for software development projects. During their development life cycle software projects maintain configuration files with a perpetually changing schema along with multiple instances of the schema for each deployment target. By placing meta information in your source control repository and using your operating system's [password manager](https://pypi.python.org/pypi/keyring)) Silhouette offers developers:\n\n- A way to manage a true schema of target configuration files\n- Keep sensitive information out of your source control repository\n- Maintain values per configuration directive per deployment target\n- Allow inheriting values from a base configuration (typically used for constants used by the application but usually don't differ per deployment target)\n- Provide a build system to generate configuration files for each deployment target",
+        "description_content_type": null,
+        "docs_url": null,
+        "download_url": "https://github.com/anomaly/easel/silhouette/1.0.0.tar.gz",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://github.com/anomaly/easel.git",
+        "keywords": null,
+        "license": "New BSD",
+        "maintainer": null,
+        "maintainer_email": null,
+        "name": "silhouette",
+        "package_url": "https://pypi.org/project/silhouette/",
+        "platform": "any",
+        "project_url": "https://pypi.org/project/silhouette/",
+        "project_urls": {
+            "Download": "https://github.com/anomaly/easel/silhouette/1.0.0.tar.gz",
+            "Homepage": "https://github.com/anomaly/easel.git"
+        },
+        "release_url": "https://pypi.org/project/silhouette/1.0.0/",
+        "requires_dist": null,
+        "requires_python": null,
+        "summary": "A developers configuration templating tool",
+        "version": "1.0.0"
+    },
+    "last_serial": 1447005,
+    "releases": {
+        "1.0.0": []
+    },
+    "urls": []
+}

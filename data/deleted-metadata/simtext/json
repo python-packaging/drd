@@ -1,0 +1,149 @@
+{
+    "info": {
+        "author": "XuMing",
+        "author_email": "xuming624@qq.com",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Intended Audience :: Developers",
+            "Natural Language :: Chinese (Simplified)",
+            "Natural Language :: Chinese (Traditional)",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python",
+            "Programming Language :: Python :: 3",
+            "Programming Language :: Python :: 3.5",
+            "Programming Language :: Python :: 3.6",
+            "Topic :: Text Processing",
+            "Topic :: Text Processing :: Indexing",
+            "Topic :: Text Processing :: Linguistic"
+        ],
+        "description": "# simtext\nsimtext, the most accurate Chinese text similarity calculation tool.(\u6700\u51c6\u7684\u4e2d\u6587\u6587\u672c\u76f8\u4f3c\u5ea6\u8ba1\u7b97\u5de5\u5177)\n\n## Install\n* pip3 install simtext\n\nor\n\n```\ngit clone https://github.com/shibing624/simtext.git\ncd simtext\npython3 setup.py install\n```\n\n## Usage:\n```\nimport simtext\n\na = '\u5982\u4f55\u66f4\u6362\u82b1\u5457\u7ed1\u5b9a\u94f6\u884c\u5361'\nb = '\u82b1\u5457\u66f4\u6539\u7ed1\u5b9a\u94f6\u884c\u5361'\ns = simtext.score(a, b)\nprint(s)\n\n```\n\noutput:\n```\n0.9569100456524151\n```",
+        "description_content_type": "text/markdown",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://github.com/shibing624/simtext",
+        "keywords": "NLP,simtext,Chinese Text Similarity Calculation Tool,similarity",
+        "license": "Apache 2.0",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "simtext",
+        "package_url": "https://pypi.org/project/simtext/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/simtext/",
+        "project_urls": {
+            "Homepage": "https://github.com/shibing624/simtext"
+        },
+        "release_url": "https://pypi.org/project/simtext/1.4/",
+        "requires_dist": null,
+        "requires_python": "",
+        "summary": "Chinese Text Similarity Calculation Tool",
+        "version": "1.4"
+    },
+    "last_serial": 6162364,
+    "releases": {
+        "1.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "165baa991bd0718e8b6c023537a8ec2c",
+                    "sha256": "94924698993cd1a72ee82223519ad250d05a7e73f84f7cb661efe2d314f3279b"
+                },
+                "downloads": -1,
+                "filename": "simtext-1.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "165baa991bd0718e8b6c023537a8ec2c",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 17597,
+                "upload_time": "2019-11-12T14:43:40",
+                "upload_time_iso_8601": "2019-11-12T14:43:40.358785Z",
+                "url": "https://files.pythonhosted.org/packages/77/f1/f997e00f5bfcd31ab4c33cd25427f9585a9723f13e06ffdd041ffd317ad4/simtext-1.1.tar.gz"
+            }
+        ],
+        "1.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "c790640fd79aa32ee5eee76d5b0b8b9a",
+                    "sha256": "1b0b5c8f4de998c47edfc42f52eca463892d1aac1e9e62fef6eca35042b6a4c4"
+                },
+                "downloads": -1,
+                "filename": "simtext-1.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "c790640fd79aa32ee5eee76d5b0b8b9a",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 18914,
+                "upload_time": "2019-11-13T13:17:33",
+                "upload_time_iso_8601": "2019-11-13T13:17:33.742627Z",
+                "url": "https://files.pythonhosted.org/packages/ce/ad/5b8abbb2c883087d5d44adf8b213e520fb94aec046e32e64a7f1fadd882e/simtext-1.2.tar.gz"
+            }
+        ],
+        "1.3": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "787293d1698f8b898ce0076c8a4365ec",
+                    "sha256": "43f33e23b15e5afd9db188b4b4a6837822b2a19e5729fc9eb0b73e68f9f18cf5"
+                },
+                "downloads": -1,
+                "filename": "simtext-1.3-py3.6.egg",
+                "has_sig": false,
+                "md5_digest": "787293d1698f8b898ce0076c8a4365ec",
+                "packagetype": "bdist_egg",
+                "python_version": "3.6",
+                "requires_python": null,
+                "size": 51581,
+                "upload_time": "2019-11-13T13:29:18",
+                "upload_time_iso_8601": "2019-11-13T13:29:18.467889Z",
+                "url": "https://files.pythonhosted.org/packages/f7/b9/8ddec1d5b73c71a82da6c436e8f9021aacf5c309b0ed34c5d85a1ee65953/simtext-1.3-py3.6.egg"
+            }
+        ],
+        "1.4": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "ecfe8f4b5b4a9590d88622d041c793e3",
+                    "sha256": "33757e2a3245522e7af17d45eb1270e8ca45b6d9c5fbb2361a8895c811c62d9e"
+                },
+                "downloads": -1,
+                "filename": "simtext-1.4.tar.gz",
+                "has_sig": false,
+                "md5_digest": "ecfe8f4b5b4a9590d88622d041c793e3",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 45954,
+                "upload_time": "2019-11-19T14:58:58",
+                "upload_time_iso_8601": "2019-11-19T14:58:58.702959Z",
+                "url": "https://files.pythonhosted.org/packages/b8/86/802b78dfbf060ddfd5bf166dc0824c3bce2d861ab3097f74855aef4bfaac/simtext-1.4.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "ecfe8f4b5b4a9590d88622d041c793e3",
+                "sha256": "33757e2a3245522e7af17d45eb1270e8ca45b6d9c5fbb2361a8895c811c62d9e"
+            },
+            "downloads": -1,
+            "filename": "simtext-1.4.tar.gz",
+            "has_sig": false,
+            "md5_digest": "ecfe8f4b5b4a9590d88622d041c793e3",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 45954,
+            "upload_time": "2019-11-19T14:58:58",
+            "upload_time_iso_8601": "2019-11-19T14:58:58.702959Z",
+            "url": "https://files.pythonhosted.org/packages/b8/86/802b78dfbf060ddfd5bf166dc0824c3bce2d861ab3097f74855aef4bfaac/simtext-1.4.tar.gz"
+        }
+    ]
+}

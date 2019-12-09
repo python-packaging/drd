@@ -1,0 +1,121 @@
+{
+    "info": {
+        "author": "Maxim Millen",
+        "author_email": "mmi46@uclive.ac.nz",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Development Status :: 3 - Alpha",
+            "Intended Audience :: Science/Research",
+            "License :: OSI Approved :: MIT License",
+            "Programming Language :: Python :: 3",
+            "Topic :: Scientific/Engineering"
+        ],
+        "description": "",
+        "description_content_type": null,
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "",
+        "keywords": "",
+        "license": "MIT",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "signalpy",
+        "package_url": "https://pypi.org/project/signalpy/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/signalpy/",
+        "project_urls": null,
+        "release_url": "https://pypi.org/project/signalpy/0.4.8/",
+        "requires_dist": null,
+        "requires_python": ">=3",
+        "summary": "Signal processing for field and experimental data for earthquake engineering",
+        "version": "0.4.8"
+    },
+    "last_serial": 3617718,
+    "releases": {
+        "0.3.5": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "38edb5515b1664e1a838f9f48fce870b",
+                    "sha256": "22e52e663a5c9316aeecf58c04d9bd38991380f7512aec51175bbe97385bf249"
+                },
+                "downloads": -1,
+                "filename": "signalpy-0.3.5.tar.gz",
+                "has_sig": false,
+                "md5_digest": "38edb5515b1664e1a838f9f48fce870b",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 12736,
+                "upload_time": "2018-01-29T12:05:29",
+                "upload_time_iso_8601": "2018-01-29T12:05:29.887300Z",
+                "url": "https://files.pythonhosted.org/packages/89/d0/51b9e21ddcbc1fab5d972b19e605f3586d0be45acd89b240037f630c1b10/signalpy-0.3.5.tar.gz"
+            }
+        ],
+        "0.3.6": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "01bcbe0fa755d97494d0afec7281a15a",
+                    "sha256": "587743b7c231d102817222a6adb37db1d0aae31e1e30db459b1f2be144845d8a"
+                },
+                "downloads": -1,
+                "filename": "signalpy-0.3.6.tar.gz",
+                "has_sig": false,
+                "md5_digest": "01bcbe0fa755d97494d0afec7281a15a",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 14455,
+                "upload_time": "2018-01-30T18:15:11",
+                "upload_time_iso_8601": "2018-01-30T18:15:11.844994Z",
+                "url": "https://files.pythonhosted.org/packages/5c/86/49da212824f91b74bf031888434bda72d03b74b8b357ecd01237c2a97f33/signalpy-0.3.6.tar.gz"
+            }
+        ],
+        "0.4.8": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "f4713deba7754202231c46cf11176ad8",
+                    "sha256": "158932785dd875eaf13d97012451cb872da7e52dfe3881809b3c558d78981733"
+                },
+                "downloads": -1,
+                "filename": "signalpy-0.4.8.tar.gz",
+                "has_sig": false,
+                "md5_digest": "f4713deba7754202231c46cf11176ad8",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3",
+                "size": 17304,
+                "upload_time": "2018-02-26T15:35:03",
+                "upload_time_iso_8601": "2018-02-26T15:35:03.023039Z",
+                "url": "https://files.pythonhosted.org/packages/2c/a5/7d88a2f93f33bcdc7c67a4a5ec8142e0080c5cc70e2a5de173c2cae685fc/signalpy-0.4.8.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "f4713deba7754202231c46cf11176ad8",
+                "sha256": "158932785dd875eaf13d97012451cb872da7e52dfe3881809b3c558d78981733"
+            },
+            "downloads": -1,
+            "filename": "signalpy-0.4.8.tar.gz",
+            "has_sig": false,
+            "md5_digest": "f4713deba7754202231c46cf11176ad8",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": ">=3",
+            "size": 17304,
+            "upload_time": "2018-02-26T15:35:03",
+            "upload_time_iso_8601": "2018-02-26T15:35:03.023039Z",
+            "url": "https://files.pythonhosted.org/packages/2c/a5/7d88a2f93f33bcdc7c67a4a5ec8142e0080c5cc70e2a5de173c2cae685fc/signalpy-0.4.8.tar.gz"
+        }
+    ]
+}

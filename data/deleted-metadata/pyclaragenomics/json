@@ -1,0 +1,87 @@
+{
+    "info": {
+        "author": "NVIDIA Corporation",
+        "author_email": "",
+        "bugtrack_url": null,
+        "classifiers": [],
+        "description": "Python libraries and utilities for manipulating genomics data\n\n\n",
+        "description_content_type": "",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://github.com/clara-genomics/ClaraGenomicsAnalysis",
+        "keywords": "",
+        "license": "Apache License 2.0",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "pyclaragenomics",
+        "package_url": "https://pypi.org/project/pyclaragenomics/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/pyclaragenomics/",
+        "project_urls": {
+            "Homepage": "https://github.com/clara-genomics/ClaraGenomicsAnalysis"
+        },
+        "release_url": "https://pypi.org/project/pyclaragenomics/0.4.0/",
+        "requires_dist": [
+            "Cython (==0.29.12)",
+            "flake8 (==3.7.8)",
+            "matplotlib (==3.0.3)",
+            "networkx (==2.4)",
+            "numpy (==1.16.3)",
+            "pytest (==4.4.1)",
+            "quast (==5.0.2)",
+            "sortedcollections (==1.1.2)",
+            "tqdm (==4.31.1)"
+        ],
+        "requires_python": ">=3.6",
+        "summary": "NVIDIA genomics python libraries and utiliites",
+        "version": "0.4.0"
+    },
+    "last_serial": 6208103,
+    "releases": {
+        "0.4.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "68c533e0e4284ae825a0a60f808141fa",
+                    "sha256": "95ad6cbf8153fdbb8fe1512b59e8c1aa117e6702f301d26978ca4210f6a7f220"
+                },
+                "downloads": -1,
+                "filename": "pyclaragenomics-0.4.0-cp36-cp36m-any.whl",
+                "has_sig": false,
+                "md5_digest": "68c533e0e4284ae825a0a60f808141fa",
+                "packagetype": "bdist_wheel",
+                "python_version": "cp36",
+                "requires_python": ">=3.6",
+                "size": 3009126,
+                "upload_time": "2019-11-27T13:42:58",
+                "upload_time_iso_8601": "2019-11-27T13:42:58.577765Z",
+                "url": "https://files.pythonhosted.org/packages/40/c3/9ed086095ddba9ab451739a0ac2848677542a5851325922f04c4788ae46d/pyclaragenomics-0.4.0-cp36-cp36m-any.whl"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "68c533e0e4284ae825a0a60f808141fa",
+                "sha256": "95ad6cbf8153fdbb8fe1512b59e8c1aa117e6702f301d26978ca4210f6a7f220"
+            },
+            "downloads": -1,
+            "filename": "pyclaragenomics-0.4.0-cp36-cp36m-any.whl",
+            "has_sig": false,
+            "md5_digest": "68c533e0e4284ae825a0a60f808141fa",
+            "packagetype": "bdist_wheel",
+            "python_version": "cp36",
+            "requires_python": ">=3.6",
+            "size": 3009126,
+            "upload_time": "2019-11-27T13:42:58",
+            "upload_time_iso_8601": "2019-11-27T13:42:58.577765Z",
+            "url": "https://files.pythonhosted.org/packages/40/c3/9ed086095ddba9ab451739a0ac2848677542a5851325922f04c4788ae46d/pyclaragenomics-0.4.0-cp36-cp36m-any.whl"
+        }
+    ]
+}

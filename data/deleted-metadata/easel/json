@@ -1,0 +1,50 @@
+{
+    "info": {
+        "author": "Anomaly Software",
+        "author_email": "support@anomalymade.com",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Environment :: Web Environment",
+            "Intended Audience :: Developers",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python",
+            "Programming Language :: Python :: 2.7",
+            "Topic :: Internet :: WWW/HTTP",
+            "Topic :: Internet :: WWW/HTTP :: WSGI",
+            "Topic :: Software Development :: Libraries :: Application Frameworks",
+            "Topic :: Software Development :: Libraries :: Python Modules"
+        ],
+        "description": "easel\n=====\n\nWeb server for designers",
+        "description_content_type": null,
+        "docs_url": null,
+        "download_url": "https://github.com/anomaly/easel/archive/1.0.0.tar.gz",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://github.com/anomaly/easel.git",
+        "keywords": null,
+        "license": "New BSD",
+        "maintainer": null,
+        "maintainer_email": null,
+        "name": "easel",
+        "package_url": "https://pypi.org/project/easel/",
+        "platform": "any",
+        "project_url": "https://pypi.org/project/easel/",
+        "project_urls": {
+            "Download": "https://github.com/anomaly/easel/archive/1.0.0.tar.gz",
+            "Homepage": "https://github.com/anomaly/easel.git"
+        },
+        "release_url": "https://pypi.org/project/easel/1.0.0/",
+        "requires_dist": null,
+        "requires_python": null,
+        "summary": "A WSGI compliant REST micro-framework",
+        "version": "1.0.0"
+    },
+    "last_serial": 1447009,
+    "releases": {
+        "1.0.0": []
+    },
+    "urls": []
+}

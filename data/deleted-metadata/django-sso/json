@@ -1,0 +1,277 @@
+{
+    "info": {
+        "author": "Dan Watson",
+        "author_email": "watsond@imsweb.com",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Development Status :: 3 - Alpha",
+            "Framework :: Django",
+            "Intended Audience :: Developers",
+            "License :: OSI Approved :: BSD License",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python"
+        ],
+        "description": "",
+        "description_content_type": "",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://github.com/imsweb/django-sso",
+        "keywords": "",
+        "license": "BSD",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "django-sso",
+        "package_url": "https://pypi.org/project/django-sso/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/django-sso/",
+        "project_urls": {
+            "Homepage": "https://github.com/imsweb/django-sso"
+        },
+        "release_url": "https://pypi.org/project/django-sso/0.3.1/",
+        "requires_dist": [
+            "requests",
+            "six",
+            "cryptography; extra == 'sp'",
+            "python3-saml; extra == 'sp'"
+        ],
+        "requires_python": "",
+        "summary": "A Django application for running a SAML SP with multiple IdPs.",
+        "version": "0.3.1"
+    },
+    "last_serial": 4104906,
+    "releases": {
+        "0.0.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "122da9d309e50c379ef2f35f933344fa",
+                    "sha256": "56cb350a17897f51104922006685259f4bff725eb323e61f26754c531edbf9d0"
+                },
+                "downloads": -1,
+                "filename": "django_sso-0.0.1-py2-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "122da9d309e50c379ef2f35f933344fa",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2",
+                "requires_python": null,
+                "size": 4953,
+                "upload_time": "2018-06-22T15:49:01",
+                "upload_time_iso_8601": "2018-06-22T15:49:01.168547Z",
+                "url": "https://files.pythonhosted.org/packages/66/b8/0d2eda35926ac3d795216589b3237076841102550bd6c3bf53651a8b4995/django_sso-0.0.1-py2-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "a4ba1b5d42af31626a50350b92a57ed5",
+                    "sha256": "5f0a1887c8c21e34625ddde56807e8089f517556780d33d756b17a166a062149"
+                },
+                "downloads": -1,
+                "filename": "django-sso-0.0.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "a4ba1b5d42af31626a50350b92a57ed5",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 3673,
+                "upload_time": "2018-06-22T15:49:02",
+                "upload_time_iso_8601": "2018-06-22T15:49:02.334782Z",
+                "url": "https://files.pythonhosted.org/packages/6f/97/5430b7329886a5c8af902c5d73ff274a3b226c307ea3f71ebdbedb0b7ba2/django-sso-0.0.1.tar.gz"
+            }
+        ],
+        "0.1.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "daa5785c7dce601449fa3bee2b7ae2e5",
+                    "sha256": "d22769842ace489ec14889ab4c5833a4d9ed2c2e2c5963164e8483bd270b5f50"
+                },
+                "downloads": -1,
+                "filename": "django_sso-0.1.0-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "daa5785c7dce601449fa3bee2b7ae2e5",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": null,
+                "size": 14973,
+                "upload_time": "2018-07-02T15:06:26",
+                "upload_time_iso_8601": "2018-07-02T15:06:26.879277Z",
+                "url": "https://files.pythonhosted.org/packages/24/c6/4804c6c639c48fcce9389a3b9832f2abac8d2475d2755d85fc6330f4d19d/django_sso-0.1.0-py2.py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "dafb3ef214b3750c762cafbaaec33c65",
+                    "sha256": "d5f9962d6b27eb28a2c3db13f3eab62f1e0abc7ae416aa10d4185851a7260ad0"
+                },
+                "downloads": -1,
+                "filename": "django-sso-0.1.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "dafb3ef214b3750c762cafbaaec33c65",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 8581,
+                "upload_time": "2018-07-02T15:06:28",
+                "upload_time_iso_8601": "2018-07-02T15:06:28.063364Z",
+                "url": "https://files.pythonhosted.org/packages/05/79/53ffe3ecec8704865edbcf55708549dd1b0b40d0bcdc4a1ff7334e59abec/django-sso-0.1.0.tar.gz"
+            }
+        ],
+        "0.2.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "f6aae962656caa96395f606a28e77c9b",
+                    "sha256": "3c5f632263694651794329259614c42edb75905da723552304eca67ac923798e"
+                },
+                "downloads": -1,
+                "filename": "django_sso-0.2.0-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "f6aae962656caa96395f606a28e77c9b",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": null,
+                "size": 19364,
+                "upload_time": "2018-07-17T19:08:46",
+                "upload_time_iso_8601": "2018-07-17T19:08:46.973064Z",
+                "url": "https://files.pythonhosted.org/packages/20/83/3f28473d19647fe73729b2109b0c1072cdd9363ead6d7330ab45e238fed1/django_sso-0.2.0-py2.py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "8e2dcfb9c5fa917acecc41e536e3f0d4",
+                    "sha256": "46429156b14778773c53544819cc173a5b9dea662f3da207db2cadd9430a2201"
+                },
+                "downloads": -1,
+                "filename": "django-sso-0.2.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "8e2dcfb9c5fa917acecc41e536e3f0d4",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 11936,
+                "upload_time": "2018-07-17T19:08:48",
+                "upload_time_iso_8601": "2018-07-17T19:08:48.421408Z",
+                "url": "https://files.pythonhosted.org/packages/04/bb/c324bf6a54597d9f9fea61dc5cc64c677dff6f052de8918c2fb7e3423e99/django-sso-0.2.0.tar.gz"
+            }
+        ],
+        "0.3.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "a0f00d72238f7a56fbb13800f95c6e0e",
+                    "sha256": "82e080bf9ba56e7fcc3aff3f3ab9373180e67b0c6d1260bb0ea844abf66e0908"
+                },
+                "downloads": -1,
+                "filename": "django_sso-0.3.0-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "a0f00d72238f7a56fbb13800f95c6e0e",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": null,
+                "size": 18634,
+                "upload_time": "2018-07-18T19:04:23",
+                "upload_time_iso_8601": "2018-07-18T19:04:23.024924Z",
+                "url": "https://files.pythonhosted.org/packages/19/ce/03a9788b6ddce76636fa51b3626763ff75fa213cb1b4e176cc3585660928/django_sso-0.3.0-py2.py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "ea21b0fd36b5f435147abb649a338c17",
+                    "sha256": "ed6ee908de7fd42d6241b04c1a47b97a9ffb2d3ec7b6711807e2f71cda4d9005"
+                },
+                "downloads": -1,
+                "filename": "django-sso-0.3.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "ea21b0fd36b5f435147abb649a338c17",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 10195,
+                "upload_time": "2018-07-18T19:04:29",
+                "upload_time_iso_8601": "2018-07-18T19:04:29.701999Z",
+                "url": "https://files.pythonhosted.org/packages/98/69/616d53e34c7bbf631c3d590db63fdbca198eeac14bcdd6527b7b46ccbadb/django-sso-0.3.0.tar.gz"
+            }
+        ],
+        "0.3.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "405c6b940caed3b3c7ea4ee3c152bf2c",
+                    "sha256": "2e39b4d0185e3d5a2431060f2b4ba71f26e49d79165588191016602c0d996752"
+                },
+                "downloads": -1,
+                "filename": "django_sso-0.3.1-py2.py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "405c6b940caed3b3c7ea4ee3c152bf2c",
+                "packagetype": "bdist_wheel",
+                "python_version": "py2.py3",
+                "requires_python": null,
+                "size": 18811,
+                "upload_time": "2018-07-26T15:05:31",
+                "upload_time_iso_8601": "2018-07-26T15:05:31.418404Z",
+                "url": "https://files.pythonhosted.org/packages/2c/c7/bb7d9ecc568c85508c57d401f36a37344016ed9afc3de0abb850a1ac9ccc/django_sso-0.3.1-py2.py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "01114cc05cb4cd1c0f784842f8298fab",
+                    "sha256": "84ff6e5f5e6f6d994fe23474ec0d01ce7f35fa59d055143a8fa1d283fb260355"
+                },
+                "downloads": -1,
+                "filename": "django-sso-0.3.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "01114cc05cb4cd1c0f784842f8298fab",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 10418,
+                "upload_time": "2018-07-26T15:05:32",
+                "upload_time_iso_8601": "2018-07-26T15:05:32.650446Z",
+                "url": "https://files.pythonhosted.org/packages/59/07/e6897b90258da1c0d44fab2b48ac14c1a0b3d987be4ff1a0d1e6a8dea8a2/django-sso-0.3.1.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "405c6b940caed3b3c7ea4ee3c152bf2c",
+                "sha256": "2e39b4d0185e3d5a2431060f2b4ba71f26e49d79165588191016602c0d996752"
+            },
+            "downloads": -1,
+            "filename": "django_sso-0.3.1-py2.py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "405c6b940caed3b3c7ea4ee3c152bf2c",
+            "packagetype": "bdist_wheel",
+            "python_version": "py2.py3",
+            "requires_python": null,
+            "size": 18811,
+            "upload_time": "2018-07-26T15:05:31",
+            "upload_time_iso_8601": "2018-07-26T15:05:31.418404Z",
+            "url": "https://files.pythonhosted.org/packages/2c/c7/bb7d9ecc568c85508c57d401f36a37344016ed9afc3de0abb850a1ac9ccc/django_sso-0.3.1-py2.py3-none-any.whl"
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "01114cc05cb4cd1c0f784842f8298fab",
+                "sha256": "84ff6e5f5e6f6d994fe23474ec0d01ce7f35fa59d055143a8fa1d283fb260355"
+            },
+            "downloads": -1,
+            "filename": "django-sso-0.3.1.tar.gz",
+            "has_sig": false,
+            "md5_digest": "01114cc05cb4cd1c0f784842f8298fab",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 10418,
+            "upload_time": "2018-07-26T15:05:32",
+            "upload_time_iso_8601": "2018-07-26T15:05:32.650446Z",
+            "url": "https://files.pythonhosted.org/packages/59/07/e6897b90258da1c0d44fab2b48ac14c1a0b3d987be4ff1a0d1e6a8dea8a2/django-sso-0.3.1.tar.gz"
+        }
+    ]
+}

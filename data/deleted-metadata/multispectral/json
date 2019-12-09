@@ -1,0 +1,122 @@
+{
+    "info": {
+        "author": "Simon Brenner",
+        "author_email": "sbrenner@cvl.tuwien.ac.at",
+        "bugtrack_url": null,
+        "classifiers": [
+            "License :: OSI Approved :: MIT License",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python :: 3"
+        ],
+        "description": "# multispectral\n\nThis is a convenience package for basic operations on multispectral images that exist as a bunch of \nfiles in folders. Makes your lif easy with regular expressions.\n\n**CAUTION: very prototypy at the moment, would not recommend use.. yet :)**\n\n##current features:\n* easy data handling with \"Frames\" and regular expressions\n* deformable fine registration using [elastix](http://elastix.isi.uu.nl/)\n* decomposition/clustering using [scikit-learn](https://scikit-learn.org/)\n\n##requirements:\n* opencv-python\n* numpy\n* scipy\n* scikit-learn\n* [SimpleElastix](https://pypi.org/project/SimpleElastix/) **WARNING: THIS WILL NOT BE ENFORCED BY pip**\n\n##usage:\n\nSuppose you have your multispectral layers in a folder `'/somepath/codexX-pageY'` \n(or any of its subfolders), and the files look something like:\n`'codexX-pageY_400nm.tif', 'codexX-pageY_500nm.tif',...`\n\nThen you could go:\n```python\nfrom multispectral import Frame,Layer,Registration,Unmixing\n\n# collect images in root_dir matching regex; groups 1 and 2 of the match object \n# identify the document and the layer respectively (optional)\nframe = Frame(root_dir='/somepath/codexX-pageY',\n                regex='(.+-.+)_(\\d{3}nm).tif',\n                group_framename=1,\n                group_layername=2)\n\n# inter-register all layers (regex_ref defines the fixed 'reference image',\n# store the result in a given output folder (or by default frame.root_dir/registered_fine),\n# and return a frame containing those resulting images\nregistered = Registration.register_fine(frame=frame, regex_ref='500nm')\n\n# make unmixing object: loads images of frame and converts them to a data matrix\num = Unmixing(registered)\n# perform principal component analysis, store visualizations of first 5 components\n# in given output folder (or by default frame.root_dir/pca), return frame containing those\nprincipal_components = um.unmix(method=Unmixing.Method.PCA, n_components=5, p_keep=0.5)\n```\n\nSimple as that.\n\n\n",
+        "description_content_type": "text/markdown",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://github.com/simon-bre/multispectral",
+        "keywords": "",
+        "license": "MIT",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "multispectral",
+        "package_url": "https://pypi.org/project/multispectral/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/multispectral/",
+        "project_urls": {
+            "Homepage": "https://github.com/simon-bre/multispectral"
+        },
+        "release_url": "https://pypi.org/project/multispectral/0.0/",
+        "requires_dist": [
+            "opencv-python",
+            "numpy",
+            "scipy",
+            "scikit-learn"
+        ],
+        "requires_python": "",
+        "summary": "A convenience package for basic operations on multispectral images.",
+        "version": "0.0"
+    },
+    "last_serial": 5107405,
+    "releases": {
+        "0.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "5b847d10a70fe6b7c08468f2fda8698c",
+                    "sha256": "fb0cba844e53fb4315eea970be301fe59b18a8e5287f4ea222b275467e1810e0"
+                },
+                "downloads": -1,
+                "filename": "multispectral-0.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "5b847d10a70fe6b7c08468f2fda8698c",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 10736,
+                "upload_time": "2019-04-06T14:50:12",
+                "upload_time_iso_8601": "2019-04-06T14:50:12.286421Z",
+                "url": "https://files.pythonhosted.org/packages/6b/58/c4a2d6f3443a2f21568ed57f20991901e361976cb7d3e2b2275b747ce828/multispectral-0.0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "a604c6e6d8f609cc01080fb035e78569",
+                    "sha256": "520551a02077ba3c6918828883a89f237029b8553b04c36c612ea547ed927ff4"
+                },
+                "downloads": -1,
+                "filename": "multispectral-0.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "a604c6e6d8f609cc01080fb035e78569",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 8135,
+                "upload_time": "2019-04-06T14:50:14",
+                "upload_time_iso_8601": "2019-04-06T14:50:14.852312Z",
+                "url": "https://files.pythonhosted.org/packages/a2/a7/37a77182cacc6ce2c9d2d0002f443d106e6d1cf38079ec4c415990057589/multispectral-0.0.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "5b847d10a70fe6b7c08468f2fda8698c",
+                "sha256": "fb0cba844e53fb4315eea970be301fe59b18a8e5287f4ea222b275467e1810e0"
+            },
+            "downloads": -1,
+            "filename": "multispectral-0.0-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "5b847d10a70fe6b7c08468f2fda8698c",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": null,
+            "size": 10736,
+            "upload_time": "2019-04-06T14:50:12",
+            "upload_time_iso_8601": "2019-04-06T14:50:12.286421Z",
+            "url": "https://files.pythonhosted.org/packages/6b/58/c4a2d6f3443a2f21568ed57f20991901e361976cb7d3e2b2275b747ce828/multispectral-0.0-py3-none-any.whl"
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "a604c6e6d8f609cc01080fb035e78569",
+                "sha256": "520551a02077ba3c6918828883a89f237029b8553b04c36c612ea547ed927ff4"
+            },
+            "downloads": -1,
+            "filename": "multispectral-0.0.tar.gz",
+            "has_sig": false,
+            "md5_digest": "a604c6e6d8f609cc01080fb035e78569",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 8135,
+            "upload_time": "2019-04-06T14:50:14",
+            "upload_time_iso_8601": "2019-04-06T14:50:14.852312Z",
+            "url": "https://files.pythonhosted.org/packages/a2/a7/37a77182cacc6ce2c9d2d0002f443d106e6d1cf38079ec4c415990057589/multispectral-0.0.tar.gz"
+        }
+    ]
+}

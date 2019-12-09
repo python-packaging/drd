@@ -1,0 +1,386 @@
+{
+    "info": {
+        "author": "Daniel Nix",
+        "author_email": "daniel.nix@gmail.com",
+        "bugtrack_url": null,
+        "classifiers": [
+            "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python :: 3"
+        ],
+        "description": "# pyStibMivb\nA python wrapper for the m.stib.be api\n\nAknowledgements:\nFreely inspired by [pyRail](https://gitlab.com/tjorim/pyrail)\n\n\n",
+        "description_content_type": "",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://github.com/danito/pyStibMivb",
+        "keywords": "",
+        "license": "",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "pystibmivb",
+        "package_url": "https://pypi.org/project/pystibmivb/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/pystibmivb/",
+        "project_urls": {
+            "Homepage": "https://github.com/danito/pyStibMivb"
+        },
+        "release_url": "https://pypi.org/project/pystibmivb/0.2.4.1/",
+        "requires_dist": [
+            "requests (>=2.0)",
+            "xmltodict (>=0.11.0)"
+        ],
+        "requires_python": ">=3",
+        "summary": "A Python wrapper for the Stib-Mivb API",
+        "version": "0.2.4.1"
+    },
+    "last_serial": 4763987,
+    "releases": {
+        "0.1.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "a157cb3e98a9dc35c3f806ab67eadd59",
+                    "sha256": "4fe8f96132c002313da996c3f85d3834d638582077827c43a7307bf17ad88335"
+                },
+                "downloads": -1,
+                "filename": "pystibmivb-0.1.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "a157cb3e98a9dc35c3f806ab67eadd59",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3",
+                "size": 3406,
+                "upload_time": "2019-01-19T00:12:58",
+                "upload_time_iso_8601": "2019-01-19T00:12:58.957453Z",
+                "url": "https://files.pythonhosted.org/packages/a9/aa/13cbfaa823bfc2f9f12d77deab615c31bbc148fea3d8eb8b0fca50ea6efd/pystibmivb-0.1.0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "4f5e4eb36484306b52023a54ed5be93e",
+                    "sha256": "909011e4aedddf648499b1f21497d03a5549e2489d211d6362c9f9826d2aff6b"
+                },
+                "downloads": -1,
+                "filename": "pystibmivb-0.1.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "4f5e4eb36484306b52023a54ed5be93e",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3",
+                "size": 1930,
+                "upload_time": "2019-01-19T00:13:00",
+                "upload_time_iso_8601": "2019-01-19T00:13:00.652148Z",
+                "url": "https://files.pythonhosted.org/packages/30/f7/cb3419c9e70fabbc951f2407030ced361707b0135c9f4219edc288ebab08/pystibmivb-0.1.0.tar.gz"
+            }
+        ],
+        "0.1.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "b98c9d6b592307af86ff10b6ea1186f1",
+                    "sha256": "48b7237130627b281439c4dead6322984605c73e4cff84e9e8f918e41b193199"
+                },
+                "downloads": -1,
+                "filename": "pystibmivb-0.1.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "b98c9d6b592307af86ff10b6ea1186f1",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3",
+                "size": 3408,
+                "upload_time": "2019-01-19T09:20:51",
+                "upload_time_iso_8601": "2019-01-19T09:20:51.194778Z",
+                "url": "https://files.pythonhosted.org/packages/16/40/11dfb82d8a75ee66c4132ac9a459efe5d1827412bb0ad90667c0feaa89a1/pystibmivb-0.1.1-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "7f225d564e22eea92061d38d22160b8c",
+                    "sha256": "0980b97390e33874b7101545b38afadfa1ec6940fa0dc80803746cff738e54f5"
+                },
+                "downloads": -1,
+                "filename": "pystibmivb-0.1.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "7f225d564e22eea92061d38d22160b8c",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3",
+                "size": 1939,
+                "upload_time": "2019-01-19T09:20:53",
+                "upload_time_iso_8601": "2019-01-19T09:20:53.064536Z",
+                "url": "https://files.pythonhosted.org/packages/4e/e4/d3f4c0fc55b67f49f9023aaef0efff9bce61f4b1634f6a654807d6b986b6/pystibmivb-0.1.1.tar.gz"
+            }
+        ],
+        "0.1.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "015a26bea38ab07083f23a3ebab3a371",
+                    "sha256": "12c6ea01d358216da1916ba0e2b6401dd3603debbb6486725b8f7af04d7cfeeb"
+                },
+                "downloads": -1,
+                "filename": "pystibmivb-0.1.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "015a26bea38ab07083f23a3ebab3a371",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3",
+                "size": 3395,
+                "upload_time": "2019-01-19T09:29:25",
+                "upload_time_iso_8601": "2019-01-19T09:29:25.218388Z",
+                "url": "https://files.pythonhosted.org/packages/cc/fc/cad5187738a99949412dcdedc05234cc5742b4c6e4e611a2c54941f16e6e/pystibmivb-0.1.2-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "ece862ed283b2ee804fe337918d6b8eb",
+                    "sha256": "2db3d0b8d2e32b56eefb058cebf33aa96b4b99a7dd808a544bada76980b2c0c7"
+                },
+                "downloads": -1,
+                "filename": "pystibmivb-0.1.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "ece862ed283b2ee804fe337918d6b8eb",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3",
+                "size": 1924,
+                "upload_time": "2019-01-19T09:29:26",
+                "upload_time_iso_8601": "2019-01-19T09:29:26.548380Z",
+                "url": "https://files.pythonhosted.org/packages/05/07/7d3d66a199f0bc29c62c7cdb66f2b15247e3b443518e16b48e4966929a30/pystibmivb-0.1.2.tar.gz"
+            }
+        ],
+        "0.2.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "8a2ff36ceb31432b8d9d80ca858c34d2",
+                    "sha256": "7d5081e940d32fc7497ee14c45baa7cb09b1ede5f75bc3fd6314a050d880f43a"
+                },
+                "downloads": -1,
+                "filename": "pystibmivb-0.2.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "8a2ff36ceb31432b8d9d80ca858c34d2",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3",
+                "size": 3458,
+                "upload_time": "2019-01-19T13:09:44",
+                "upload_time_iso_8601": "2019-01-19T13:09:44.190178Z",
+                "url": "https://files.pythonhosted.org/packages/8e/39/adf845681f06afe2d90d01bd9a06b4d7537a914130cc860ebcd0abbd665a/pystibmivb-0.2.1-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "028aa19e2bc14dac6b9db8900573a083",
+                    "sha256": "9d19aae540414b973a2967d6c935b759887409295a8b5cf2f8763c1be6c2a69c"
+                },
+                "downloads": -1,
+                "filename": "pystibmivb-0.2.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "028aa19e2bc14dac6b9db8900573a083",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3",
+                "size": 1979,
+                "upload_time": "2019-01-19T13:09:45",
+                "upload_time_iso_8601": "2019-01-19T13:09:45.536376Z",
+                "url": "https://files.pythonhosted.org/packages/f7/88/a3ed222118d2a5d232678071408ee012623625b2c8fd93820e0e79e2dcbc/pystibmivb-0.2.1.tar.gz"
+            }
+        ],
+        "0.2.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "5de26ebb211f69391749074b22091ff6",
+                    "sha256": "b2a1be0ff4d5ed37a708728dbed7cb4eb95f25dcf44338b6e6456126baabd1fb"
+                },
+                "downloads": -1,
+                "filename": "pystibmivb-0.2.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "5de26ebb211f69391749074b22091ff6",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3",
+                "size": 3804,
+                "upload_time": "2019-01-31T13:53:33",
+                "upload_time_iso_8601": "2019-01-31T13:53:33.893113Z",
+                "url": "https://files.pythonhosted.org/packages/89/0d/67f6d268f914fd321dd719774dd90c86093e3bc28a789936c3c556df28f4/pystibmivb-0.2.2-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "c6568857d104558fbd69af7582e762b1",
+                    "sha256": "a97d2fbe733428d1b8ceabbede6ec4d396a1ef06686e8e6096a059a73849d39d"
+                },
+                "downloads": -1,
+                "filename": "pystibmivb-0.2.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "c6568857d104558fbd69af7582e762b1",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3",
+                "size": 2320,
+                "upload_time": "2019-01-31T13:53:35",
+                "upload_time_iso_8601": "2019-01-31T13:53:35.197559Z",
+                "url": "https://files.pythonhosted.org/packages/76/51/a6ea94169a90d905a495b172ee0bdd635356ab96a9a5d4c3558493ebd1f2/pystibmivb-0.2.2.tar.gz"
+            }
+        ],
+        "0.2.3": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "d11e45589299675555cb1305433fbb4c",
+                    "sha256": "45cc0267372a00a4bad18029e390e16bdd7eee0a95148c7da714619b317eca69"
+                },
+                "downloads": -1,
+                "filename": "pystibmivb-0.2.3-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "d11e45589299675555cb1305433fbb4c",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3",
+                "size": 3777,
+                "upload_time": "2019-01-31T13:56:29",
+                "upload_time_iso_8601": "2019-01-31T13:56:29.450979Z",
+                "url": "https://files.pythonhosted.org/packages/09/38/e123eebce04859e22248922cfb6f8ba1e18a344194bc1915648a12bb98d8/pystibmivb-0.2.3-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "410692dc04e88577a507281944b7dd94",
+                    "sha256": "473fbf0cf238c8ddc8fdba1d08358eb9fd98cb5c67325bf4a48ee8c85e71b695"
+                },
+                "downloads": -1,
+                "filename": "pystibmivb-0.2.3.tar.gz",
+                "has_sig": false,
+                "md5_digest": "410692dc04e88577a507281944b7dd94",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3",
+                "size": 2292,
+                "upload_time": "2019-01-31T13:56:30",
+                "upload_time_iso_8601": "2019-01-31T13:56:30.813236Z",
+                "url": "https://files.pythonhosted.org/packages/d4/8f/78b3c0a170229bd3b063dbf03995bf70ff6b95eaf682ad0196102342da55/pystibmivb-0.2.3.tar.gz"
+            }
+        ],
+        "0.2.4": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "ee1729c216ac4638ed4ba71ab8944bb8",
+                    "sha256": "94bd4399c81f19aaeb3c4430479abed21f0dd4c46d31db8d11b3cce5191b8f6e"
+                },
+                "downloads": -1,
+                "filename": "pystibmivb-0.2.4-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "ee1729c216ac4638ed4ba71ab8944bb8",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3",
+                "size": 3822,
+                "upload_time": "2019-01-31T14:08:22",
+                "upload_time_iso_8601": "2019-01-31T14:08:22.909870Z",
+                "url": "https://files.pythonhosted.org/packages/9c/78/2826234eaf38466ffeb7e54a5620a37c321961ca4f01dd2ced2d0f0e426b/pystibmivb-0.2.4-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "ec88e723aced67c5865490f270302212",
+                    "sha256": "46620ac2f35d2d66a7e9c64cc13c5ba2ef662ecb2b7292f2f628031f9bdb2117"
+                },
+                "downloads": -1,
+                "filename": "pystibmivb-0.2.4.tar.gz",
+                "has_sig": false,
+                "md5_digest": "ec88e723aced67c5865490f270302212",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3",
+                "size": 2315,
+                "upload_time": "2019-01-31T14:08:24",
+                "upload_time_iso_8601": "2019-01-31T14:08:24.284510Z",
+                "url": "https://files.pythonhosted.org/packages/30/96/78f6f7ec7889c6ec9ea38421d9f16b7dc25567873ade99d85f27bcb118f7/pystibmivb-0.2.4.tar.gz"
+            }
+        ],
+        "0.2.4.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "90ade8a47f6df89d02b9f437b2a70ed8",
+                    "sha256": "a15b31d53523188662d19706421adb0e1c1001ee3996c4c7b587d3a7a797247e"
+                },
+                "downloads": -1,
+                "filename": "pystibmivb-0.2.4.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "90ade8a47f6df89d02b9f437b2a70ed8",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3",
+                "size": 3851,
+                "upload_time": "2019-01-31T14:46:37",
+                "upload_time_iso_8601": "2019-01-31T14:46:37.613580Z",
+                "url": "https://files.pythonhosted.org/packages/62/8d/420628fd284f0f33da51a5d379d537213428ea772cb3ba2888367a637150/pystibmivb-0.2.4.1-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "87cbaeb961165f211d5bd72ddf9bbed1",
+                    "sha256": "1507b2daa6f545570e0c90314c2dfd07e2750089446327cc39521c04907a8197"
+                },
+                "downloads": -1,
+                "filename": "pystibmivb-0.2.4.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "87cbaeb961165f211d5bd72ddf9bbed1",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3",
+                "size": 2312,
+                "upload_time": "2019-01-31T14:46:38",
+                "upload_time_iso_8601": "2019-01-31T14:46:38.678111Z",
+                "url": "https://files.pythonhosted.org/packages/ca/b4/6d05b412affb12ddcfc96c440e2e0faa9420f09cc3fdf2aacd7cd3eafc9e/pystibmivb-0.2.4.1.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "90ade8a47f6df89d02b9f437b2a70ed8",
+                "sha256": "a15b31d53523188662d19706421adb0e1c1001ee3996c4c7b587d3a7a797247e"
+            },
+            "downloads": -1,
+            "filename": "pystibmivb-0.2.4.1-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "90ade8a47f6df89d02b9f437b2a70ed8",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": ">=3",
+            "size": 3851,
+            "upload_time": "2019-01-31T14:46:37",
+            "upload_time_iso_8601": "2019-01-31T14:46:37.613580Z",
+            "url": "https://files.pythonhosted.org/packages/62/8d/420628fd284f0f33da51a5d379d537213428ea772cb3ba2888367a637150/pystibmivb-0.2.4.1-py3-none-any.whl"
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "87cbaeb961165f211d5bd72ddf9bbed1",
+                "sha256": "1507b2daa6f545570e0c90314c2dfd07e2750089446327cc39521c04907a8197"
+            },
+            "downloads": -1,
+            "filename": "pystibmivb-0.2.4.1.tar.gz",
+            "has_sig": false,
+            "md5_digest": "87cbaeb961165f211d5bd72ddf9bbed1",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": ">=3",
+            "size": 2312,
+            "upload_time": "2019-01-31T14:46:38",
+            "upload_time_iso_8601": "2019-01-31T14:46:38.678111Z",
+            "url": "https://files.pythonhosted.org/packages/ca/b4/6d05b412affb12ddcfc96c440e2e0faa9420f09cc3fdf2aacd7cd3eafc9e/pystibmivb-0.2.4.1.tar.gz"
+        }
+    ]
+}

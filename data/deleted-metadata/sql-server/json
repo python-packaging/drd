@@ -1,0 +1,117 @@
+{
+    "info": {
+        "author": "Yannick Kirschen",
+        "author_email": "github.yannickkirschen@protonmail.com",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Intended Audience :: Developers",
+            "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+            "Natural Language :: English",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python :: 3"
+        ],
+        "description": "# SQL Server\n\n## :information_source: Overview\n\n*SQL Server* is a simple REST service for managing an SQLite3 Database.\nIt is available to everyone under the [GNU General Public License v3.0](https://github.com/yannickkirschen/sql_server/blob/master/LICENSE).\n\nIf you need help, please refer to the [wiki](https://github.com/yannickkirschen/sql_server/wiki).\n\n## :floppy_disk: Installation\n\n```bash\npip install sql_server\n```\n\n## :car: Contributing\n\nThere are many ways in which you can participate in the project, for example:\n\n* Submit [bugs and feature requests](https://github.com/yannickkirschen/sql_server/issues) to help me improve Vader\n* Review [source code changes](https://github.com/yannickkirschen/sql_server/wiki/pulls)\n\n### :warning: Coding guidelines\n\nI am following [PEP 8](https://www.python.org/dev/peps/pep-0008/) in all of my projects and I would ask you to do the same :smile:.\n\nPlease respect my [Code of Conduct](https://github.com/yannickkirschen/sql_server/blob/master/CODE_OF_CONDUCT.md) :v:.\n\nPlease also consider my notes about [branching](https://gist.github.com/yannickkirschen/d83bfc44d566b76f3afc12cc68421e82).\n\n## :page_facing_up: License\n\nCopyright (c) 2019, Yannick Kirschen, All rights reserved.\nLicensed under the [GNU GPL3](https://github.com/yannickkirschen/sql_server/blob/master/LICENSE).\nHappy forking :fork_and_knife:\n\n\n",
+        "description_content_type": "text/markdown",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "",
+        "keywords": "",
+        "license": "",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "sql-server",
+        "package_url": "https://pypi.org/project/sql-server/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/sql-server/",
+        "project_urls": null,
+        "release_url": "https://pypi.org/project/sql-server/0.0.0/",
+        "requires_dist": null,
+        "requires_python": "",
+        "summary": "SQL REST service.",
+        "version": "0.0.0"
+    },
+    "last_serial": 5563883,
+    "releases": {
+        "0.0.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "940db75ee4546c2cec58226e3375398d",
+                    "sha256": "b7ed9d4bf3783983a6b938d36c103cdf363c5fdfa5d7b14d1ae7c75b529bbfcd"
+                },
+                "downloads": -1,
+                "filename": "sql_server-0.0.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "940db75ee4546c2cec58226e3375398d",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 3387,
+                "upload_time": "2019-07-21T16:50:39",
+                "upload_time_iso_8601": "2019-07-21T16:50:39.011870Z",
+                "url": "https://files.pythonhosted.org/packages/e8/e0/ddb3ea518cccb8aaec0d78af9a1b13bc2ce633700cf83c0bab53e143e39d/sql_server-0.0.0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "ac1acc8adfa99ba66bec7fc4c4c76c4d",
+                    "sha256": "978f56e8fd32bf98c7f5bc7b57fa688050de3fcdbf7929894bbe23c925b9f8b8"
+                },
+                "downloads": -1,
+                "filename": "sql_server-0.0.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "ac1acc8adfa99ba66bec7fc4c4c76c4d",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2047,
+                "upload_time": "2019-07-21T16:50:41",
+                "upload_time_iso_8601": "2019-07-21T16:50:41.355174Z",
+                "url": "https://files.pythonhosted.org/packages/34/91/aba5957c5a4bad1c5cf47c74e398874eeca008a4e2fb1ac7ac05df234160/sql_server-0.0.0.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "940db75ee4546c2cec58226e3375398d",
+                "sha256": "b7ed9d4bf3783983a6b938d36c103cdf363c5fdfa5d7b14d1ae7c75b529bbfcd"
+            },
+            "downloads": -1,
+            "filename": "sql_server-0.0.0-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "940db75ee4546c2cec58226e3375398d",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": null,
+            "size": 3387,
+            "upload_time": "2019-07-21T16:50:39",
+            "upload_time_iso_8601": "2019-07-21T16:50:39.011870Z",
+            "url": "https://files.pythonhosted.org/packages/e8/e0/ddb3ea518cccb8aaec0d78af9a1b13bc2ce633700cf83c0bab53e143e39d/sql_server-0.0.0-py3-none-any.whl"
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "ac1acc8adfa99ba66bec7fc4c4c76c4d",
+                "sha256": "978f56e8fd32bf98c7f5bc7b57fa688050de3fcdbf7929894bbe23c925b9f8b8"
+            },
+            "downloads": -1,
+            "filename": "sql_server-0.0.0.tar.gz",
+            "has_sig": false,
+            "md5_digest": "ac1acc8adfa99ba66bec7fc4c4c76c4d",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 2047,
+            "upload_time": "2019-07-21T16:50:41",
+            "upload_time_iso_8601": "2019-07-21T16:50:41.355174Z",
+            "url": "https://files.pythonhosted.org/packages/34/91/aba5957c5a4bad1c5cf47c74e398874eeca008a4e2fb1ac7ac05df234160/sql_server-0.0.0.tar.gz"
+        }
+    ]
+}

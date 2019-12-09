@@ -1,0 +1,617 @@
+{
+    "info": {
+        "author": "Anton Charnichenka",
+        "author_email": "Antt0n.Chern1chenk0@gmail.com",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Development Status :: 4 - Beta",
+            "Intended Audience :: Developers",
+            "License :: OSI Approved :: MIT License",
+            "Natural Language :: English",
+            "Operating System :: POSIX :: Linux",
+            "Programming Language :: Python",
+            "Topic :: Software Development :: Libraries"
+        ],
+        "description": "",
+        "description_content_type": "",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://github.com/AntonCharnichenka/vhl",
+        "keywords": "",
+        "license": "MIT",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "hvl",
+        "package_url": "https://pypi.org/project/hvl/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/hvl/",
+        "project_urls": {
+            "Homepage": "https://github.com/AntonCharnichenka/vhl"
+        },
+        "release_url": "https://pypi.org/project/hvl/0.2.1/",
+        "requires_dist": [
+            "hvac"
+        ],
+        "requires_python": "",
+        "summary": "Provider of secrets stored in Vault",
+        "version": "0.2.1"
+    },
+    "last_serial": 6241187,
+    "releases": {
+        "0.1.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "877096954b97754c4acbb6d123daa562",
+                    "sha256": "5d81a53c0128c2b0d8a3a413a49828174cbeb76dd0b166edc2d9557a9884a830"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "877096954b97754c4acbb6d123daa562",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 3851,
+                "upload_time": "2019-11-28T14:40:42",
+                "upload_time_iso_8601": "2019-11-28T14:40:42.350041Z",
+                "url": "https://files.pythonhosted.org/packages/b9/a4/dc036bd229ed5e0cef28ad1cf2628230b28831d2282df258ff0db4257be4/hvl-0.1.0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "9abf379a8934d68a0948b56e46323765",
+                    "sha256": "19c65338cb90f0377743d0caf8f94b4dd77247b53f4bacdcef140ce31c5bb6b5"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "9abf379a8934d68a0948b56e46323765",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2498,
+                "upload_time": "2019-11-28T14:40:45",
+                "upload_time_iso_8601": "2019-11-28T14:40:45.010729Z",
+                "url": "https://files.pythonhosted.org/packages/1c/67/94cb8267458056dacc3faadc4f705420010a3ea46dd17fad6c09f0a21d26/hvl-0.1.0.tar.gz"
+            }
+        ],
+        "0.1.10": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "8288c558a01f8ce23b0157ae6094ec0e",
+                    "sha256": "68e65e70468336c072e9b46eacf0b6c7fa25c9c56dc9806799312ecced0c8d7d"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.10-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "8288c558a01f8ce23b0157ae6094ec0e",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 5898,
+                "upload_time": "2019-12-03T14:53:49",
+                "upload_time_iso_8601": "2019-12-03T14:53:49.322782Z",
+                "url": "https://files.pythonhosted.org/packages/00/ed/b9c4e49922e82c56579349ab1285e71dc725ef9b80c128a6c60b58935272/hvl-0.1.10-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "d189f369702d526e5417ff5bfdc244a0",
+                    "sha256": "38bcafd5a86fd3d211cca99946a5848cc6875237d38ddb043a49220df28433bd"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.10.tar.gz",
+                "has_sig": false,
+                "md5_digest": "d189f369702d526e5417ff5bfdc244a0",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2760,
+                "upload_time": "2019-12-03T14:53:50",
+                "upload_time_iso_8601": "2019-12-03T14:53:50.802937Z",
+                "url": "https://files.pythonhosted.org/packages/1f/75/b882d543866a4d70097f5c7b74c8e1a468ab34fdd78f5f8970369b86c5fc/hvl-0.1.10.tar.gz"
+            }
+        ],
+        "0.1.11": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "7f55a85ee7f129d967d2bef6a8ef8530",
+                    "sha256": "1aebd76d07639f535e49214bc36474fd7dd29396ce84325f4284d21b6d35a346"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.11-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "7f55a85ee7f129d967d2bef6a8ef8530",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 6082,
+                "upload_time": "2019-12-03T15:43:45",
+                "upload_time_iso_8601": "2019-12-03T15:43:45.602533Z",
+                "url": "https://files.pythonhosted.org/packages/b1/2d/fd93fd84f36f51b4ba1af5904c48a4dd51fdf5b19323b06d429475d193fa/hvl-0.1.11-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "9659da958e7f4a4bb91ccf99f181336a",
+                    "sha256": "ee22cbbfb407d799e01cf49c94296fcf7f959037829fbaf6f3d4add45ea2183e"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.11.tar.gz",
+                "has_sig": false,
+                "md5_digest": "9659da958e7f4a4bb91ccf99f181336a",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2951,
+                "upload_time": "2019-12-03T15:43:46",
+                "upload_time_iso_8601": "2019-12-03T15:43:46.836103Z",
+                "url": "https://files.pythonhosted.org/packages/a5/f2/b4a4f8c361d606d7ef5a986240eb081afa99d8a762a5c0c649c3d686557f/hvl-0.1.11.tar.gz"
+            }
+        ],
+        "0.1.12": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "fa17d34e8c5d6b4d8e846def3757400c",
+                    "sha256": "2d03bcd07829f01dbfd1857baef2e26b15bb1539e29637afb150f8c370c8ddc2"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.12-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "fa17d34e8c5d6b4d8e846def3757400c",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 6095,
+                "upload_time": "2019-12-04T08:00:11",
+                "upload_time_iso_8601": "2019-12-04T08:00:11.079103Z",
+                "url": "https://files.pythonhosted.org/packages/f0/04/46864c900c4fd1696b6a444fa3414217ba72cc0f590ce1c017602d9ec4d3/hvl-0.1.12-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "e1fe5224de25d09ad2366be4e8671e4b",
+                    "sha256": "aaaf153a3a644aa2047a0f62024c95626102873462427b2dca0061019c06101f"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.12.tar.gz",
+                "has_sig": false,
+                "md5_digest": "e1fe5224de25d09ad2366be4e8671e4b",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2956,
+                "upload_time": "2019-12-04T08:00:12",
+                "upload_time_iso_8601": "2019-12-04T08:00:12.584614Z",
+                "url": "https://files.pythonhosted.org/packages/d5/db/513a0fedbfe410ac645045b0b0a419ce93d80d8d84f7ab042e84f9ee6e59/hvl-0.1.12.tar.gz"
+            }
+        ],
+        "0.1.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "0f19b7b15ec531146fb8d1c1567096f5",
+                    "sha256": "06ad0d44462b43e5b17b5ea6c77ebeb7e03df986be202076ded9a6004109fee5"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "0f19b7b15ec531146fb8d1c1567096f5",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 5587,
+                "upload_time": "2019-11-28T15:36:33",
+                "upload_time_iso_8601": "2019-11-28T15:36:33.383883Z",
+                "url": "https://files.pythonhosted.org/packages/55/f7/1643edc5b3d210729d903f7a4ab6a08549fece2f3861c01e86022781b4d3/hvl-0.1.2-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "62cb56bac8ab3e8ddf5ba3956b13381e",
+                    "sha256": "15ad20aba2a60f7e7d7c1443fb2b8ef5b7d4096fd5a3fbb951cd40a852f17a12"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "62cb56bac8ab3e8ddf5ba3956b13381e",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2515,
+                "upload_time": "2019-11-28T15:36:34",
+                "upload_time_iso_8601": "2019-11-28T15:36:34.787294Z",
+                "url": "https://files.pythonhosted.org/packages/23/bc/1d8973a9889b7ee55c97b7aabd01a8fb15fecfc1746f8ba587e96bff11f8/hvl-0.1.2.tar.gz"
+            }
+        ],
+        "0.1.3": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "e974c810226e8201f9158b053c5e91e2",
+                    "sha256": "dadc7e4e34520f87e9b7f52237c382ab1eceeddfd1f86e04a47c2f92f58d8fbc"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.3-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "e974c810226e8201f9158b053c5e91e2",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 5642,
+                "upload_time": "2019-12-02T13:15:00",
+                "upload_time_iso_8601": "2019-12-02T13:15:00.394780Z",
+                "url": "https://files.pythonhosted.org/packages/10/4b/d21e4fe91256a1084492e4e13d889cc12a519291d52bd6fbcb79e2c3311b/hvl-0.1.3-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "2f0e78beedcecbdf240fc6bd2322de68",
+                    "sha256": "46d22bcc83e228531c52f0920c636067cfbd0969510dfb79fb76a00d5bfeb231"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.3.tar.gz",
+                "has_sig": false,
+                "md5_digest": "2f0e78beedcecbdf240fc6bd2322de68",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2544,
+                "upload_time": "2019-12-02T13:15:02",
+                "upload_time_iso_8601": "2019-12-02T13:15:02.177986Z",
+                "url": "https://files.pythonhosted.org/packages/f1/5c/fa1430f707238f33159ed4d49023d8d8e0c2c908d79f697279756290e89f/hvl-0.1.3.tar.gz"
+            }
+        ],
+        "0.1.4": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "817375cecf7db38bd213851cae17489b",
+                    "sha256": "66644605cb59c15c67b6e8caf10c326bab2858c3b1dc1e0e17ada3717147a75e"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.4-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "817375cecf7db38bd213851cae17489b",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 5975,
+                "upload_time": "2019-12-02T14:27:07",
+                "upload_time_iso_8601": "2019-12-02T14:27:07.251372Z",
+                "url": "https://files.pythonhosted.org/packages/bf/b0/171a504b66a96055e5d9de57b17ce04354daeaca8066ad4c4a8138799505/hvl-0.1.4-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "6a3895edb97d706a6370dae36a662de4",
+                    "sha256": "1e0ae7b4daad8f68bbf7b3f29ef87eee20957ae0a9328a79e23b1ba5a9a93b95"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.4.tar.gz",
+                "has_sig": false,
+                "md5_digest": "6a3895edb97d706a6370dae36a662de4",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2822,
+                "upload_time": "2019-12-02T14:27:08",
+                "upload_time_iso_8601": "2019-12-02T14:27:08.286234Z",
+                "url": "https://files.pythonhosted.org/packages/40/01/a45cd0bde2c53ed1c8bc7d212e60284439c6d305dc1acc7387004219997a/hvl-0.1.4.tar.gz"
+            }
+        ],
+        "0.1.5": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "95c83a04ea0134a30b2e4954d296c3d9",
+                    "sha256": "de51d363e36504683a668cef3bdfc1aa1a259118997ca656444f3899694deebb"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.5-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "95c83a04ea0134a30b2e4954d296c3d9",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 5898,
+                "upload_time": "2019-12-02T14:43:53",
+                "upload_time_iso_8601": "2019-12-02T14:43:53.918784Z",
+                "url": "https://files.pythonhosted.org/packages/0a/f6/cdde788fd4cc04067778deab0d14905e8f2e1e963786f9553abf46d083bd/hvl-0.1.5-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "122ab2ea91f3757b45d01598a3c8d769",
+                    "sha256": "93ed5ebbf32e56fa496ec6c29782005679b74d2f04da752a95a9c6f74c92d718"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.5.tar.gz",
+                "has_sig": false,
+                "md5_digest": "122ab2ea91f3757b45d01598a3c8d769",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2738,
+                "upload_time": "2019-12-02T14:43:55",
+                "upload_time_iso_8601": "2019-12-02T14:43:55.378520Z",
+                "url": "https://files.pythonhosted.org/packages/40/fd/92187e4e12f968969ed557e0c0b246f979f0d3450fed5ad2a72ddf848f3e/hvl-0.1.5.tar.gz"
+            }
+        ],
+        "0.1.6": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "21d6a4d38d3e5d2f5191cc5d8d600142",
+                    "sha256": "205b5eed62b5a25b8fe889c54e491f30b606046235ee9a58dafdc513ece5c386"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.6-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "21d6a4d38d3e5d2f5191cc5d8d600142",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 5917,
+                "upload_time": "2019-12-02T14:47:26",
+                "upload_time_iso_8601": "2019-12-02T14:47:26.546492Z",
+                "url": "https://files.pythonhosted.org/packages/8b/c7/94389f659d0fa5e5c988f14cbc865a5dd3f5cfb66a77baba885f8b94c34a/hvl-0.1.6-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "422c3d9c1865725e401810291d8fc637",
+                    "sha256": "d4f66661421505158fe6f3f003c6d3f54533c41ec3dd3b7836ab70b64b8380e9"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.6.tar.gz",
+                "has_sig": false,
+                "md5_digest": "422c3d9c1865725e401810291d8fc637",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2754,
+                "upload_time": "2019-12-02T14:47:27",
+                "upload_time_iso_8601": "2019-12-02T14:47:27.681196Z",
+                "url": "https://files.pythonhosted.org/packages/09/b9/b4659e5b0377e1c0d5684cf1cfd973ff688a100ea49cb7383aba47b64edf/hvl-0.1.6.tar.gz"
+            }
+        ],
+        "0.1.7": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "c35c6a6fc5419ef0829ae9dcd86a36ad",
+                    "sha256": "c3178df88b7223b159e13ef84a3291aec74a7d728ec84f114173e5b4907e2454"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.7-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "c35c6a6fc5419ef0829ae9dcd86a36ad",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 5936,
+                "upload_time": "2019-12-03T12:26:26",
+                "upload_time_iso_8601": "2019-12-03T12:26:26.405481Z",
+                "url": "https://files.pythonhosted.org/packages/11/57/c31059382fa4f4b228b35ac5e2197c82f26b8502947b3c00f484fa397aa2/hvl-0.1.7-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "b56c571baa2fefc32a66f7ddece40890",
+                    "sha256": "e45c36bdf6dbe6f73b815c5e932e9183b35939b39456733ef4a9ce22b1b5d3b9"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.7.tar.gz",
+                "has_sig": false,
+                "md5_digest": "b56c571baa2fefc32a66f7ddece40890",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2787,
+                "upload_time": "2019-12-03T12:26:27",
+                "upload_time_iso_8601": "2019-12-03T12:26:27.505213Z",
+                "url": "https://files.pythonhosted.org/packages/76/f5/9d627a41fb6de9853bb22a8d9ed45bc10cca9cb9137773e5942e72c85ae4/hvl-0.1.7.tar.gz"
+            }
+        ],
+        "0.1.8": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "6574161d141b7098c61faa3fa544ad73",
+                    "sha256": "f5e307de1baf465b2f2db8f5ac43cb95ce642699b17de0f6d77031e5ea7dccf7"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.8-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "6574161d141b7098c61faa3fa544ad73",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 5934,
+                "upload_time": "2019-12-03T12:55:48",
+                "upload_time_iso_8601": "2019-12-03T12:55:48.434681Z",
+                "url": "https://files.pythonhosted.org/packages/f1/d3/c9cbf7d1e967a0908c3654310f756309d3f20c0fd812b9d20a14fe342c58/hvl-0.1.8-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "701a6496e93a9ace0e82ce194c09ad3e",
+                    "sha256": "86da8c261c52a93553604cd873c56c8201f9783ccc5a3da42605a4f2764b3311"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.8.tar.gz",
+                "has_sig": false,
+                "md5_digest": "701a6496e93a9ace0e82ce194c09ad3e",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2786,
+                "upload_time": "2019-12-03T12:55:51",
+                "upload_time_iso_8601": "2019-12-03T12:55:51.158853Z",
+                "url": "https://files.pythonhosted.org/packages/f3/d1/e68aff21a132765fcd169b48989d7652089771352b186365f6d7c0b86cda/hvl-0.1.8.tar.gz"
+            }
+        ],
+        "0.1.9": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "82ececee79258ba3ec4c051a6e9c0551",
+                    "sha256": "9a69dbf9c7c966365bcbe8c1b9d95961bcfcbbb404af1b18734401780c6186d4"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.9-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "82ececee79258ba3ec4c051a6e9c0551",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 5923,
+                "upload_time": "2019-12-03T13:27:13",
+                "upload_time_iso_8601": "2019-12-03T13:27:13.466426Z",
+                "url": "https://files.pythonhosted.org/packages/ac/ea/acd719686a8a2517fc4a82e5420186330b83c64fcd42e65bf9cfafb77a48/hvl-0.1.9-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "0751482684f3da756295536e33259d99",
+                    "sha256": "845337500a1a17d157049b5cdb7509c8f897895166af6e32b5c3bef1050e3839"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.1.9.tar.gz",
+                "has_sig": false,
+                "md5_digest": "0751482684f3da756295536e33259d99",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2775,
+                "upload_time": "2019-12-03T13:27:15",
+                "upload_time_iso_8601": "2019-12-03T13:27:15.003070Z",
+                "url": "https://files.pythonhosted.org/packages/14/71/b881b6602beac148ff15c5eb8d04cc449cfa634316880f5736b902ab27b8/hvl-0.1.9.tar.gz"
+            }
+        ],
+        "0.2.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "eff2a92ffe9d9d3691fc8bf70d594033",
+                    "sha256": "6c085757d15cb6ef7e508b0e2bc9336a736301993d4bb1fcd63576a55045985a"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.2.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "eff2a92ffe9d9d3691fc8bf70d594033",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 5418,
+                "upload_time": "2019-12-04T09:49:25",
+                "upload_time_iso_8601": "2019-12-04T09:49:25.393902Z",
+                "url": "https://files.pythonhosted.org/packages/3d/d7/06af8e071204a31f79c46c710e99630082aa50f5320c34f27eef14fddd27/hvl-0.2.0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "c426e60b9e98c28a3af3e84aa7980c92",
+                    "sha256": "f4ba54f260e310966373ab82b7873f3f8b2bbab397214b50c3e9c7a9f969f60b"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.2.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "c426e60b9e98c28a3af3e84aa7980c92",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2703,
+                "upload_time": "2019-12-04T09:49:26",
+                "upload_time_iso_8601": "2019-12-04T09:49:26.535478Z",
+                "url": "https://files.pythonhosted.org/packages/84/0b/5163a770c117e2198564be13f446e3e8e3325e1bb9ffa59a13715218e7a0/hvl-0.2.0.tar.gz"
+            }
+        ],
+        "0.2.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "3842d499d5be9500506a38a13903bf3d",
+                    "sha256": "57afd53a615216c7c5bbeb1af2dba01ce5cf931cb21e47190578487394179db6"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.2.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "3842d499d5be9500506a38a13903bf3d",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 5409,
+                "upload_time": "2019-12-04T11:24:29",
+                "upload_time_iso_8601": "2019-12-04T11:24:29.553266Z",
+                "url": "https://files.pythonhosted.org/packages/d7/29/8a47efe04bc297e05c87067718d0a46554bb62d14e6dfba91c2ee81769dc/hvl-0.2.1-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "7c3ef7731c85f6c66e5cffc2c47de969",
+                    "sha256": "f45a00782ea24ba8128d0e40c19c2b7806c8e14a75f525c08cdb299679bde10c"
+                },
+                "downloads": -1,
+                "filename": "hvl-0.2.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "7c3ef7731c85f6c66e5cffc2c47de969",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 2703,
+                "upload_time": "2019-12-04T11:24:30",
+                "upload_time_iso_8601": "2019-12-04T11:24:30.803933Z",
+                "url": "https://files.pythonhosted.org/packages/d0/cc/530ca8371eb6ac7c8bdc6fc29a4fb69aecc8dfafd81da51f9b369c7eeed0/hvl-0.2.1.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "3842d499d5be9500506a38a13903bf3d",
+                "sha256": "57afd53a615216c7c5bbeb1af2dba01ce5cf931cb21e47190578487394179db6"
+            },
+            "downloads": -1,
+            "filename": "hvl-0.2.1-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "3842d499d5be9500506a38a13903bf3d",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": null,
+            "size": 5409,
+            "upload_time": "2019-12-04T11:24:29",
+            "upload_time_iso_8601": "2019-12-04T11:24:29.553266Z",
+            "url": "https://files.pythonhosted.org/packages/d7/29/8a47efe04bc297e05c87067718d0a46554bb62d14e6dfba91c2ee81769dc/hvl-0.2.1-py3-none-any.whl"
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "7c3ef7731c85f6c66e5cffc2c47de969",
+                "sha256": "f45a00782ea24ba8128d0e40c19c2b7806c8e14a75f525c08cdb299679bde10c"
+            },
+            "downloads": -1,
+            "filename": "hvl-0.2.1.tar.gz",
+            "has_sig": false,
+            "md5_digest": "7c3ef7731c85f6c66e5cffc2c47de969",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 2703,
+            "upload_time": "2019-12-04T11:24:30",
+            "upload_time_iso_8601": "2019-12-04T11:24:30.803933Z",
+            "url": "https://files.pythonhosted.org/packages/d0/cc/530ca8371eb6ac7c8bdc6fc29a4fb69aecc8dfafd81da51f9b369c7eeed0/hvl-0.2.1.tar.gz"
+        }
+    ]
+}

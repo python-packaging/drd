@@ -1,0 +1,405 @@
+{
+    "info": {
+        "author": "Harryl",
+        "author_email": "harryl.mail@protonmail.com",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Environment :: Console",
+            "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python :: 3",
+            "Programming Language :: Python :: 3.6"
+        ],
+        "description": "Translate-Cli\n=============\nTranslate-cli is a lightweight command-line translator written in Python. Using Google's public translate API as source.\n\n\nFeatures\n--------\n- Translate words, sentences inside your shell.\n\n- Detect source language automaticly.\n\n- Dictionary mode.\n\n- Formatted output (refered to `Translate Shell`_)\n\n- SSL Default, query text with HTTPS instead of insecure HTTP.\n\n- Also available as a Python module.\n\n\nInstallation\n------------\n::\n\n    $ [sudo] pip install translate-cli\n\n\nGetting Started\n---------------\nTranslate text::\n\n    $ trans Nothing is impossible :zh\n    Nothing is impossible\n\n    \u6ca1\u6709\u4ec0\u4e48\u662f\u4e0d\u53ef\u80fd\u7684\n    /M\u00e9iy\u01d2u sh\u00e9 me sh\u00ec b\u00f9 k\u011bn\u00e9ng de/\n\n    Translations of Nothing is impossible\n    [ English -> Chinese ]\n\n    Nothing is impossible\n        \u6ca1\u6709\u4ec0\u4e48\u662f\u4e0d\u53ef\u80fd\u7684, \u4e00\u5207\u7686\u6709\u53ef\u80fd\n\nLookup a word::\n\n    $ trans bonjour -d\n    bonjour\n\n    noun\n        Formule de salutation utilis\u00e9e pendant la journ\u00e9e.\n\n    Synonyms\n        noun\n            - salut\n            - dodo, salut, adieu, au revoir\n            - apr\u00e8s-midi\n            - matin, matin\u00e9e\n\n    Example\n        - Dire bonjour .\n\n\nUse As A Python Module\n----------------------\n::\n\n    >>> import translate_cli\n    >>> translate_cli.translate(\"whatever you want to translate\", source_language, target_language)\n\nThen you will get a dict as return, which consists of:\n::\n\n    - text\n        original text\n    - text_pron\n        pronunciation of the text(if there is)\n    - text_lang\n        original language of the text\n    - text_syno\n        synonyms of the text(only if it's a word)\n    - text_defi\n        definitions of the text(only if it's a word)\n    - text_exam\n        example uses of the text(only if it's a word)\n\n    - trans\n        translation of the text\n    - trans_pron\n        pronunciation of the translation\n    - trans_all\n        all translations of the text\n    - trans_verbose\n        all translations of the text, and synonyms(in original language)\n    for each translation\n\n\n.. _Translate Shell: https://github.com/soimort/translate-shell\n\n\n",
+        "description_content_type": "",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "https://github.com/harrylw/translate-cli",
+        "keywords": "",
+        "license": "",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "translate-cli",
+        "package_url": "https://pypi.org/project/translate-cli/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/translate-cli/",
+        "project_urls": {
+            "Homepage": "https://github.com/harrylw/translate-cli"
+        },
+        "release_url": "https://pypi.org/project/translate-cli/1.0.5/",
+        "requires_dist": null,
+        "requires_python": ">=3.6",
+        "summary": "A lightweight cli translate tool",
+        "version": "1.0.5"
+    },
+    "last_serial": 6000453,
+    "releases": {
+        "0.0.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "38aed6b0d391aacc623b3315714cf229",
+                    "sha256": "c9bb6771cd72a72ad8244ea18131281d552e978edf009fc2bacabb276e852aa1"
+                },
+                "downloads": -1,
+                "filename": "translate_cli-0.0.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "38aed6b0d391aacc623b3315714cf229",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.6",
+                "size": 19892,
+                "upload_time": "2019-10-07T16:27:21",
+                "upload_time_iso_8601": "2019-10-07T16:27:21.797205Z",
+                "url": "https://files.pythonhosted.org/packages/a1/14/e9c2757667263fb01105bda5f80b856c2fb3598152ad6359f20b283fa169/translate_cli-0.0.1-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "fe17a5e6e90a485b912b226b4c7099bc",
+                    "sha256": "c2559ad14990d1dc79d48bd6c5b45ab4fa3bbf52452d2df73851d6b44c5e1abe"
+                },
+                "downloads": -1,
+                "filename": "translate-cli-0.0.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "fe17a5e6e90a485b912b226b4c7099bc",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.6",
+                "size": 18900,
+                "upload_time": "2019-10-07T16:27:25",
+                "upload_time_iso_8601": "2019-10-07T16:27:25.351910Z",
+                "url": "https://files.pythonhosted.org/packages/73/35/18048d8e9330daf9b18d541a3cdf21af266d6a9249a89408b3bca3e8f78c/translate-cli-0.0.1.tar.gz"
+            }
+        ],
+        "0.0.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "72d79a952592fa2efb47fc60e20bb274",
+                    "sha256": "25819fe2e9f09e904327fd78f2c34fd9e85889f9f4d33cae39ddc455c1e4440d"
+                },
+                "downloads": -1,
+                "filename": "translate_cli-0.0.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "72d79a952592fa2efb47fc60e20bb274",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.6",
+                "size": 19844,
+                "upload_time": "2019-10-11T17:31:18",
+                "upload_time_iso_8601": "2019-10-11T17:31:18.503829Z",
+                "url": "https://files.pythonhosted.org/packages/70/e0/23937c4c879190dff20e1b9694c960748252b1cd4bd438cbe6f4969a7902/translate_cli-0.0.2-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "977c7036d2c452374397efff18295758",
+                    "sha256": "2a1329056dc98549c436f471efa8dbfd8e363be69d057335edb8a41abd65c7cd"
+                },
+                "downloads": -1,
+                "filename": "translate-cli-0.0.2.tar.gz",
+                "has_sig": false,
+                "md5_digest": "977c7036d2c452374397efff18295758",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.6",
+                "size": 18873,
+                "upload_time": "2019-10-11T17:31:20",
+                "upload_time_iso_8601": "2019-10-11T17:31:20.744646Z",
+                "url": "https://files.pythonhosted.org/packages/67/93/542183c23b766aa03a4e67c83690b3982369e7d9761bfa38988c649284d0/translate-cli-0.0.2.tar.gz"
+            }
+        ],
+        "0.0.3": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "1692b9135a36bdab20914bdd18769bf0",
+                    "sha256": "5cd109fe72d9986207ec365ade639e13fac4e22bb872acc50bfd5002fd41b6e5"
+                },
+                "downloads": -1,
+                "filename": "translate_cli-0.0.3-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "1692b9135a36bdab20914bdd18769bf0",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.6",
+                "size": 19895,
+                "upload_time": "2019-10-11T18:24:59",
+                "upload_time_iso_8601": "2019-10-11T18:24:59.158783Z",
+                "url": "https://files.pythonhosted.org/packages/48/42/a6c4bb6407abf3a8aeabcfbaf755b91a344f35b8cb2b681511b553da5304/translate_cli-0.0.3-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "8c8e6ce4e019a507ce5154e964822685",
+                    "sha256": "e2f13892abc7ca4a085a98b1742a6b41da686844ee833ed3e1456257e65ce9a6"
+                },
+                "downloads": -1,
+                "filename": "translate-cli-0.0.3.tar.gz",
+                "has_sig": false,
+                "md5_digest": "8c8e6ce4e019a507ce5154e964822685",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.6",
+                "size": 18919,
+                "upload_time": "2019-10-11T18:25:03",
+                "upload_time_iso_8601": "2019-10-11T18:25:03.531137Z",
+                "url": "https://files.pythonhosted.org/packages/c5/39/b579534909c9e676d202707d713f2d8463cbf6e10d0b3171cd0bfa1d9649/translate-cli-0.0.3.tar.gz"
+            }
+        ],
+        "1.0.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "53e4c2e76a94414ab460c4a3ffe61798",
+                    "sha256": "6bcb3894c56b0b8091a66dd991f14294428fe104bf562ca8a52a443472c14a5d"
+                },
+                "downloads": -1,
+                "filename": "translate_cli-1.0.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "53e4c2e76a94414ab460c4a3ffe61798",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.6",
+                "size": 20280,
+                "upload_time": "2019-10-14T11:30:36",
+                "upload_time_iso_8601": "2019-10-14T11:30:36.752962Z",
+                "url": "https://files.pythonhosted.org/packages/28/83/0a04d329bd9f8a812e860300ffc44f09fd7bcdac189489cdf0795f6178d0/translate_cli-1.0.0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "71bda6ac01292a45ca41fa5849d599a0",
+                    "sha256": "293e8a210bb690047c716e68822010b08e487c42a386d82542b56130e697f166"
+                },
+                "downloads": -1,
+                "filename": "translate-cli-1.0.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "71bda6ac01292a45ca41fa5849d599a0",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.6",
+                "size": 19157,
+                "upload_time": "2019-10-14T11:30:39",
+                "upload_time_iso_8601": "2019-10-14T11:30:39.750779Z",
+                "url": "https://files.pythonhosted.org/packages/b3/ce/e0b3760ca19cf4d7e48b1179f09a34ef0f1d7069851dd0e7b9921abf343d/translate-cli-1.0.0.tar.gz"
+            }
+        ],
+        "1.0.1": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "0b1307a29132660fd05c9e49d9fb2baf",
+                    "sha256": "37f5dbd4f6bd9984ef4526e9ce7c8ce9f8460483b1c32ceb0de9f2c50a91c7c9"
+                },
+                "downloads": -1,
+                "filename": "translate_cli-1.0.1-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "0b1307a29132660fd05c9e49d9fb2baf",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.6",
+                "size": 20271,
+                "upload_time": "2019-10-14T11:38:38",
+                "upload_time_iso_8601": "2019-10-14T11:38:38.646788Z",
+                "url": "https://files.pythonhosted.org/packages/4a/ea/921f8bd398652781ecb18f37f738868c23d14ca2b6c042fd79b8ce81e6ea/translate_cli-1.0.1-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "aa2ea33567116587e4da9713ac480b6f",
+                    "sha256": "580161f7083dfea4f3bb3929b8a856ada262646433657d5ea4f678124125e47d"
+                },
+                "downloads": -1,
+                "filename": "translate-cli-1.0.1.tar.gz",
+                "has_sig": false,
+                "md5_digest": "aa2ea33567116587e4da9713ac480b6f",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.6",
+                "size": 19151,
+                "upload_time": "2019-10-14T11:38:40",
+                "upload_time_iso_8601": "2019-10-14T11:38:40.892532Z",
+                "url": "https://files.pythonhosted.org/packages/62/ba/aeb713df5ae81bf1d61d5a83a503c863b62a2026eb95dfcc9fa744bbc63e/translate-cli-1.0.1.tar.gz"
+            }
+        ],
+        "1.0.2": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "454fb5d95a7633869d76a71f102b9296",
+                    "sha256": "ebf9848e7e1bfd11696f35305d82a1ed972e9898df5b83b19fb70924694c99f6"
+                },
+                "downloads": -1,
+                "filename": "translate_cli-1.0.2-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "454fb5d95a7633869d76a71f102b9296",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.6",
+                "size": 20558,
+                "upload_time": "2019-10-14T16:19:39",
+                "upload_time_iso_8601": "2019-10-14T16:19:39.195195Z",
+                "url": "https://files.pythonhosted.org/packages/e5/46/031137b411d4e60c2f18f8d37131ba24174626acd38ba35ebe4da02f4eee/translate_cli-1.0.2-py3-none-any.whl"
+            }
+        ],
+        "1.0.3": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "e090b42f4c88ec737d79c40912e12fca",
+                    "sha256": "7950e73465f8a5ddb5c4bcd3b0d7915e6a2adde67e76fec12982ddd7815e00fe"
+                },
+                "downloads": -1,
+                "filename": "translate_cli-1.0.3-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "e090b42f4c88ec737d79c40912e12fca",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.6",
+                "size": 22044,
+                "upload_time": "2019-10-15T09:43:00",
+                "upload_time_iso_8601": "2019-10-15T09:43:00.872974Z",
+                "url": "https://files.pythonhosted.org/packages/98/c8/da887d6133830dcfc045a3e668875c9c1d2b83eac618bcd48fc0edff4878/translate_cli-1.0.3-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "2f965d127107f353ec342cd20937d686",
+                    "sha256": "22522b7ac274b9ee0bf25b82f71153e99bcd04059a8bb0e057e361c1f4375a60"
+                },
+                "downloads": -1,
+                "filename": "translate-cli-1.0.3.tar.gz",
+                "has_sig": false,
+                "md5_digest": "2f965d127107f353ec342cd20937d686",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.6",
+                "size": 19280,
+                "upload_time": "2019-10-15T09:43:03",
+                "upload_time_iso_8601": "2019-10-15T09:43:03.702781Z",
+                "url": "https://files.pythonhosted.org/packages/b5/ee/f4259f0572eddd37a32a9cd9e964f34f896a6449c3fa82092d32d00dbe47/translate-cli-1.0.3.tar.gz"
+            }
+        ],
+        "1.0.4": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "0f3499c4615520fb2b2caa040918dbff",
+                    "sha256": "10b83168155ae635eb65a305d9979e5687a06859046531dc85bfb48c958c5f87"
+                },
+                "downloads": -1,
+                "filename": "translate_cli-1.0.4-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "0f3499c4615520fb2b2caa040918dbff",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.6",
+                "size": 20513,
+                "upload_time": "2019-10-17T14:43:46",
+                "upload_time_iso_8601": "2019-10-17T14:43:46.774703Z",
+                "url": "https://files.pythonhosted.org/packages/bb/e6/2b7f81102c8150a01f08c0022aeaed6050795955194ef6afcae7bbec36e8/translate_cli-1.0.4-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "bdf4b9d16de6e808cc9ce5c2b44ded16",
+                    "sha256": "cd6f7fa512364801b6decd4c72947dca88b87b9a3c14163b31a08231c6a887c6"
+                },
+                "downloads": -1,
+                "filename": "translate-cli-1.0.4.tar.gz",
+                "has_sig": false,
+                "md5_digest": "bdf4b9d16de6e808cc9ce5c2b44ded16",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.6",
+                "size": 19257,
+                "upload_time": "2019-10-17T14:43:49",
+                "upload_time_iso_8601": "2019-10-17T14:43:49.983399Z",
+                "url": "https://files.pythonhosted.org/packages/d9/cd/82d4a9b66018c6119646958e1a28b31cb24b49f4ab31dbdd9642141cc1f7/translate-cli-1.0.4.tar.gz"
+            }
+        ],
+        "1.0.5": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "b8db1fa9fc6c20326a251f15f0b95215",
+                    "sha256": "f7d4588dd4fbd2f4e93b2f0d969b5e01759543cb19a81dfb59e7a9163bbda891"
+                },
+                "downloads": -1,
+                "filename": "translate_cli-1.0.5-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "b8db1fa9fc6c20326a251f15f0b95215",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.6",
+                "size": 20566,
+                "upload_time": "2019-10-19T17:24:08",
+                "upload_time_iso_8601": "2019-10-19T17:24:08.321231Z",
+                "url": "https://files.pythonhosted.org/packages/52/55/ed963857730714f92166c943d4cef5ee4cd8dd9f91cc41efd33c10a1d2cb/translate_cli-1.0.5-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "ec92221b26a9a98946cd778afda951a9",
+                    "sha256": "3829b94854627af4180c4afbeec448bdd61af8aa8b33606a6e3d0e9e0b579db4"
+                },
+                "downloads": -1,
+                "filename": "translate-cli-1.0.5.tar.gz",
+                "has_sig": false,
+                "md5_digest": "ec92221b26a9a98946cd778afda951a9",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.6",
+                "size": 19310,
+                "upload_time": "2019-10-19T17:24:10",
+                "upload_time_iso_8601": "2019-10-19T17:24:10.506741Z",
+                "url": "https://files.pythonhosted.org/packages/9a/3e/0331788c29d0521a4e1bd67b335be4d9dd8b41d5af5136ec16ed849c6ec7/translate-cli-1.0.5.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "b8db1fa9fc6c20326a251f15f0b95215",
+                "sha256": "f7d4588dd4fbd2f4e93b2f0d969b5e01759543cb19a81dfb59e7a9163bbda891"
+            },
+            "downloads": -1,
+            "filename": "translate_cli-1.0.5-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "b8db1fa9fc6c20326a251f15f0b95215",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": ">=3.6",
+            "size": 20566,
+            "upload_time": "2019-10-19T17:24:08",
+            "upload_time_iso_8601": "2019-10-19T17:24:08.321231Z",
+            "url": "https://files.pythonhosted.org/packages/52/55/ed963857730714f92166c943d4cef5ee4cd8dd9f91cc41efd33c10a1d2cb/translate_cli-1.0.5-py3-none-any.whl"
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "ec92221b26a9a98946cd778afda951a9",
+                "sha256": "3829b94854627af4180c4afbeec448bdd61af8aa8b33606a6e3d0e9e0b579db4"
+            },
+            "downloads": -1,
+            "filename": "translate-cli-1.0.5.tar.gz",
+            "has_sig": false,
+            "md5_digest": "ec92221b26a9a98946cd778afda951a9",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": ">=3.6",
+            "size": 19310,
+            "upload_time": "2019-10-19T17:24:10",
+            "upload_time_iso_8601": "2019-10-19T17:24:10.506741Z",
+            "url": "https://files.pythonhosted.org/packages/9a/3e/0331788c29d0521a4e1bd67b335be4d9dd8b41d5af5136ec16ed849c6ec7/translate-cli-1.0.5.tar.gz"
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "info": {
+        "author": "Myria Solutions (PTY) Ltd",
+        "author_email": "project@tachyonic.org",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Development Status :: 4 - Beta",
+            "Environment :: Other Environment",
+            "Intended Audience :: Developers",
+            "Intended Audience :: Information Technology",
+            "Intended Audience :: System Administrators",
+            "License :: OSI Approved :: BSD License",
+            "Natural Language :: English",
+            "Operating System :: POSIX :: Linux",
+            "Programming Language :: Python :: 3.6",
+            "Programming Language :: Python :: 3.7",
+            "Topic :: Internet :: WWW/HTTP",
+            "Topic :: Internet :: WWW/HTTP :: WSGI",
+            "Topic :: Internet :: WWW/HTTP :: WSGI :: Application",
+            "Topic :: Software Development",
+            "Topic :: Software Development :: Libraries",
+            "Topic :: Software Development :: Libraries :: Application Frameworks",
+            "Topic :: Software Development :: Libraries :: Python Modules"
+        ],
+        "description": "Installation\n============\n\nTachyonic Project devstack currently fully supports `CPython <https://www.python.org/downloads/>`__ 3.6, 3,7.\n\nRequirements\n------------\n\nDevstack uses docker to run endpoints and services known as projects in Tachonic.\n\nhttps://www.docker.com\n\nQuick Install\n-------------\n\n.. code:: bash\n\n   $ pip3 install devstack\n\nor\n\n.. code:: bash\n\n   $ pip3 install https://github.com/TachyonicProject/devstack/tarball/latest#egg=devstack\n\nSource Code Install\n-------------------\n\nTachyonic Project devstack infrastructure and code is hosted on `GitHub <https://github.com/TachyonicProject/devstack>`_.\nMaking the code easy to browse, download, fork, etc. Pull requests are always welcome!\n\nClone the project like this:\n\n.. code:: bash\n\n    $ git clone https://github.com/TachyonicProject/devstack.git\n\nOnce you have cloned the repo or downloaded a tarball from GitHub, you\ncan install Tachyon like this:\n\n.. code:: bash\n\n    $ cd devstack\n    $ pip3 install .\n\nOr, if you want to edit the code, first fork the main repo, clone the fork\nto your development area, and then run the following to install it using\nsymbolic linking, so that when you change your code, the changes will be\nautomatically available to your app without having to reinstall the package.\n\n**Keep in mind Cythonized C code for all modules is included during install\nor develop. During development code alterations you need run setup.py after\neach change.**\n\n.. code:: bash\n\n    $ cd devstack\n    $ python3 setup.py develop\n\nDuring development without explicitly running **setup.py** after each change,\nyou can use the following. It clears the compiled .cpython.so modules to ensure\ncode is loaded from Python sources.\n\n.. code:: bash\n\n    $ python3 setup.py clean\n\nUsage\n-----\n\nDevstack creates multiple docker insances for micro-services that share a common directory on the host machine.\n\nThe common directory contains Tachyonic Project Repositories for micro-services and dependencies.\nThere is an additional directory known as www that contains the project deployment environment.\n\nExample startup:\n\n.. code:: bash\n\n   $ mkdir tachyonic\n   $ devstack -s tachyonic\n\nOnce this is completed, you can see view wether the docker instances are running using:\n\n.. code:: bash\n\n   $ docker ps\n\nProvide at least 2 minutes for all nodes and services to be runnining especially during initial startup.\n\nYou can access the Photonic UI via http://localhost:9000\n\nAll other endpoints/services are exposed to the host.\n\n+-------------------------+------+----------------+\n| Mysql                   | 3306 |                |\n+-------------------------+------+----------------+\n| UI/Photonic             | 9000 | (RestAPI/JSON) |\n+-------------------------+------+----------------+\n| Identity/Infinitystone  | 9001 | (RestAPI/JSON) |\n+-------------------------+------+----------------+\n| Radius/Tradius          | 9002 | (RestAPI/JSON) |\n+-------------------------+------+----------------+\n\nTo control which modules are started, specify a json file (via ``-m`` switch) with the required builds and ports.\nFor example, create a file called ``modules.json``:\n\n.. code:: json\n\n    {\n        \"builds\" : [\"infinitystone\",\n                    \"tradius\",\n                    \"netrino\",\n                    \"topenstack\",\n                    \"photonic\"\n                   ],\n\n        \"ports\" : {\"photonic\": { \"80/tcp\": 9000 },\n                  \"infinitystone\": { \"80/tcp\": 9001 },\n                  \"tradius\": {\"80/tcp\": 9002,\n                         \"1812/udp\": 1812,\n                         \"1813/udp\": 1813,\n                         \"1812/tcp\": 1812,\n                         \"1813/tcp\": 1813\n                        },\n                  \"netrino\": { \"80/tcp\": 9004 },\n                  \"topenstack\": { \"80/tcp\": 9005 }\n            }\n    }\n\nand start with:\n\n.. code:: bash\n\n   $ devstack -s tachyonic -m modules.json\n\n\nDevelopment\n-----------\nBy default we do not allow to push to our repositories directly.\n\nWhen editing code ensure you rename origin and add your own fork as origin.\n\nExample:\n\n.. code:: bash\n\n   $ git remote rename origin upstream\n   $ git remote add origin git@github.com:cfrademan/tradius.git\n   $ git push -u origin development\n\nTo restart endpoint gunicorn wsgi applications:\n\n.. code:: bash\n\n   $ devstack -r\n\nWhen the tachyonic containers start for the first time, their entrypoint scripts does a ``pip install`` on the package\nto install the package as well as their dependencies. Because this takes a bit of time, it creates a\n``/installed`` file in the container, and only performs this installation if the ``/installed`` file is not present. If you\nhave the requirement to force a re-installation, simply remove that file from the running container.\nFor example, for photonic:\n\n.. code:: bash\n\n   $ docker exec photonic rm /installed\n\nNext time when ``devstack -s path`` is run, the package and it's dependacies will be re-installed.\n\n\n",
+        "description_content_type": "",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "http://www.tachyonic.org",
+        "keywords": "",
+        "license": "BSD3-Clause",
+        "maintainer": "Myria Solutions (PTY) Ltd",
+        "maintainer_email": "project@tachyonic.org",
+        "name": "devstack",
+        "package_url": "https://pypi.org/project/devstack/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/devstack/",
+        "project_urls": {
+            "Homepage": "http://www.tachyonic.org"
+        },
+        "release_url": "https://pypi.org/project/devstack/1.0.0/",
+        "requires_dist": [
+            "argparse",
+            "luxon"
+        ],
+        "requires_python": ">=3.6",
+        "summary": "Tachyonic Project Devstack",
+        "version": "1.0.0"
+    },
+    "last_serial": 4789994,
+    "releases": {
+        "1.0.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "ca3b13bb0e7c360fb256fd9af10e5a64",
+                    "sha256": "04b9f76d425fd55828b18f476fb6ec02e6e5a576ea88545c6765889e692e08c6"
+                },
+                "downloads": -1,
+                "filename": "devstack-1.0.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "ca3b13bb0e7c360fb256fd9af10e5a64",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.6",
+                "size": 18825,
+                "upload_time": "2019-02-07T08:05:26",
+                "upload_time_iso_8601": "2019-02-07T08:05:26.972117Z",
+                "url": "https://files.pythonhosted.org/packages/61/a7/2eefd6fac51588bf06d8dd24c1d69d48b8f18249e23b831a143dfa65df0e/devstack-1.0.0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "5f6a6d37988f88152811e956a1e069f1",
+                    "sha256": "52b2c4c8c1944b3335cb04e0aaebf776b1ccdb04b1252a3a39f52d9c2603661b"
+                },
+                "downloads": -1,
+                "filename": "devstack-1.0.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "5f6a6d37988f88152811e956a1e069f1",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.6",
+                "size": 24637,
+                "upload_time": "2019-02-07T08:05:28",
+                "upload_time_iso_8601": "2019-02-07T08:05:28.729951Z",
+                "url": "https://files.pythonhosted.org/packages/d4/e5/dfcd258b5d438445835b4c1e801bd1bfe6247930dae724aa53a812721865/devstack-1.0.0.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "ca3b13bb0e7c360fb256fd9af10e5a64",
+                "sha256": "04b9f76d425fd55828b18f476fb6ec02e6e5a576ea88545c6765889e692e08c6"
+            },
+            "downloads": -1,
+            "filename": "devstack-1.0.0-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "ca3b13bb0e7c360fb256fd9af10e5a64",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": ">=3.6",
+            "size": 18825,
+            "upload_time": "2019-02-07T08:05:26",
+            "upload_time_iso_8601": "2019-02-07T08:05:26.972117Z",
+            "url": "https://files.pythonhosted.org/packages/61/a7/2eefd6fac51588bf06d8dd24c1d69d48b8f18249e23b831a143dfa65df0e/devstack-1.0.0-py3-none-any.whl"
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "5f6a6d37988f88152811e956a1e069f1",
+                "sha256": "52b2c4c8c1944b3335cb04e0aaebf776b1ccdb04b1252a3a39f52d9c2603661b"
+            },
+            "downloads": -1,
+            "filename": "devstack-1.0.0.tar.gz",
+            "has_sig": false,
+            "md5_digest": "5f6a6d37988f88152811e956a1e069f1",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": ">=3.6",
+            "size": 24637,
+            "upload_time": "2019-02-07T08:05:28",
+            "upload_time_iso_8601": "2019-02-07T08:05:28.729951Z",
+            "url": "https://files.pythonhosted.org/packages/d4/e5/dfcd258b5d438445835b4c1e801bd1bfe6247930dae724aa53a812721865/devstack-1.0.0.tar.gz"
+        }
+    ]
+}

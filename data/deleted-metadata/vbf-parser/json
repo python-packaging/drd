@@ -1,0 +1,192 @@
+{
+    "info": {
+        "author": "Rafal Slaby",
+        "author_email": "rafal.slaby222@gmail.com",
+        "bugtrack_url": null,
+        "classifiers": [
+            "License :: OSI Approved :: MIT License",
+            "Programming Language :: Python :: 3",
+            "Programming Language :: Python :: 3.7",
+            "Programming Language :: Python :: 3.8"
+        ],
+        "description": "[![Build Status](https://travis-ci.org/rafalslaby/vbf_parser.svg?branch=master)](https://travis-ci.org/rafalslaby/vbf_parser)\n[![codecov](https://codecov.io/gh/rafalslaby/vbf_parser/branch/master/graph/badge.svg)](https://codecov.io/gh/rafalslaby/vbf_parser)\n[![PyPI](https://img.shields.io/pypi/v/vbf_parser)](https://pypi.org/project/vbf-parser/)\n[![Python: 3.6+](https://img.shields.io/badge/python-3.6%2B-blue)](https://img.shields.io/badge/python-3.6%2B-blue)\n[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![Code quality: MyPy](https://img.shields.io/badge/static%20analysis-mypy-informational)](https://github.com/python/mypy)\n\n# VBF parser\n\nvbf-parser is a Python library for parsing VBF files.\n\n## Installation\n\nUse the package manager [pip](https://pip.pypa.io/en/stable/) to install.\n\n```bash\npip install vbf-parser\n```\n\n## Usage\n\nSimple parsing with converting to json:\n\n```python\nimport json\nfrom vbf_parser import extract_header_body, jsonify_vbf_header\nwith open(\"file.vbf\", \"rb\") as file:\n    header_body = extract_header_body(file)\nvbf = json.loads(jsonify_vbf_header(header_body))\n```\n\n#### Work in progress:\nProper lexing and manual parsing:\n```python\nfrom vbf_parser import extract_header_body, lex_vbf_header, parse_vbf_tokens\nwith open(\"file.vbf\", \"rb\") as file:\n    header_body = extract_header_body(file)\nvbf = parse_vbf_tokens(lex_vbf_header(header_body))\n```\n\n## License\n[MIT](https://choosealicense.com/licenses/mit/)",
+        "description_content_type": "text/markdown",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "",
+        "keywords": "",
+        "license": "",
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "vbf-parser",
+        "package_url": "https://pypi.org/project/vbf-parser/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/vbf-parser/",
+        "project_urls": null,
+        "release_url": "https://pypi.org/project/vbf-parser/1.3.0/",
+        "requires_dist": null,
+        "requires_python": ">=3.6",
+        "summary": "Simple vbf parser",
+        "version": "1.3.0"
+    },
+    "last_serial": 6180227,
+    "releases": {
+        "1.1.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "3d975e501a68703bc1ed8a8f5440427d",
+                    "sha256": "edb569df032735d63fe9d2db20760f2f42e2474759a45f971557b6e39e8715d9"
+                },
+                "downloads": -1,
+                "filename": "vbf_parser-1.1.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "3d975e501a68703bc1ed8a8f5440427d",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 5415,
+                "upload_time": "2019-10-22T18:02:34",
+                "upload_time_iso_8601": "2019-10-22T18:02:34.780638Z",
+                "url": "https://files.pythonhosted.org/packages/4e/d7/9f86a98a9698f9de3688f5e06a8cfe065b0cca7ac6d366e4a54519e16e60/vbf_parser-1.1.0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "c660b3817fba0c3cb7caf23305f13c12",
+                    "sha256": "23ea39f1ce112a92e0bec3bdcd574cb301ed4dcacaa805daac068ad0c879ecb8"
+                },
+                "downloads": -1,
+                "filename": "vbf-parser-1.1.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "c660b3817fba0c3cb7caf23305f13c12",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 3789,
+                "upload_time": "2019-10-22T18:02:36",
+                "upload_time_iso_8601": "2019-10-22T18:02:36.003425Z",
+                "url": "https://files.pythonhosted.org/packages/6f/88/0f2088a6c495f2498f87ae71a6116a5eb44be059663a96815b37e3a2b394/vbf-parser-1.1.0.tar.gz"
+            }
+        ],
+        "1.2.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "b0aa382cba7a608808eae24dc4db32d0",
+                    "sha256": "5b6ddaa38149a9962e03fef642b20ddb9b8d0012793f6a524e9df596ecc3bf8d"
+                },
+                "downloads": -1,
+                "filename": "vbf_parser-1.2.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "b0aa382cba7a608808eae24dc4db32d0",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": null,
+                "size": 6603,
+                "upload_time": "2019-10-23T17:23:31",
+                "upload_time_iso_8601": "2019-10-23T17:23:31.467144Z",
+                "url": "https://files.pythonhosted.org/packages/1d/f6/411740ae7a790e8b8b8e4049e60e4a7a960e11aecc76852f3030b899f955/vbf_parser-1.2.0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "e1cf0d6b6873952884c4986478aa39f0",
+                    "sha256": "92509faa5bfb85a227bcbd1a8fe769a2d76ded27f3f4c8ed4f355692f5f6a374"
+                },
+                "downloads": -1,
+                "filename": "vbf-parser-1.2.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "e1cf0d6b6873952884c4986478aa39f0",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 4293,
+                "upload_time": "2019-10-23T17:23:32",
+                "upload_time_iso_8601": "2019-10-23T17:23:32.713511Z",
+                "url": "https://files.pythonhosted.org/packages/fc/cd/53f05839a345b774072f249de8ae61396f10703b1a67f077a9bd30f8d1ff/vbf-parser-1.2.0.tar.gz"
+            }
+        ],
+        "1.3.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "ccca7146df896b2b193406be27e81a17",
+                    "sha256": "8402e8d069b898489e55458db1d32d4d718d43d7b929e8a8184a30e9ef7a0c6f"
+                },
+                "downloads": -1,
+                "filename": "vbf_parser-1.3.0-py3-none-any.whl",
+                "has_sig": false,
+                "md5_digest": "ccca7146df896b2b193406be27e81a17",
+                "packagetype": "bdist_wheel",
+                "python_version": "py3",
+                "requires_python": ">=3.6",
+                "size": 13912,
+                "upload_time": "2019-10-28T20:40:30",
+                "upload_time_iso_8601": "2019-10-28T20:40:30.445963Z",
+                "url": "https://files.pythonhosted.org/packages/08/1a/b4086520e75dfae7c2b6a96e7c7b7b2b099af17267c7d4a9d53572c3bb94/vbf_parser-1.3.0-py3-none-any.whl"
+            },
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "c1f1827632c8e40e14654141dfae8523",
+                    "sha256": "c340de3792b21cfe4fb3157ccadeda69828e68b4dc13dcd941d269911c8980d0"
+                },
+                "downloads": -1,
+                "filename": "vbf-parser-1.3.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "c1f1827632c8e40e14654141dfae8523",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": ">=3.6",
+                "size": 6617,
+                "upload_time": "2019-10-28T20:40:36",
+                "upload_time_iso_8601": "2019-10-28T20:40:36.357957Z",
+                "url": "https://files.pythonhosted.org/packages/70/42/dfd1db46b5cf5dd12c813ebd32200838aa23e3e1d44448fa3798e8be3464/vbf-parser-1.3.0.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "ccca7146df896b2b193406be27e81a17",
+                "sha256": "8402e8d069b898489e55458db1d32d4d718d43d7b929e8a8184a30e9ef7a0c6f"
+            },
+            "downloads": -1,
+            "filename": "vbf_parser-1.3.0-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "ccca7146df896b2b193406be27e81a17",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": ">=3.6",
+            "size": 13912,
+            "upload_time": "2019-10-28T20:40:30",
+            "upload_time_iso_8601": "2019-10-28T20:40:30.445963Z",
+            "url": "https://files.pythonhosted.org/packages/08/1a/b4086520e75dfae7c2b6a96e7c7b7b2b099af17267c7d4a9d53572c3bb94/vbf_parser-1.3.0-py3-none-any.whl"
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "c1f1827632c8e40e14654141dfae8523",
+                "sha256": "c340de3792b21cfe4fb3157ccadeda69828e68b4dc13dcd941d269911c8980d0"
+            },
+            "downloads": -1,
+            "filename": "vbf-parser-1.3.0.tar.gz",
+            "has_sig": false,
+            "md5_digest": "c1f1827632c8e40e14654141dfae8523",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": ">=3.6",
+            "size": 6617,
+            "upload_time": "2019-10-28T20:40:36",
+            "upload_time_iso_8601": "2019-10-28T20:40:36.357957Z",
+            "url": "https://files.pythonhosted.org/packages/70/42/dfd1db46b5cf5dd12c813ebd32200838aa23e3e1d44448fa3798e8be3464/vbf-parser-1.3.0.tar.gz"
+        }
+    ]
+}

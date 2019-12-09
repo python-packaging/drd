@@ -1,0 +1,89 @@
+{
+    "info": {
+        "author": "Lars Gust\u00c3\u00a4bel",
+        "author_email": "lars@gustaebel.de",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Development Status :: 5 - Production/Stable",
+            "Environment :: Console",
+            "Intended Audience :: System Administrators",
+            "License :: OSI Approved :: GNU General Public License (GPL)",
+            "Natural Language :: English",
+            "Operating System :: Unix",
+            "Programming Language :: Python",
+            "Topic :: System :: Archiving :: Backup",
+            "Topic :: Utilities"
+        ],
+        "description": "can is a utility to create and manage incremental snapshots of parts of the filesystem for backup purposes. It is very similar to the tar program in terms of command line options and handling.",
+        "description_content_type": null,
+        "docs_url": null,
+        "download_url": "http://www.gustaebel.de/lars/can/can-2.0.tar.gz",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "home_page": "http://www.gustaebel.de/lars/can/",
+        "keywords": null,
+        "license": "GPL",
+        "maintainer": null,
+        "maintainer_email": null,
+        "name": "can",
+        "package_url": "https://pypi.org/project/can/",
+        "platform": "UNKNOWN",
+        "project_url": "https://pypi.org/project/can/",
+        "project_urls": {
+            "Download": "http://www.gustaebel.de/lars/can/can-2.0.tar.gz",
+            "Homepage": "http://www.gustaebel.de/lars/can/"
+        },
+        "release_url": "https://pypi.org/project/can/2.0/",
+        "requires_dist": null,
+        "requires_python": null,
+        "summary": "a simple incremental backup program similar to tar",
+        "version": "2.0"
+    },
+    "last_serial": 112312,
+    "releases": {
+        "0.7": [],
+        "2.0": [
+            {
+                "comment_text": "",
+                "digests": {
+                    "md5": "fd2243ab68c80eec45e204dbd645a95e",
+                    "sha256": "1962cf6df0eb00bb1989f1c94847760131e928031bc7f508d2aeef21d3970b0c"
+                },
+                "downloads": -1,
+                "filename": "can-2.0.tar.gz",
+                "has_sig": false,
+                "md5_digest": "fd2243ab68c80eec45e204dbd645a95e",
+                "packagetype": "sdist",
+                "python_version": "source",
+                "requires_python": null,
+                "size": 25892,
+                "upload_time": "2009-07-08T11:06:39",
+                "upload_time_iso_8601": "2009-07-08T11:06:39.492731Z",
+                "url": "https://files.pythonhosted.org/packages/ee/c5/18f114a9445a67a93044922ac9b4bd419549044c602fcc8f24e38e6d1f97/can-2.0.tar.gz"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "md5": "fd2243ab68c80eec45e204dbd645a95e",
+                "sha256": "1962cf6df0eb00bb1989f1c94847760131e928031bc7f508d2aeef21d3970b0c"
+            },
+            "downloads": -1,
+            "filename": "can-2.0.tar.gz",
+            "has_sig": false,
+            "md5_digest": "fd2243ab68c80eec45e204dbd645a95e",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 25892,
+            "upload_time": "2009-07-08T11:06:39",
+            "upload_time_iso_8601": "2009-07-08T11:06:39.492731Z",
+            "url": "https://files.pythonhosted.org/packages/ee/c5/18f114a9445a67a93044922ac9b4bd419549044c602fcc8f24e38e6d1f97/can-2.0.tar.gz"
+        }
+    ]
+}
